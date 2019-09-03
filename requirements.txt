@@ -1,1 +1,1 @@
-htmldoom==0.6.6
+htmldoom==0.6.8

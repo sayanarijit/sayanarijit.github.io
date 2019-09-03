@@ -2,6 +2,7 @@ from htmldoom import doctype
 from htmldoom import elements as e
 from htmldoom import functions as fn
 from htmldoom import renders
+from htmldoom.url import https
 
 
 @renders(
@@ -12,7 +13,7 @@ from htmldoom import renders
     )
 )
 def render_social_link(link, before="", after=""):
-    return {"href": f"https://{link}", "text": link, "before": before, "after": after}
+    return {"href": https(link), "text": link, "before": before, "after": after}
 
 
 @renders(
@@ -28,12 +29,19 @@ def render_social_link(link, before="", after=""):
                 lambda x: e.link(
                     rel=x[0],
                     sizes=f"{x[1]}x{x[1]}",
-                    href=f"https://secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd?size={x[1]}",
+                    href=https(
+                        "secure.gravatar.com",
+                        "avatar/260b78495c933d0b932ea23ccffa44dd",
+                        size=x[1],
+                    ),
                 )
             ),
             e.link(
                 rel="stylesheet",
-                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+                href=https(
+                    "stackpath.bootstrapcdn.com",
+                    "bootstrap/4.3.1/css/bootstrap.min.css",
+                ),
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
                 crossorigin="anonymous",
             ),
@@ -47,12 +55,20 @@ def render_social_link(link, before="", after=""):
                     e.div(class_="col-sm-10 col-md-8 col-lg-6")(
                         e.p()(
                             e.a(
-                                href="https://secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd?size=640",
+                                href=https(
+                                    "secure.gravatar.com",
+                                    "avatar/260b78495c933d0b932ea23ccffa44dd",
+                                    size=640,
+                                ),
                                 target="_blank",
                                 rel="noreferrer",
                             )(
                                 e.img(
-                                    src="https://secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd?size=640",
+                                    src=https(
+                                        "secure.gravatar.com",
+                                        "avatar/260b78495c933d0b932ea23ccffa44dd",
+                                        size=640,
+                                    ),
                                     alt="Arijit Basu's gravatar picture",
                                     height="128",
                                     width="128",
@@ -66,7 +82,7 @@ def render_social_link(link, before="", after=""):
                         e.p()(
                             "He's kinda busy conquering the world of ",
                             e.a(
-                                href="https://en.wikipedia.org/wiki/Computer_science",
+                                href=https("en.wikipedia.org", "wiki/Computer_science"),
                                 target="_blank",
                                 rel="noreferrer",
                             )("Computer Science"),
