@@ -16,6 +16,12 @@ def render_social_link(link, before="", after=""):
     return {"href": https(link), "text": link, "before": before, "after": after}
 
 
+def linked_image(link, alt, height, width):
+    return e.a(href=https(link), target="_blank", rel="noreferrer")(
+        e.img(src=https(link), alt=alt, height=height, width=width)
+    )
+
+
 @renders(
     doctype("html"),
     e.html()(
@@ -54,25 +60,11 @@ def render_social_link(link, before="", after=""):
                     e.div(class_="col-sm-1 col-md-2 col-lg-3")(" "),
                     e.div(class_="col-sm-10 col-md-8 col-lg-6")(
                         e.p()(
-                            e.a(
-                                href=https(
-                                    "secure.gravatar.com",
-                                    "avatar/260b78495c933d0b932ea23ccffa44dd",
-                                    size=640,
-                                ),
-                                target="_blank",
-                                rel="noreferrer",
-                            )(
-                                e.img(
-                                    src=https(
-                                        "secure.gravatar.com",
-                                        "avatar/260b78495c933d0b932ea23ccffa44dd",
-                                        size=640,
-                                    ),
-                                    alt="Arijit Basu's gravatar picture",
-                                    height="128",
-                                    width="128",
-                                )
+                            linked_image(
+                                link="secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd?size=640",
+                                alt="Arijit Basu's gravatar picture",
+                                height="128",
+                                width="128",
                             ),
                             e.br(),
                             " ^ this guy right here is ",
