@@ -4,6 +4,8 @@ from htmldoom import functions as fn
 from htmldoom import renders
 from htmldoom.url import https
 
+gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
+
 
 @renders(
     e.li()(
@@ -16,9 +18,9 @@ def render_social_link(link, before="", after=""):
     return {"href": https(link), "text": link, "before": before, "after": after}
 
 
-def linked_image(link, alt, height, width):
-    return e.a(href=https(link), target="_blank", rel="noreferrer")(
-        e.img(src=https(link), alt=alt, height=height, width=width)
+def linked_image(url, alt, height, width):
+    return e.a(href=url, target="_blank", rel="noreferrer")(
+        e.img(src=url, alt=alt, height=height, width=width)
     )
 
 
@@ -35,19 +37,12 @@ def linked_image(link, alt, height, width):
                 lambda x: e.link(
                     rel=x[0],
                     sizes=f"{x[1]}x{x[1]}",
-                    href=https(
-                        "secure.gravatar.com",
-                        "avatar/260b78495c933d0b932ea23ccffa44dd",
-                        size=x[1],
-                    ),
+                    href=https(gravatar_avartar, size=x[1]),
                 )
             ),
             e.link(
                 rel="stylesheet",
-                href=https(
-                    "stackpath.bootstrapcdn.com",
-                    "bootstrap/4.3.1/css/bootstrap.min.css",
-                ),
+                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
                 crossorigin="anonymous",
             ),
@@ -61,20 +56,20 @@ def linked_image(link, alt, height, width):
                     e.div(class_="col-sm-10 col-md-8 col-lg-6")(
                         e.p()(
                             linked_image(
-                                link="secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd?size=640",
+                                url=https(gravatar_avartar, size=640),
                                 alt="Arijit Basu's gravatar picture",
                                 height="128",
                                 width="128",
                             ),
                             e.br(),
-                            " ^ this guy right here is ",
+                            "↑ this guy right here is ",
                             e.b()("Arijit Basu"),
                             " (sayan)",
                         ),
                         e.p()(
                             "He's kinda busy conquering the world of ",
                             e.a(
-                                href=https("en.wikipedia.org", "wiki/Computer_science"),
+                                href="https://en.wikipedia.org/wiki/Computer_science",
                                 target="_blank",
                                 rel="noreferrer",
                             )("Computer Science"),
