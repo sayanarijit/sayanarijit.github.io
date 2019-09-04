@@ -7,17 +7,17 @@ from htmldoom.url import https
 gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
 
 
-def external_url(href, text):
-    return e.a(href=href, target="_blank", rel="noopener noreferrer")(text)
+def external_url(href, display):
+    return e.a(href=href, target="_blank", rel="noopener noreferrer")(display)
 
 
 def linked_image(url, alt, height, width):
-    return e.a(href=url, target="_blank", rel="noreferrer")(
-        e.img(src=url, alt=alt, height=height, width=width)
+    return external_url(
+        href=url, display=e.img(src=url, alt=alt, height=height, width=width)
     )
 
 
-@renders(e.li()("{before}", external_url(href="{href}", text="{text}"), "{after}"))
+@renders(e.li()("{before}", external_url(href="{href}", display="{text}"), "{after}"))
 def render_social_link(link, before="", after=""):
     return {"href": https(link), "text": link, "before": before, "after": after}
 
@@ -70,7 +70,7 @@ def render_social_link(link, before="", after=""):
                             "He's kinda busy conquering the world of ",
                             external_url(
                                 href=https("en.wikipedia.org/wiki/Computer_science"),
-                                text="Computer Science",
+                                display="Computer Science",
                             ),
                             ".",
                         ),
