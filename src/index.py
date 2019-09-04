@@ -7,21 +7,19 @@ from htmldoom.url import https
 gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
 
 
-@renders(
-    e.li()(
-        "{before}",
-        e.a(href="{href}", target="_blank", rel="noreferrer")("{text}"),
-        "{after}",
-    )
-)
-def render_social_link(link, before="", after=""):
-    return {"href": https(link), "text": link, "before": before, "after": after}
+def external_url(href, text):
+    return e.a(href=href, target="_blank", rel="noopener noreferrer")(text)
 
 
 def linked_image(url, alt, height, width):
     return e.a(href=url, target="_blank", rel="noreferrer")(
         e.img(src=url, alt=alt, height=height, width=width)
     )
+
+
+@renders(e.li()("{before}", external_url(href="{href}", text="{text}"), "{after}"))
+def render_social_link(link, before="", after=""):
+    return {"href": https(link), "text": link, "before": before, "after": after}
 
 
 @renders(
@@ -42,7 +40,9 @@ def linked_image(url, alt, height, width):
             ),
             e.link(
                 rel="stylesheet",
-                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+                href=https(
+                    "stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                ),
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
                 crossorigin="anonymous",
             ),
@@ -68,11 +68,10 @@ def linked_image(url, alt, height, width):
                         ),
                         e.p()(
                             "He's kinda busy conquering the world of ",
-                            e.a(
-                                href="https://en.wikipedia.org/wiki/Computer_science",
-                                target="_blank",
-                                rel="noreferrer",
-                            )("Computer Science"),
+                            external_url(
+                                href=https("en.wikipedia.org/wiki/Computer_science"),
+                                text="Computer Science",
+                            ),
                             ".",
                         ),
                         e.p()(
