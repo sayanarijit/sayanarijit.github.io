@@ -76,9 +76,24 @@ def render_social_link(link, before="", after=""):
                         ),
                         e.p()(
                             "Here's a list of few places where you can find him these days:",
-                            "{social_links}",
-                            "And of course, ",
-                            e.code()("(@ sayanarijit (. gmail com))"),
+                            e.ul()(
+                                "{social_links}",
+                                e.li()(e.code()("(@ sayanarijit (. gmail com))")),
+                            ),
+                        ),
+                        e.p()(
+                            external_url(
+                                href=https(
+                                    "github.com/sayanarijit/sayanarijit.github.io"
+                                ),
+                                display="This site",
+                            ),
+                            " was built using ",
+                            external_url(
+                                href=https("github.com/sayanarijit/htmldoom"),
+                                display="htmldoom",
+                            ),
+                            " (one of his side projects).",
                         ),
                     ),
                     e.div(class_="col-sm-1 col-md-2 col-lg-3")(" "),
