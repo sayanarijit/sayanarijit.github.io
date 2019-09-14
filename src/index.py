@@ -4,17 +4,11 @@ from htmldoom import functions as fn
 from htmldoom import renders
 from htmldoom.url import https
 
+from academics import render_academics
+from common import external_url, linked_image, wikipedia
+from interests import render_interests
+
 gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
-
-
-def external_url(href, display):
-    return e.a(href=href, target="_blank", rel="noopener noreferrer")(display)
-
-
-def linked_image(url, alt, height, width):
-    return external_url(
-        href=url, display=e.img(src=url, alt=alt, height=height, width=width)
-    )
 
 
 @renders(e.li()("{before}", external_url(href="{href}", display="{text}"), "{after}"))
@@ -60,7 +54,7 @@ def render_social_link(link, before="", after=""):
             )(
                 e.p(),
                 e.div(class_="row")(
-                    e.div(class_="col-sm-1 col-md-2 col-lg-3")(" "),
+                    e.div(class_="col-sm-1 col-md-2 col-lg-3"),
                     e.div(class_="col-sm-10 col-md-8 col-lg-6")(
                         e.p()(
                             linked_image(
@@ -77,12 +71,11 @@ def render_social_link(link, before="", after=""):
                         ),
                         e.p()(
                             "He's kinda busy conquering the world of ",
-                            external_url(
-                                href=https("en.wikipedia.org/wiki/Computer_science"),
-                                display="Computer Science",
-                            ),
+                            wikipedia("computer science"),
                             ".",
                         ),
+                        e.p()("{interests}"),
+                        e.p()("{academics}"),
                         e.p()(
                             "Here's a list of few places where you can find him these days:",
                             e.ul()(
@@ -105,7 +98,7 @@ def render_social_link(link, before="", after=""):
                             " (one of his side projects).",
                         ),
                     ),
-                    e.div(class_="col-sm-1 col-md-2 col-lg-3")(" "),
+                    e.div(class_="col-sm-1 col-md-2 col-lg-3"),
                 ),
             )
         ),
@@ -113,6 +106,8 @@ def render_social_link(link, before="", after=""):
 )
 def render_document():
     return {
+        "interests": render_interests(),
+        "academics": render_academics(),
         "social_links": "".join(
             (
                 render_social_link(
@@ -127,7 +122,7 @@ def render_document():
                 render_social_link(link="hackerearth.com/@sayanarijit"),
                 render_social_link(link="linkedin.com/in/sayanarijit"),
             )
-        )
+        ),
     }
 
 
