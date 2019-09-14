@@ -8,6 +8,7 @@ from htmldoom.url import https
 
 from academics import render_academics
 from common import external_url, linked_image, wikipedia
+from experience import render_experience
 from interests import render_interests
 
 gravatar_avartar: str = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
@@ -77,6 +78,7 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
                             ".",
                         ),
                         e.p()("{interests}"),
+                        e.p()("{experience}"),
                         e.p()("{academics}"),
                         e.p()(
                             "Here's a list of few places where you can find him these days:",
@@ -109,6 +111,7 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
 def render_document() -> t.Dict[str, str]:
     return {
         "interests": render_interests(),
+        "experience": render_experience(),
         "academics": render_academics(),
         "social_links": "".join(
             (
