@@ -46,11 +46,19 @@ def render_social_link(link, before="", after=""):
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
                 crossorigin="anonymous",
             ),
+            e.link(
+                href=https(
+                    "fonts.googleapis.com/css", family="Share Tech Mono", display="swap"
+                ),
+                rel="stylesheet",
+            ),
             e.title()("Arijit Basu"),
         ),
         e.body()(
-            e.div(class_="container")(
-                e.p()(" "),
+            e.div(
+                class_="container", style="font-family: 'Share Tech Mono', monospace;"
+            )(
+                e.p(),
                 e.div(class_="row")(
                     e.div(class_="col-sm-1 col-md-2 col-lg-3")(" "),
                     e.div(class_="col-sm-10 col-md-8 col-lg-6")(
@@ -60,8 +68,9 @@ def render_social_link(link, before="", after=""):
                                 alt="Arijit Basu's gravatar picture",
                                 height="128",
                                 width="128",
-                            ),
-                            e.br(),
+                            )
+                        ),
+                        e.p()(
                             "↑ this guy right here is ",
                             e.b()("Arijit Basu"),
                             " (sayan)",
