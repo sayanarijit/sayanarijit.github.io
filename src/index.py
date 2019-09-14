@@ -1,3 +1,5 @@
+import typing as t
+
 from htmldoom import doctype
 from htmldoom import elements as e
 from htmldoom import functions as fn
@@ -8,11 +10,11 @@ from academics import render_academics
 from common import external_url, linked_image, wikipedia
 from interests import render_interests
 
-gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
+gravatar_avartar: str = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
 
 
 @renders(e.li()("{before}", external_url(href="{href}", display="{text}"), "{after}"))
-def render_social_link(link, before="", after=""):
+def render_social_link(link, before="", after="") -> t.Dict[str, str]:
     return {"href": https(link), "text": link, "before": before, "after": after}
 
 
@@ -104,7 +106,7 @@ def render_social_link(link, before="", after=""):
         ),
     ),
 )
-def render_document():
+def render_document() -> t.Dict[str, str]:
     return {
         "interests": render_interests(),
         "academics": render_academics(),
