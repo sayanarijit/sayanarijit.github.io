@@ -3,10 +3,11 @@ import typing as t
 from htmldoom import renders
 from htmldoom.url import https
 
-from common import external_url, wikipedia
+from common import external_url, heading, wikipedia
 
 
 @renders(
+    heading("Experience"),
     "He started his career as an Associate System Engineer at ",
     external_url(href=https("techmahindra.com"), display="Tech Mahindra"),
     " in Feb 2016, and eventually converted to a Junior Software Engineer.",

@@ -3,10 +3,11 @@ import typing as t
 from htmldoom import renders
 from htmldoom.url import https
 
-from common import external_url, wikipedia
+from common import external_url, heading, wikipedia
 
 
 @renders(
+    heading("Academics"),
     "As for academics, he doesn't have anything to brag about. After three year ",
     wikipedia("diploma"),
     " in ",

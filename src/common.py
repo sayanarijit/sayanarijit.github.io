@@ -16,3 +16,7 @@ def wikipedia(display: str) -> bytes:
     return external_url(
         href=https("en.wikipedia.org/wiki", display.replace(" ", "_")), display=display
     )
+
+
+def heading(txt: str):
+    return e.b()(txt, e.hr())

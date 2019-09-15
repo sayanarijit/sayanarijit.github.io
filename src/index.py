@@ -57,8 +57,8 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
             )(
                 e.p(),
                 e.div(class_="row")(
-                    e.div(class_="col-sm-1 col-md-2 col-lg-3"),
-                    e.div(class_="col-sm-10 col-md-8 col-lg-6")(
+                    e.div(class_="col-sm-1 col-md-2"),
+                    e.div(class_="col-sm-10 col-md-8")(
                         e.p()(
                             linked_image(
                                 url=https(gravatar_avartar, size=640),
@@ -80,6 +80,7 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
                         e.p()("{interests}"),
                         e.p()("{experience}"),
                         e.p()("{academics}"),
+                        e.hr(),
                         e.p()(
                             "Here's a list of few places where you can find him these days:",
                             e.ul()(
@@ -87,6 +88,7 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
                                 e.li()(e.code()("(@ sayanarijit (. gmail com))")),
                             ),
                         ),
+                        e.hr(),
                         e.p()(
                             external_url(
                                 href=https(
@@ -102,7 +104,7 @@ def render_social_link(link, before="", after="") -> t.Dict[str, str]:
                             " (one of his side projects).",
                         ),
                     ),
-                    e.div(class_="col-sm-1 col-md-2 col-lg-3"),
+                    e.div(class_="col-sm-1 col-md-2"),
                 ),
             )
         ),
