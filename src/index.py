@@ -1,120 +1,63 @@
 import typing as t
 
-from htmldoom import doctype
-from htmldoom import elements as e
-from htmldoom import functions as fn
-from htmldoom import renders
+from htmldoom import doctype, renders
 from htmldoom.url import https
+from htmldoom.yaml_loader import loadyaml as ly
 
 from academics import render_academics
-from common import external_url, linked_image, wikipedia
+from common import (
+    COMPONENTS,
+    GRAVARTER_AVARTER,
+    render_external_url,
+    render_heading,
+    render_icon,
+    render_linked_image,
+    render_social_link,
+    render_wikipedia,
+)
 from experience import render_experience
 from interests import render_interests
 
-gravatar_avartar: str = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
-
-
-@renders(e.li()("{before}", external_url(href="{href}", display="{text}"), "{after}"))
-def render_social_link(link, before="", after="") -> t.Dict[str, str]:
-    return {"href": https(link), "text": link, "before": before, "after": after}
-
-
-@renders(
-    doctype("html"),
-    e.html()(
-        e.head()(
-            e.meta(charset="utf-8"),
-            e.meta(
-                name="viewport",
-                content="width=device-width, initial-scale=1, shrink-to-fit=no",
-            ),
-            *fn.foreach((("apple-touch-icon", "180"), ("icon", "32"), ("icon", "16")))(
-                lambda x: e.link(
-                    rel=x[0],
-                    sizes=f"{x[1]}x{x[1]}",
-                    href=https(gravatar_avartar, size=x[1]),
-                )
-            ),
-            e.link(
-                rel="stylesheet",
-                href=https(
-                    "stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-                ),
-                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-                crossorigin="anonymous",
-            ),
-            e.link(
-                href=https(
-                    "fonts.googleapis.com/css", family="Share Tech Mono", display="swap"
-                ),
-                rel="stylesheet",
-            ),
-            e.title()("Arijit Basu"),
-        ),
-        e.body()(
-            e.div(
-                class_="container", style="font-family: 'Share Tech Mono', monospace;"
-            )(
-                e.p(),
-                e.div(class_="row")(
-                    e.div(class_="col-sm-1 col-md-2"),
-                    e.div(class_="col-sm-10 col-md-8")(
-                        e.p()(
-                            linked_image(
-                                url=https(gravatar_avartar, size=640),
-                                alt="Arijit Basu's gravatar picture",
-                                height="128",
-                                width="128",
-                            )
-                        ),
-                        e.p()(
-                            "↑ this guy right here is ",
-                            e.b()("Arijit Basu"),
-                            " (sayan)",
-                        ),
-                        e.p()(
-                            "He's kinda busy conquering the world of ",
-                            wikipedia("computer science"),
-                            ".",
-                        ),
-                        e.p()("{interests}"),
-                        e.p()("{experience}"),
-                        e.p()("{academics}"),
-                        e.hr(),
-                        e.p()(
-                            "Here's a list of few places where you can find him these days:",
-                            e.ul()(
-                                "{social_links}",
-                                e.li()(e.code()("(@ sayanarijit (. gmail com))")),
-                            ),
-                        ),
-                        e.hr(),
-                        e.p()(
-                            external_url(
-                                href=https(
-                                    "github.com/sayanarijit/sayanarijit.github.io"
-                                ),
-                                display="This site",
-                            ),
-                            " was built using ",
-                            external_url(
-                                href=https("github.com/sayanarijit/htmldoom"),
-                                display="htmldoom",
-                            ),
-                            " (one of his side projects).",
-                        ),
-                    ),
-                    e.div(class_="col-sm-1 col-md-2"),
-                ),
-            )
-        ),
-    ),
+ICONS = "".join(
+    render_icon(rel=x[0], size=x[1])
+    for x in [("apple-touch-icon", "180"), ("icon", "32"), ("icon", "16")]
 )
+
+
+@renders(doctype("html"), "{html}")
 def render_document() -> t.Dict[str, str]:
+    return {"html": render_html()}
+
+
+@renders(ly(COMPONENTS, "html"))
+def render_html() -> t.Dict[str, str]:
+    return {"head": render_head(), "body": render_body()}
+
+
+@renders(ly(COMPONENTS, "head"))
+def render_head() -> t.Dict[str, str]:
+    return {"icons": ICONS}
+
+
+@renders(ly(COMPONENTS, "body"))
+def render_body() -> t.Dict[str, str]:
     return {
+        "profile_pic": render_linked_image(
+            url=https(GRAVARTER_AVARTER, size=640),
+            alt="Arijit Basu's gravatar picture",
+            height="128",
+            width="128",
+        ),
+        "wiki_computer_science": render_wikipedia("computer science"),
         "interests": render_interests(),
         "experience": render_experience(),
         "academics": render_academics(),
+        "this_site": render_external_url(
+            link="github.com/sayanarijit/sayanarijit.github.io", display="This site"
+        ),
+        "htmldoom_url": render_external_url(
+            link="github.com/sayanarijit/htmldoom", display="htmldoom"
+        ),
         "social_links": "".join(
             (
                 render_social_link(

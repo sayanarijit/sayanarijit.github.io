@@ -1,20 +1,19 @@
 import typing as t
 
 from htmldoom import renders
-from htmldoom.url import https
+from htmldoom.yaml_loader import loadyaml as ly
 
-from common import external_url, heading, wikipedia
+from common import COMPONENTS, render_external_url, render_heading
 
 
-@renders(
-    heading("Experience"),
-    "He started his career as an Associate System Engineer at ",
-    external_url(href=https("techmahindra.com"), display="Tech Mahindra"),
-    " in Feb 2016, and eventually converted to a Junior Software Engineer.",
-    " After 3 years of working alongside the infrastructure operations team,"
-    " contributing to automation based projects, he joined ",
-    external_url(href=https("niteo.co"), display="Niteo"),
-    " in March 2019 as a trialist Python developer and became permanent in June 2019.",
-)
+@renders(ly(COMPONENTS, "experience"))
 def render_experience() -> t.Dict[str, str]:
-    return {}
+    return {
+        "heading": render_heading("Experience"),
+        "niteo": render_external_url(link="niteo.co", display="Niteo"),
+        "techm": render_external_url(link="techmahindra.com", display="Tech Mahindra"),
+    }
+
+
+if __name__ == "__main__":
+    print(render_experience())
