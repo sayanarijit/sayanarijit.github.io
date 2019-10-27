@@ -46,34 +46,34 @@ wikipedia:
 
 
 academics:
-  div:
-  - - |
-      {heading}
-      As for academics, he doesn't have anything to brag about. After three year
-      {wiki_diploma} in {wiki_electrical_engineering} , he wandered into the field of
-      {wiki_computer_programming} on his own and graduated from the need of graduation certificates.
-      He's still pursuing his own learning path via online courses such as {mit_ocw}.
+  - "{heading}"
+  - p:
+    - - |
+        As for academics, he doesn't have anything to brag about. After three year
+        {wiki_diploma} in {wiki_electrical_engineering} , he wandered into the field of
+        {wiki_computer_programming} on his own and graduated from the need of graduation certificates.
+        He's still pursuing his own learning path via online courses such as {mit_ocw}.
 
 
 experience:
-  div:
-  - - |
-      {heading}
-      He started his career as an Associate System Engineer at {techm}
-      in Feb 2016, and eventually converted to a Junior Software Engineer.
-      After 3 years of working alongside the infrastructure operations team
-      contributing to automation based projects, he joined {niteo}
-      in March 2019 as a trialist Python developer and became permanent in June 2019.
+  - "{heading}"
+  - p:
+    - - |
+        He started his career as an Associate System Engineer at {techm}
+        in Feb 2016, and eventually converted to a Junior Software Engineer.
+        After 3 years of working alongside the infrastructure operations team
+        contributing to automation based projects, he joined {niteo}
+        in March 2019 as a trialist Python developer and became permanent in June 2019.
 
 
 interests:
-  div:
-  - - |
-      {heading}
-      Other than computer science & tech stuffs, he likes outdoor sports, specifically
-      {wiki_soccer}, and adventurous sports such as {wiki_trekking}. Recently he started
-      learning {wiki_tennis} as an alternative to soccer. Fitness is important to him,
-      both physical and mental.
+  - "{heading}"
+  - p:
+    - - |
+        Other than computer science & tech stuffs, he likes outdoor sports, specifically
+        {wiki_soccer}, and adventurous sports such as {wiki_trekking}. Recently he started
+        learning {wiki_tennis} as an alternative to soccer. Fitness is important to him,
+        both physical and mental.
 
 html: [[ "{head}", "{body}" ]]
 
@@ -113,37 +113,41 @@ body:
           - - div: [{ class: col-sm-1 col-md-2 }, []]
             - div:
               - class: col-sm-10 col-md-8
-              - - p:
+              - - div:
                   - - "{profile_pic}"
-                - p:
-                  - - ↑ this guy right here is
-                    - " "
-                    - b: [[ Arijit Basu ]]
-                    - " "
-                    - (sayan),
-
+                    - p: [[]]
+                    - p:
+                      - - ↑ this guy right here is
+                        - " "
+                        - b: [[ Arijit Basu ]]
+                        - " "
+                        - (sayan),
                     - p:
                       - - He's kinda busy conquering the world of {wiki_computer_science}.
 
-                    - p:
-                      - - "{interests}"
+                - div:
+                  - - "{interests}"
 
-                    - p:
-                      - - "{experience}"
-                    - p:
-                      - - "{academics}"
+                - div:
+                  - - "{experience}"
 
-                    - hr: [{}]
+                - div:
+                  - - "{academics}"
 
-                    - p:
+                - hr: [{}]
+
+                - div:
+                  - - p:
                       - - Here's a list of few places where you can find him these days:",
                         - ul:
                           - - "{social_links}"
                             - li:
-                              - - code [[ (@ sayanarijit (. gmail com)) ]]
+                              - - code: [[ (@ sayanarijit (. gmail com)) ]]
 
-                    - hr: [{}]
-                    - p:
-                      - - "{this_site} was built using {htmldoom_url} (one of his side projects)."
+                - hr: [{}]
+
+                - div:
+                    - - p:
+                        - - "{this_site} was built using {htmldoom_url} (one of his side projects)."
 
             - div: [{ class: col-sm-1 col-md-2 }, []]
