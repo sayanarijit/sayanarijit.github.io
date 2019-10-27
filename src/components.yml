@@ -75,7 +75,9 @@ interests:
         learning {wiki_tennis} as an alternative to soccer. Fitness is important to him,
         both physical and mental.
 
+
 html: [[ "{head}", "{body}" ]]
+
 
 head:
   head:
@@ -101,6 +103,7 @@ head:
 
       - title:
         - - Arijit Basu
+
 
 body:
   body:
