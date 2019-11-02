@@ -141,7 +141,7 @@ body:
 
                 - div:
                   - - p:
-                      - - Here's a list of few places where you can find him these days:",
+                      - - "Here's a list of few places where you can find him these days:"
                         - ul:
                           - - "{social_links}"
                             - li:
