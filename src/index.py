@@ -22,7 +22,7 @@ links = (
 
 @renders(
     doctype("html"),
-    e.html(style="height: 100%")(
+    e.html()(
         e.head()(
             e.meta(charset="utf-8"),
             e.meta(
@@ -52,10 +52,9 @@ links = (
             ),
             e.title()("This is Arijit Basu"),
         ),
-        e.body(style="height: 100%")(
+        e.body()(
             e.div(
-                class_="container d-flex flex-column align-middle",
-                style="font-family: 'Share Tech Mono', monospace; min-height: 100%",
+                class_="container", style="font-family: 'Share Tech Mono', monospace"
             )(
                 e.div(class_="row justify-content-md-center")(
                     e.div(class_="col-sm-10 col-md-8")(
@@ -68,9 +67,11 @@ links = (
                         ),
                         e.hr(),
                         e.p()("This is Arijit Basu."),
-                        e.p()("I write Software for living and time pass."),
-                        e.p()("I play tennis and do basic workout to stay fit."),
-                        e.p()("And I do travel and treks to stay sane."),
+                        e.p()("I do coding for a living and for time-pass."),
+                        e.p()(
+                            "I play tennis, go running, hit the gym, do trips and go",
+                            " trekking to stay on the same page with humanity.",
+                        ),
                         e.hr(),
                         e.p()(
                             "I joined ",
@@ -78,7 +79,7 @@ links = (
                             " after I finished college and worked for about 3 years.",
                         ),
                         e.p()(
-                            "Now I write software with the ",
+                            "Now I develop software with the ",
                             e.a(href=https("niteo.co/team"))("Niteans"),
                             f", remotely from India (currently {current_city}, India).",
                         ),
