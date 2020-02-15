@@ -9,6 +9,9 @@ from htmldoom.url import https
 
 
 gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
+gravatar_brands = (
+    "gravatar.com/userimage/78986357/9d4ecf96126df0ccd63d2ade607d92b0?size=640"
+)
 current_city = "Pune"
 links = (
     "github.com/sayanarijit",
@@ -56,7 +59,14 @@ links = (
             )(
                 e.div(class_="row justify-content-md-center")(
                     e.div(class_="col-sm-10 col-md-8")(
-                        e.p(),
+                        e.p()(
+                            e.img(
+                                src=https(gravatar_brands),
+                                alt="Interests",
+                                width="100%",
+                            )
+                        ),
+                        e.hr(),
                         e.p()("This is Arijit Basu."),
                         e.p()("I write Software for living and time pass."),
                         e.p()("I play tennis and do basic workout to stay fit."),
@@ -94,7 +104,7 @@ links = (
                             e.a(href=https("github.com/sayanarijit/htmldoom"))(
                                 "htmldoom"
                             ),
-                            ", one of his side projects.",
+                            ", one of my side projects.",
                         ),
                     )
                 )
