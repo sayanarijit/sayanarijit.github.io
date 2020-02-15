@@ -73,7 +73,7 @@ links = (
                             f", remotely from India (currently {current_city}, India).",
                         ),
                         e.hr(),
-                        e.p()("Find my here:"),
+                        e.p()("Find me here:"),
                         e.ul()(
                             *fn.foreach(links)(
                                 lambda link: e.li()(e.a(href=https(link))(link))
@@ -94,7 +94,7 @@ links = (
                             e.a(href=https("github.com/sayanarijit/htmldoom"))(
                                 "htmldoom"
                             ),
-                            ", one of his side project.",
+                            ", one of his side projects.",
                         ),
                     )
                 )
