@@ -1,79 +1,109 @@
 import typing as t
+from textwrap import dedent
 
-from htmldoom import doctype, renders
+from htmldoom import doctype
+from htmldoom import elements as e
+from htmldoom import functions as fn
+from htmldoom import renders
 from htmldoom.url import https
-from htmldoom.yaml_loader import loadyaml as ly
 
-from academics import render_academics
-from common import (
-    COMPONENTS,
-    GRAVARTER_AVARTER,
-    render_external_url,
-    render_heading,
-    render_icon,
-    render_linked_image,
-    render_social_link,
-    render_wikipedia,
-)
-from experience import render_experience
-from interests import render_interests
 
-ICONS = "".join(
-    render_icon(rel=x[0], size=x[1])
-    for x in [("apple-touch-icon", "180"), ("icon", "32"), ("icon", "16")]
+gravatar_avartar = "secure.gravatar.com/avatar/260b78495c933d0b932ea23ccffa44dd"
+current_city = "Pune"
+links = (
+    "github.com/sayanarijit",
+    "dev.to/sayanarijit",
+    "blog.niteo.co/author/sayanarijit",
 )
 
 
-@renders(doctype("html"), "{html}")
-def render_document() -> t.Dict[str, str]:
-    return {"html": render_html()}
-
-
-@renders(ly(COMPONENTS, "html"))
-def render_html() -> t.Dict[str, str]:
-    return {"head": render_head(), "body": render_body()}
-
-
-@renders(ly(COMPONENTS, "head"))
-def render_head() -> t.Dict[str, str]:
-    return {"icons": ICONS}
-
-
-@renders(ly(COMPONENTS, "body"))
-def render_body() -> t.Dict[str, str]:
-    return {
-        "profile_pic": render_linked_image(
-            url=https(GRAVARTER_AVARTER, size=640),
-            alt="Arijit Basu's gravatar picture",
-            height="128",
-            width="128",
-        ),
-        "wiki_computer_science": render_wikipedia("computer science"),
-        "interests": render_interests(),
-        "experience": render_experience(),
-        "academics": render_academics(),
-        "this_site": render_external_url(
-            link="github.com/sayanarijit/sayanarijit.github.io", display="This site"
-        ),
-        "htmldoom_url": render_external_url(
-            link="github.com/sayanarijit/htmldoom", display="htmldoom"
-        ),
-        "social_links": "".join(
-            (
-                render_social_link(
-                    link="github.com/sayanarijit", after=" (most active)"
+@renders(
+    doctype("html"),
+    e.html(style="height: 100%")(
+        e.head()(
+            e.meta(charset="utf-8"),
+            e.meta(
+                name="viewport",
+                content="width=device-width, initial-scale=1, shrink-to-fit=no",
+            ),
+            *fn.foreach((("apple-touch-icon", "180"), ("icon", "32"), ("icon", "16")))(
+                lambda x: e.link(
+                    rel=x[0],
+                    sizes=f"{x[1]}x{x[1]}",
+                    href=https(gravatar_avartar, size=x[1]),
+                )
+            ),
+            e.link(
+                rel="stylesheet",
+                href=https(
+                    "stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                 ),
-                render_social_link(link="dev.to/sayanarijit"),
-                render_social_link(link="fb.com/sayansprofile"),
-                render_social_link(link="blog.niteo.co/author/sayanarijit"),
-                render_social_link(link="pyslackers.com", after=" (@sayanarijit)"),
-                render_social_link(link="twitter.com/sayansprofile"),
-                render_social_link(link="hackerrank.com/sayanarijit"),
-                render_social_link(link="hackerearth.com/@sayanarijit"),
-                render_social_link(link="linkedin.com/in/sayanarijit"),
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
+                crossorigin="anonymous",
+            ),
+            e.link(
+                href=https(
+                    "fonts.googleapis.com/css", family="Share Tech Mono", display="swap"
+                ),
+                rel="stylesheet",
+            ),
+            e.title()("This is Arijit Basu"),
+        ),
+        e.body(style="height: 100%")(
+            e.div(
+                class_="container d-flex flex-column align-middle",
+                style="font-family: 'Share Tech Mono', monospace; min-height: 100%",
+            )(
+                e.div(class_="row justify-content-md-center")(
+                    e.div(class_="col-sm-10 col-md-8")(
+                        e.p(),
+                        e.p()("This is Arijit Basu."),
+                        e.p()("I write Software for living and time pass."),
+                        e.p()("I play tennis and do basic workout to stay fit."),
+                        e.p()("And I do travel and treks to stay sane."),
+                        e.hr(),
+                        e.p()(
+                            "I joined ",
+                            e.a(href=https("techmahindra.com"))("Tech Mahindra"),
+                            " after I finished college and worked for about 3 years.",
+                        ),
+                        e.p()(
+                            "Now I write software with the ",
+                            e.a(href=https("niteo.co/team"))("Niteans"),
+                            f", remotely from India (currently {current_city}, India).",
+                        ),
+                        e.hr(),
+                        e.p()("Find my here:"),
+                        e.ul()(
+                            *fn.foreach(links)(
+                                lambda link: e.li()(e.a(href=https(link))(link))
+                            )
+                        ),
+                        e.p()(
+                            "Or email me at: ",
+                            e.code()("(@ sayanarijit (. gmail com))"),
+                        ),
+                        e.hr(),
+                        e.p()(
+                            e.a(
+                                href=https(
+                                    "github.com/sayanarijit/sayanarijit.github.io"
+                                )
+                            )("This site"),
+                            " was built using ",
+                            e.a(href=https("github.com/sayanarijit/htmldoom"))(
+                                "htmldoom"
+                            ),
+                            ", one of his side project.",
+                        ),
+                    )
+                )
             )
         ),
-    }
+    ),
+)
+def render_document() -> t.Dict[str, str]:
+    return {}
 
 
 if __name__ == "__main__":
