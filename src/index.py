@@ -69,8 +69,9 @@ links = (
                         e.p()("This is Arijit Basu."),
                         e.p()("I do coding for a living and for time-pass."),
                         e.p()(
-                            "I play tennis, go running, hit the gym, do trips and go",
-                            " trekking to stay on the same page with humanity.",
+                            "I like science & tech, outdoor sports, adventure",
+                            " activities, all things fitness and a minimalist",
+                            " lifestyle..",
                         ),
                         e.hr(),
                         e.p()(
