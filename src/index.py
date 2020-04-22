@@ -58,14 +58,7 @@ links = (
             )(
                 e.div(class_="row justify-content-md-center")(
                     e.div(class_="col-sm-10 col-md-8")(
-                        e.p()(
-                            e.img(
-                                src=https(gravatar_brands),
-                                alt="Interests",
-                                width="100%",
-                            )
-                        ),
-                        e.hr(),
+                        e.p(),
                         e.p()("This is Arijit Basu."),
                         e.p()("I do coding for a living and for time-pass."),
                         e.p()(
