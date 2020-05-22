@@ -1,5 +1,5 @@
 -r requirements.txt
-appdirs==1.4.3
+appdirs==1.4.4
 attrs==19.1.0
 black==19.3b0
 Click==7.0
