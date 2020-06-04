@@ -5,5 +5,5 @@ black==19.3b0
 Click==7.0
 isort==4.3.21
 mypy==0.780
-toml==0.10.0
+toml==0.10.1
 typecov==0.2.1
