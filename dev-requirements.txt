@@ -4,6 +4,6 @@ attrs==19.1.0
 black==19.3b0
 Click==7.0
 isort==4.3.21
-mypy==0.780
+mypy==0.781
 toml==0.10.0
 typecov==0.2.1
