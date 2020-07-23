@@ -8,4 +8,4 @@ http --follow arijitbasu.in
 curl -L arijitbasu.in
 ```
 
-Or just visit [arijitbasu.in](https://arijitbasu.in)
+Or just visit view-source:https://arijitbasu.in
