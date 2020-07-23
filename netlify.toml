@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/*"
+  for = "/"
   [headers.values]
   Content-Type = "text/plain; charset=utf-8"
   X-Name = "Arijit Basu"
