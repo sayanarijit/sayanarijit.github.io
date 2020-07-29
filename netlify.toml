@@ -1,9 +1,0 @@
-[[headers]]
-  for = "/"
-  [headers.values]
-  Content-Type = "text/plain; charset=utf-8"
-  X-Name = "Arijit Basu"
-  X-Nickname = "Sayan"
-  X-Email-Address = "(@ sayanarijit (. gmail com))"
-  X-GitHub-Profile = "github.com/sayanarijit"
-  X-DEV-Profile = "dev.to/sayanarijit"
