@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'head.html' %}
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="/" class="page-header__logo" title="Go home">
+        <img src="/assets/icons/favicon-96x96.png" alt="Home" width="48" />
+      </a>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/notes">Notes</a>
+      </nav>
+    </header>
+    <main>{{content}}</main>
+
+    <footer class="page-footer">
+      <small>Copyright © {{site.author}}</small>
+      <br />
+      <small>
+        <a
+          target="_blank"
+          ref="noreferrer noopener"
+          href="https://github.com/sayanarijit/sayanarijit.github.io"
+        >
+          This site
+        </a>
+        was built using
+        <a
+          target="_blank"
+          ref="noreferrer noopener"
+          href="https://github.com/binyamin/eleventy-garden"
+        >
+          Eleventy-Garden
+        </a>
+      </small>
+
+      <!-- Indieauth -->
+
+      <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+      <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+
+      <link href="mailto:hi@arijitbasu.in" rel="me" />
+      <link href="https://github.com/sayanarijit" rel="me" />
+    </footer>
+  </body>
+</html>

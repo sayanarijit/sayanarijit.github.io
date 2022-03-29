@@ -1,0 +1,9 @@
+[[redirects]]
+from = '/xplr/*'
+to = 'https://xplr.dev/:splat'
+force = true
+
+[build]
+base = './'
+publish = './dist/'
+command = 'eleventy'
