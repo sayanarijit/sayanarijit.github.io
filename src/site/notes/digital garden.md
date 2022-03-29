@@ -14,6 +14,7 @@ Related terms are:
 - Zettelkasten
 - Second Brain
 - Knowledge Graph
+- Mind Garden[^2]
 
 It can be used to:
 
@@ -28,3 +29,4 @@ This is my digital garden built using [[eleventy-garden]].
 
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
+[^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind
