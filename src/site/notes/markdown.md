@@ -15,7 +15,8 @@ It is also used for writing:
 - research papers
 - documentation
 - technical specification
-- [[digital gerden]]s
+- Wiki
+- [[digital garden]]s
 
 If you are a professional or hobbyist who writes a lot, learning this will benefit you.
 
