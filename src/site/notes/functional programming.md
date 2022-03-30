@@ -51,6 +51,11 @@ myFunction dataProducerFunction =
 
 FP is more closer to mathematics than OOP can ever hope to be, allowing it to reasonably tackle some of the head-scratching limitations OOP comes with.
 
+
+### Why isn't Functional Programming the norm?
+
+https://youtu.be/QyJZzq0v7Z4
+
 ## FP and Mathematics
 
 Mathematics is the basis of FP, but IMO [[Category Theory]] defines the most interesting concepts of FP.
@@ -62,11 +67,13 @@ Four primary mathematical data types that you will encounter in many FP language
 - Product Type: A collection of Unit Type, Sum Type and Product Type data (e.g. `object`, `list of objects` in OOP).
 - Function: Functions are first-class citizens in FP. i.e. they can be passed around as argumets like any other data type.
 
+https://youtu.be/I8LbkfSSR58
+
 ## FP languages
 
 Some popular FP languages are:
 
-- Elm[^1]: My favourite FP language that offers you zero runtime error guarantee on the frontend. It's delightful as it claims and very easy to pick up.
+- [[Elm]]: My favourite FP language that offers you zero runtime error guarantee on the frontend. It's delightful as it claims and very easy to pick up.
 - PureScript: Another FP language for the frontend.
 - Haskell: The most popular general purpose FP language.
 - Erlang: FP langguage for the backend optimized for massive concurrency and fault tolerance.
@@ -80,5 +87,4 @@ Learn More:
 
 - https://github.com/xgrommx/awesome-functional-programming
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
-
-[^1]: https://elm-lang.org/
+- https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw

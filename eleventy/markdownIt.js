@@ -31,6 +31,7 @@ const markdownItOptions = {
 
 const md = new markdownIt(markdownItOptions)
   .use(require('markdown-it-footnote'))
+  .use(require('markdown-it-task-lists'))
   .use(require('markdown-it-external-anchor'), { domain: 'arijitbasu.in' })
   .use(require('@binyamin/markdown-it-wikilinks'), {
     base: '/notes/',
