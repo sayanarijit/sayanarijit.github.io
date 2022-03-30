@@ -19,8 +19,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
 
   const embedYouTube = require('eleventy-plugin-youtube-embed');
-
   eleventyConfig.addPlugin(embedYouTube, { lite: true });
+
+  const pluginRss = require('@11ty/eleventy-plugin-rss');
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
     dir: {

@@ -1,5 +1,8 @@
 <p>
   {% if tags.length > 0%} {% for tag in tags %}
-  <a href="/tag/{{tag}}">#{{tag}}</a>
+  <span>
+    <a href="/tag/{{tag}}">🏷️ {{tag}}</a>
+    <span> </span>
+  </span>
   {% endfor %} {% else %} {% endif %}
 </p>

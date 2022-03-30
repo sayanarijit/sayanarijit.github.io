@@ -7,11 +7,11 @@ pagination:
 permalink: /tag/{{ tag }}/
 ---
 
-<h1>Tagged #{{ tag }}</h1>
+<h1>🏷️ {{ tag }}</h1>
 
 <ol>
 {% set taglist = collections[ tag ] %}
 {% for post in taglist  %}
-  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+  <li><a href="{{ post.url | url }}">🗒️ {{ post.data.title }}</a></li>
 {% endfor %}
 </ol>

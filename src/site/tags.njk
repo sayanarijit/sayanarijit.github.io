@@ -4,4 +4,11 @@ permalink: /tags/
 ---
 
 
-{% include 'taglist.html' %}
+<h1>Tags</h1>
+
+<ul>
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tag/{{ tag }}/{% endset %}
+  <li><a href="{{ tagUrl | url }}" class="post-tag">🏷️ {{ tag }}</a></li>
+{% endfor %}
+</li>

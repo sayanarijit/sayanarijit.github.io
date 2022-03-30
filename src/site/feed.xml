@@ -1,0 +1,39 @@
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Arijit Basu's Notes",
+    "subtitle": "Arijit Basu's Notes",
+    "url": "https://arijitbasu.in",
+    "feedUrl": "https://arijitbasu.in/feed.xml",
+    "author": {
+      "name": "Aaijit Basu",
+      "email": "hi@arijitbasu.in"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.notes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for note in collections.notes %}
+      {% set absolutePostUrl %}{{ note.url | url | absoluteUrl(metadata.url) }}{% endset %}
+      <entry>
+        <title>{{ note.data.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ note.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type="html">{{ note.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      </entry>
+  {%- endfor %}
+</feed>
