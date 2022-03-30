@@ -3,7 +3,7 @@ layout: note
 tags:
   - tech
   - programming
-  - learning
+  - security
 ---
 
 # Security

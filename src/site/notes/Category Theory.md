@@ -2,7 +2,7 @@
 layout: note
 tags:
 - programming
-- learning
+- math
 ---
 
 # Category Theory

@@ -4,6 +4,7 @@ tags:
   - career
   - programming
   - tech
+  - learning
 ---
 
 # Open Source

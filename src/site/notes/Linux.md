@@ -2,6 +2,7 @@
 layout: note
 tags:
   - tech
+  - os
 ---
 
 # Linux

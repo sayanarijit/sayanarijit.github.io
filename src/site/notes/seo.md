@@ -2,9 +2,8 @@
 layout: note
 tags:
   - tech
-  - programming
-  - learning
   - web
+  - learning
 ---
 
 # SEO

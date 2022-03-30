@@ -3,7 +3,6 @@ layout: note
 tags:
   - tech
   - web
-  - learning
 ---
 
 # Decentralization

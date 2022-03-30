@@ -2,6 +2,7 @@
 layout: note
 tags:
   - knowledge-management
+  - learning
 ---
 
 # Digital Garden

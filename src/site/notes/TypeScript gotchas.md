@@ -2,7 +2,6 @@
 layout: note
 tags:
 - programming
-- learning
 - rant
 ---
 

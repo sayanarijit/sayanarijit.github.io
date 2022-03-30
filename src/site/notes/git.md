@@ -1,9 +1,8 @@
 ---
 layout: note
 tags:
-- tech
-- programming
-- learning
+  - tech
+  - programming
 ---
 
 # Git
@@ -13,6 +12,7 @@ Git is a version control system (VCS) initially created for programmers, but it 
 Is it created by [[Linus Torvalds]], the same person who created [[Linux]].
 
 Some of the interesting things git can do are:
+
 - Track changes to text files over time
 - Revert to a past/future version of a particular file, or the entire repository (project).
 - Create multiple branches with separate revision history.
@@ -20,10 +20,12 @@ Some of the interesting things git can do are:
 - Upload, download and merge repositories from code hosting platforms such as GitHub, GitLab etc.
 
 Similar version control systems are:
+
 - SVN
 - Mercurial
 
------
+---
 
 Learn more:
+
 - https://github.com/dictcp/awesome-git
