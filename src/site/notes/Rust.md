@@ -35,6 +35,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://lifetime-variance.sunshowers.io/
 
+#### Build a YAML parser in Rust (serde-yaml)
+
+https://www.youtube.com/playlist?list=PLMHbQxe1e9MmX_OeeyFLlqyZrBQ6PgGjL
+
 ---
 
 Learn more:
