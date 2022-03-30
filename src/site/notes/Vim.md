@@ -13,7 +13,7 @@ No matter how much I try to get comfortable with some other editor or IDE, I fin
 
 As you might have heard, Vim is hard. But if you spend significant part of your daily life typing code on a keyboard, you will appreciate Vim just for existing.
 
-Once you start using and customizing (neo)vim and get used to the conveniences, you will find it more and more difficult switching to a non-vim workflow. Thus, after few months or years, you will end up with a huge vim configuration file in your [[dotfiles]] repository.
+Once you start using and customizing (neo)vim and get used to the conveniences, you will find it more and more difficult switching to a non-vim workflow. Thus, after a few months, you will end up with a huge vim configuration file in your [[dotfiles]] repository.
 
 ## Alternatives
 
