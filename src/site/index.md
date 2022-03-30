@@ -12,6 +12,6 @@ Contact me via [Keybase][3], [Telegram][4], or [Email][5].
 
 [1]: https://github.com/sayanarijit
 [2]: /notes
-[3]: https://keybase.io/Keybase
+[3]: https://keybase.io/sayanarijit
 [4]: https://t.me/sayanarijit
 [5]: mailto:hi@arijitbasu.in
