@@ -8,9 +8,11 @@ tags:
 
 # 🦀 Rust
 
-Rust is a saviour for `C` and `C++` devs about to jump from the window due to frustration causing from countless bugs, memory leaks and hellish dependency management system.
+Rust is a saviour for the `C` and `C++` about to jump from the window due to frustration causing from countless bugs, memory leaks and hellish dependency management system.
 
-But for me, Rust just has my favourite type system and [[functional programming]]-like APIs with a divine philosophy (zen of Python[^1] done right) for a general purpose programming.
+It's 2022 and Rust is still on a spree, ranking at the top as the world's most loved programming language, a survey conducted by https://stackoverflow.com.
+
+But for me, Rust just has my favourite type system and [[functional programming]]-like APIs with a divine philosophy (the Zen of Python[^1] done right) for a general purpose programming language.
 
 https://youtu.be/zmtHaZG7pPc
 
