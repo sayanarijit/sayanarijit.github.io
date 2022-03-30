@@ -39,7 +39,7 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 Learn more:
 
-- https://www.rust-lang.org
+- https://doc.rust-lang.org/book/
 - https://github.com/rust-unofficial/awesome-rust
 
 [^1]: https://peps.python.org/pep-0020/#the-zen-of-python
