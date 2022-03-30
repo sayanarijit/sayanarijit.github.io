@@ -7,6 +7,12 @@ module.exports = (eleventyConfig, md) => {
     );
   });
 
+  eleventyConfig.addFilter('edit_note', (slug) => {
+    slug = slug.endsWith('/') ? slug.slice(0, -1) : slug;
+    slug = slug.startsWith('/') ? slug : '/' + slug;
+    return `https://github.com/sayanarijit/sayanarijit.github.io/edit/main/src/site${slug}.md`;
+  });
+
   const filters = {
     ...require('./date_filter'),
     ...require('./sort_ab_filter'),

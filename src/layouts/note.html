@@ -7,3 +7,13 @@ layout: default
 <article>{{content}}</article>
 
 {% include 'backlinks.html' %}
+
+<hr />
+
+<a
+  target="_blank"
+  rel="noreferrer noopener nofollow"
+  href="{{page.url | edit_note}}"
+>
+  <small>✏️ Edit this note</small>
+</a>
