@@ -42,7 +42,7 @@ myFunction dataProducerFunction =
 	|> printFunction
 
 {-| As you see, we only define a function, that will produce output when given
-    some input data. The input data doesn't change.
+    some input data. The input data (a function) doesn't change.
     An outside program will use this function to change state, but we don't
     need to worry about that. In FP, we only define what happens when the data
     comes.
