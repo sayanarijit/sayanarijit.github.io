@@ -7,7 +7,7 @@ tags:
 
 # RSS feed
 
-If you want to get updates from your favourite website at your own convenience, without getting interrupted by something like an email notification, RSS feed might be the right choice for you.
+If you want to get updates from your favourite websites at your own convenience, without getting interrupted by something like an email notification, RSS feed might be the right choice for you.
 
 Basically it is a link that you can copy and paste into your favourite RSS reader software. Once you do that, you will have subscribed to the feed and you will get the latest updates from the website when you open the reader.
 
