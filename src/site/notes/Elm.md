@@ -36,7 +36,7 @@ Read more:
 
 ### Videos
 
-#### Next-Generation Programming: Rust & Elm
+#### Next-Generation Programming: [[Rust]] & Elm
 
 https://youtu.be/ukVqQGbxM9A
 
