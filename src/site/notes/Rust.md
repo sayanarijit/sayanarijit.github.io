@@ -18,7 +18,7 @@ https://youtu.be/zmtHaZG7pPc
 
 ## ❤️ Me and Rust
 
-See my Rusty [[opensource project]]s:
+See my Rusty [[opensource]] projects:
 
 https://github.com/sayanarijit?tab=repositories&language=rust
 

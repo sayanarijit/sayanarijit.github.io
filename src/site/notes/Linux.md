@@ -12,4 +12,4 @@ Apart from super computers and servers, Linux is also being used in Mobile (Andr
 
 Linux based desktops are widely popular among programmers for being developer friendly.
 
-Linux is an [[opensource project]] created by [[Linus Torvalds]].
+Linux is an [[opensource]] OS kernel created by [[Linus Torvalds]].

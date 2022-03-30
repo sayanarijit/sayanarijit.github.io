@@ -21,7 +21,7 @@ Related Standards:
 - https://decentralized-id.com/web-standards/linked-data/
 - https://schema.org
 
-Live [[opensource project]] projects:
+Live [[opensource]] projects:
 
 - https://github.com/LemmyNet/lemmy
 - https://github.com/mastodon/mastodon

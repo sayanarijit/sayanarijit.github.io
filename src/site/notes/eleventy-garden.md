@@ -7,7 +7,7 @@ tags:
 
 # Eleventy-Garden
 
-It[^1] is an [[opensource project]] that uses Eleventy[^2] [[static site generator]] to publish [[digital garden]]s.
+It[^1] is an [[opensource]] project that uses Eleventy[^2] [[static site generator]] to publish [[digital garden]]s.
 
 This site was built using it.
 
