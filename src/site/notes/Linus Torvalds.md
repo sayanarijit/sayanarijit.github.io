@@ -4,6 +4,8 @@ tags:
   - tech
 ---
 
+# Linus Torvalds
+
 Linus Torvalds is one of the world's most respected geniuses.
 
 https://youtu.be/i2lhwb_OckQ

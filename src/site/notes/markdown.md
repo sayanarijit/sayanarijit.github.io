@@ -1,16 +1,18 @@
 ---
 layout: note
 tags:
-- writing
-- programming
+  - writing
+  - programming
 ---
 
 # Markdown
+
 Markdown is a language that makes it easy to write nicely formatted (rich) text. It's easy to learn and looks nice even without any syntax highlighting.
 
 It converts to HTML. So, most [[static site generator]]s support markdown, many as its primary data format.
 
 It is also used for writing:
+
 - books
 - research papers
 - documentation
@@ -20,8 +22,9 @@ It is also used for writing:
 
 If you are a professional or hobbyist who writes a lot, learning this will benefit you.
 
------
+---
 
 Learn more:
+
 - https://github.com/mundimark/awesome-markdown
 - https://github.com/BubuAnabelas/awesome-markdown

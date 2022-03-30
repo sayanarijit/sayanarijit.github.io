@@ -9,9 +9,13 @@ permalink: /tag/{{ tag }}/
 
 <h1>🏷️ {{ tag }}</h1>
 
-<ol>
+<ul>
 {% set taglist = collections[ tag ] %}
 {% for post in taglist  %}
   <li><a href="{{ post.url | url }}">🗒️ {{ post.data.title }}</a></li>
 {% endfor %}
-</ol>
+</ul>
+
+<hr />
+
+<p><b><a href="/tags">See All Tags</a></b></p>

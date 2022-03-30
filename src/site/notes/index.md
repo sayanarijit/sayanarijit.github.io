@@ -1,6 +1,6 @@
 ---
-title: About these notes
-layout: default
+layout: note
+tags:
 ---
 
 # About these Notes
@@ -11,7 +11,6 @@ Hence, some notes here are knowledge intended for myself, while some are knowled
 
 Basically, this is my [[digital garden]], organized using [tags][1].
 
-There's also an [RSS feed][2] you can subecribe to.
+There's also an [[RSS feed]] you can subscribe to.
 
 [1]: /tags
-[2]: /feed.xml

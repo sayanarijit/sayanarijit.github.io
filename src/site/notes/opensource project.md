@@ -1,3 +1,4 @@
+---
 layout: note
 tags:
   - career
