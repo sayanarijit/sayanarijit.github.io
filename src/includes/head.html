@@ -132,3 +132,18 @@ metadesc = site.desc %} {% if desc %} {% assign metadesc = desc %} {% endif %}
 
 <!-- Style -->
 <link rel="stylesheet" href="/assets/style.css" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-NQ9MMTM0XX"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-NQ9MMTM0XX');
+</script>
