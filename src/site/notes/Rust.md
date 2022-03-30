@@ -39,6 +39,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 https://www.youtube.com/playlist?list=PLMHbQxe1e9MmX_OeeyFLlqyZrBQ6PgGjL
 
+#### Data Oriented GUI in Rust ([[ECS]] with [[Flutter]] examples)
+
+https://youtu.be/4YTfxresvS8
+
 ---
 
 Learn more:
