@@ -8,8 +8,14 @@ I started dumping notes here since March 29, 2022 in an attempt to organise and 
 
 Hence, some notes here are knowledge intended for myself, while some are knowledge I feel others might find useful.
 
-Basically, this is my [[digital garden]], organized by [tags][1].
+Basically, this is my [[digital garden]], organized by tags.
 
 There's also an [[RSS feed]] you can subscribe to.
 
-[1]: /tags
+# Tags
+
+<ul>
+{% for tag in collections.tagList %}
+  <li><a href="/tags/{{ tag }}" class="post-tag">🏷️ {{ tag }}</a></li>
+{% endfor %}
+</li>
