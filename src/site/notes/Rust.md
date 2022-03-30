@@ -8,7 +8,7 @@ tags:
 
 # 🦀 Rust
 
-Rust is a saviour for the `C` and `C++` about to jump from the window due to frustration causing from countless bugs, memory leaks and hellish dependency management system.
+Rust is a saviour for the `C` and `C++` developers about to jump from the window due to frustration causing from countless bugs, memory leaks and hellish dependency management system.
 
 It's 2022 and Rust is still on a spree, ranking at the top as the world's most loved programming language, a survey conducted by https://stackoverflow.com.
 
