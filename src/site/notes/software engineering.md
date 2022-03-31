@@ -18,7 +18,7 @@ Although, most often, both software engineering and software development can be 
 
 For example, when you develop a backend for a website, you neither write the database logic, nor the http communication logic, not even the logic of the web framework that you used. You just integrate all the existing pieces together. So, are you a developer because you "developed" a website or are you an engineer because you "integrated" all the existing pieces together? You will get different answers depending on who you ask.
 
-However, the role of a Software Engineer include responsibilities way beyond just integrating software. They are also responsible for designing (architecting), deploying and maintaining the infrastructure of systems.
+However, the role of a Software Engineer include responsibilities way beyond just integrating software. They are also responsible for designing (architecting), deploying, analysing and maintaining software.
 
 ## Resources
 
