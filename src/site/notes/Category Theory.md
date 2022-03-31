@@ -8,15 +8,9 @@ tags:
 
 # Category Theory
 
-This person can tell you all about Category Theory:
+Category Theory is a field of [[Mathematics]].
 
-Name: Bartosz Milewski
-
-Website: https://bartoszmilewski.com/
-
-Youtube: https://www.youtube.com/user/DrBartosz
-
-GitHub: https://github.com/BartoszMilewski
+[[Bartosz Milewski]] can tell you all about Category Theory.
 
 
 ## Resources
