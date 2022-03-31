@@ -7,7 +7,7 @@ tags:
 
 # Digital Garden
 
-A digital garden[^1] is a place to dump and organise personal knowledge.
+One's digital garden[^1] is a place to dump and organise their personal knowledge in written format.
 
 Related terms are:
 
@@ -27,7 +27,6 @@ It can be used to:
 - Reflect upon your interests and motivations.
 
 This is my digital garden built using [[eleventy-garden]].
-
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
 [^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind

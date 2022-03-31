@@ -18,4 +18,4 @@ There's also an [[RSS feed]] you can subscribe to.
 {% for tag in collections.tagList %}
   <li><a href="/tags/{{ tag }}" class="post-tag">🏷️ {{ tag }}</a></li>
 {% endfor %}
-</li>
+</ul>
