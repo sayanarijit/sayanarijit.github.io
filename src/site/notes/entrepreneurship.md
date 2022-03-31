@@ -2,6 +2,7 @@
 layout: note
 tags:
   - learning
+  - business
 ---
 
 # Entrepreneurship

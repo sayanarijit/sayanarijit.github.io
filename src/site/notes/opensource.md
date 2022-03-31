@@ -5,6 +5,7 @@ tags:
   - computer-science
   - tech
   - learning
+  - business
 ---
 
 # Open Source
@@ -15,9 +16,16 @@ Opensource doesn't always mean it's free to download, use or redistribute though
 
 GitHub[^2] is the biggest opensource collaboration platform that uses [[git]], the most popular opensource repository management tool. Git is made by the same person who also made the most popular opensource [[Operating System Kernel]] Linux[^3].
 
+I enjoy being part of the awesome opensource community. I publish my opensource projects on GitHub as @sayanarijit[^4].
+
+## Career
+
 For programmers, opensource opens door to tremendous learning and career growth opportunities using the power of transparency and collaboration.
 
-I enjoy being part of the awesome opensource community. I publish my opensource projects on GitHub as @sayanarijit[^4].
+## Monetization
+
+- https://endler.dev/2021/oss-money/ by [[Matthias Endler]]
+- https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/ by [[Armin Ronacher]]
 
 [^1]: https://opensource.org/licenses
 [^2]: https://github.com

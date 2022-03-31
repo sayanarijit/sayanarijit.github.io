@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - computer-science
+  - rust
 ---
 
 # 🦀 Rust
@@ -57,6 +58,14 @@ https://youtu.be/0zOg8_B71gE
 #### The Talk You've Been Await-ing for
 
 https://youtu.be/NNwK5ZPAJCk
+
+#### Idiomatic tree and graph like structures in Rust
+
+https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/
+
+#### A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust.
+
+https://github.com/mre/idiomatic-rust
 
 ## People
 

@@ -5,6 +5,7 @@ tags:
   - individual
   - computer-science
   - learning
+  - rust
 ---
 
 # Pascal Hertleif
