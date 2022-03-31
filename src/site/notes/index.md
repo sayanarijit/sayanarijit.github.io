@@ -12,6 +12,8 @@ Basically, this is my [[digital garden]], organized by tags.
 
 There's also an [[RSS feed]] you can subscribe to.
 
+> ⚠️ These notes may not always be correct, as they contain my personal interpretation of things.
+
 # Tags
 
 <ul>
