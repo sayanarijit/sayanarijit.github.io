@@ -13,7 +13,7 @@ You can use Flutter to build Mobile, Desktop and Web apps (Using [[WebAssembly]]
 
 It uses the Dart programming language.
 
-Flutter apps are natively compiled, which means they ship with the runtime included, which makes it big in size, but robust and reliable.
+Flutter apps are natively compiled, so it's fast. They ship with the runtime included, which makes it big in size, but robust and reliable.
 
 ## Frameworks and Libraries (handpicked by me)
 
