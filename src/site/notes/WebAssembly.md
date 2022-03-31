@@ -8,7 +8,7 @@ tags:
 
 # WebAssembly
 
-WebAssembly was supposed to be a saviour for the web developers (like [[Rust]] is a saviour for the system to system developers) by ridding them of the horrors of JavaScript and [[TypeScript gotchas]]. But so far, it hasn't succeeded, and people still _Always bet on JavaScript_.
+WebAssembly was supposed to be a saviour for the web developers (like [[Rust]] is a saviour for the system developers) by ridding them of the horrors of JavaScript and [[TypeScript gotchas]]. But so far, it hasn't succeeded, and people still _Always bet on JavaScript_.
 
 However, there are scenarios on the web where WebAssembly is more suitable. For e.g. online games, photo editors etc. i.e. web apps with logic complex enough for JavaScript to hack.
 
