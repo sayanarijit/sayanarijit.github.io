@@ -42,6 +42,14 @@ https://www.youtube.com/playlist?list=PLMHbQxe1e9MmX_OeeyFLlqyZrBQ6PgGjL
 
 https://youtu.be/4YTfxresvS8
 
+#### Analysis of various tricky Rust code
+
+https://github.com/dtolnay/case-studies
+
+## People
+
+- [[David Tolnay]]
+
 ---
 
 Learn more:

@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - os
+  - learning
 ---
 
 # Operating System
@@ -12,4 +13,5 @@ Operating System is the software that mediates the communication between the pro
 ## Resources
 
 - https://github.com/jubalh/awesome-os
-- https://youtu.be/Dj2hN_pFA8w
+- https://people.eecs.berkeley.edu/~kubitron/courses/cs194-24-S14/index_lectures.html
+- MIT course: https://www.youtube.com/playlist?list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP

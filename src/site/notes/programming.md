@@ -19,9 +19,8 @@ Learn more: https://cs.lmu.edu/~ray/notes/paradigms/
 - https://github.com/greyblake/awesome-programming-books
 - https://github.com/EbookFoundation/free-programming-books
 
-## Courses
+Also See:
 
-- [x] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005
-- [x] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011
+- [[algorithm]]
 
 [^1]: Instructions that humans can read and machines can understand.

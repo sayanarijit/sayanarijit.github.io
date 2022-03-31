@@ -3,14 +3,14 @@ layout: note
 tags:
   - math
   - individual
+  - programming
+  - learning
 ---
 
 # Bartosz Milewski
 
 
-Bartosz Milewski teaches mathematics, particularly [[Category Theory]].
-
-Name: Bartosz Milewski
+Bartosz Milewski teaches [[Mathematics]], particularly [[Category Theory]].
 
 Website: https://bartoszmilewski.com/
 
