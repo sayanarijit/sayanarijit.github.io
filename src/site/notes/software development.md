@@ -21,3 +21,12 @@ There are many ways to develop software. Most popular of them are:
 ## Resources
 
 - https://free-for.dev
+- https://railway.app/
+- https://www.qovery.com/
+- https://dev.to/madza/17-killer-websites-you-should-use-to-increase-productivity-2enk
+
+----------
+
+Also See:
+
+- [[design]]

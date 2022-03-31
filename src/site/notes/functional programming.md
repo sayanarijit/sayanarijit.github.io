@@ -84,6 +84,12 @@ Some popular FP languages are:
 
 ---
 
+## Resources
+
+Functional Programming for Pragmatists • Richard Feldman • GOTO 2021
+
+https://youtu.be/3n17wHe5wEw
+
 Learn More:
 
 - https://github.com/xgrommx/awesome-functional-programming

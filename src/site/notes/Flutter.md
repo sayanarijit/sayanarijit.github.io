@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - computer-science
+  - flutter
 ---
 
 # Flutter
@@ -21,6 +22,12 @@ Flutter apps are natively compiled, so they are fast.
 - https://pub.dev/packages/dartz
 - https://pub.dev/packages/fluro
 - https://pub.dev/packages/ferry
+
+## Learn
+
+https://youtu.be/dc3B_mMrZ-Q
+
+https://youtu.be/hiqpPKF_fic
 
 ## Resources
 

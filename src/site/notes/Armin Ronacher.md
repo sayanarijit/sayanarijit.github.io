@@ -25,4 +25,4 @@ GitHub: http://github.com/mitsuhiko
 
 Twitter: http://twitter.com/mitsuhiko
 
-Wiki: https://en.wikipedia.org/wiki/Armin_Ronacher
+Wikipedia: https://en.wikipedia.org/wiki/Armin_Ronacher

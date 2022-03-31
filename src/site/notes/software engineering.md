@@ -22,9 +22,12 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 
 ## Resources
 
+- https://blog.pragmaticengineer.com/
 - https://github.com/Alliedium/awesome-software-engineering
 - https://www.youtube.com/c/HusseinNasser-software-engineering
 - https://www.freecodecamp.org/news/software-design/
 - https://github.com/DovAmir/awesome-design-patterns
 - https://github.com/mehdihadeli/awesome-software-architecture/
 - https://github.com/simskij/awesome-software-architecture
+- https://blog.pragmaticengineer.com/software-architecture-is-overrated/
+- https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/

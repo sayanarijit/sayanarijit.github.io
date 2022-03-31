@@ -21,6 +21,10 @@ The closest alternative to (Neo)Vim is Emacs, which is also widely popular, but 
 
 ## Resources
 
+### Vimcasts
+
+- http://vimcasts.org/
+
 ### Awesome Lists
 
 - https://github.com/akrawchyk/awesome-vim
