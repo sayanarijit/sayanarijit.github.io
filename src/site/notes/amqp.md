@@ -2,11 +2,10 @@
 layout: note
 tags:
   - tech
-  - programming
+  - computer-science
   - learning
-
 ---
 
 # AMQP
 
-AMQP is a messaging protocol 
+AMQP is a messaging protocol

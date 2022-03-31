@@ -3,7 +3,7 @@ layout: note
 tags:
   - tech
   - individual
-  - programming
+  - computer-science
   - learning
 ---
 

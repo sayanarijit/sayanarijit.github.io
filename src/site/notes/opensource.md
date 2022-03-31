@@ -2,7 +2,7 @@
 layout: note
 tags:
   - career
-  - programming
+  - computer-science
   - tech
   - learning
 ---

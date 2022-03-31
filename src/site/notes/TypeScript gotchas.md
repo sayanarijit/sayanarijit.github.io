@@ -1,7 +1,7 @@
 ---
 layout: note
 tags:
-- programming
+- computer-science
 - rant
 ---
 

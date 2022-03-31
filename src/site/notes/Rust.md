@@ -2,7 +2,7 @@
 layout: note
 tags:
   - tech
-  - programming
+  - computer-science
 ---
 
 # 🦀 Rust
@@ -45,6 +45,18 @@ https://youtu.be/4YTfxresvS8
 #### Analysis of various tricky Rust code
 
 https://github.com/dtolnay/case-studies
+
+#### Writing an [[Operating System]] in Rust
+
+https://github.com/phil-opp/blog_os
+
+#### [[Pascal Hertleif]] - Writing Idiomatic Libraries in Rust
+
+https://youtu.be/0zOg8_B71gE
+
+#### The Talk You've Been Await-ing for
+
+https://youtu.be/NNwK5ZPAJCk
 
 ## People
 

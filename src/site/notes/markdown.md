@@ -2,7 +2,7 @@
 layout: note
 tags:
   - writing
-  - programming
+  - computer-science
 ---
 
 # Markdown

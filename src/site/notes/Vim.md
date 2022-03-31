@@ -2,7 +2,7 @@
 layout: note
 tags:
   - tech
-  - programming
+  - computer-science
 ---
 
 # Vim

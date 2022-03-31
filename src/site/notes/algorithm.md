@@ -3,7 +3,7 @@ layout: note
 tags:
   - tech
   - learning
-  - programming
+  - computer-science
 ---
 
 # Algorithm
