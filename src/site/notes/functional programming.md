@@ -9,6 +9,8 @@ tags:
 
 If you find dealing with states in your Object Oriented Programming (OOP) codebase difficult or error-prone, you might want to say goodbye to states, and try functional programming (FP).
 
+Functional Programming is one of the many paradigms of [[programming]].
+
 
 ## FP vs OOP
 

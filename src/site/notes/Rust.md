@@ -21,7 +21,7 @@ See my Rusty [[opensource]] projects:
 
 https://github.com/sayanarijit?tab=repositories&language=rust
 
-## Frameworks (handpicked by me)
+## Frameworks and Libraries (handpicked by me)
 
 - https://github.com/tokio-rs/axum
 - https://github.com/hyperium/tonic

@@ -7,7 +7,7 @@ tags:
 
 # Operating System Kernel
 
-An operating system kernel is the core of an Operating System. 
+An operating system kernel is the core of an [[Operating System]]. 
 
 Examples:
 
