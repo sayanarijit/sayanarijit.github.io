@@ -63,7 +63,7 @@ https://youtu.be/NNwK5ZPAJCk
 
 https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/
 
-#### A peer-reviewed collection of articles/talks/repos which teach concise, idiomatic Rust.
+#### Idiomatic Rust by [[Matthias Endler]].
 
 https://github.com/mre/idiomatic-rust
 
