@@ -68,7 +68,7 @@ Four primary mathematical data types that you will encounter in many FP language
 - Product Type: A collection of Unit Type, Sum Type and Product Type data (e.g. `object`, `list of objects` in OOP).
 - Function: Functions are first-class citizens in FP. i.e. they can be passed around as argumets like any other data type.
 
-https://youtu.be/I8LbkfSSR58
+https://youtu.be/JH_Ou17_zyU
 
 ## FP languages
 
