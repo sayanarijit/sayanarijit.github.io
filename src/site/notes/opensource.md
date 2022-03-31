@@ -20,7 +20,7 @@ I enjoy being part of the awesome opensource community. I publish my opensource 
 
 ## Career
 
-For programmers, opensource opens door to tremendous learning and career growth opportunities using the power of transparency and collaboration.
+For programmers, opensource opens door to tremendous learning and career growth opportunities leveraging the power of transparency and collaboration.
 
 ## Monetization
 

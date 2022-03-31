@@ -4,6 +4,7 @@ tags:
   - tech
   - computer-science
   - rust
+  - learning
 ---
 
 # 🦀 Rust
@@ -33,49 +34,53 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 ## Resources
 
+#### Stanford Seminar - The Rust Programming Language
+
+- https://youtu.be/O5vzLKg7y-k
+
 #### Lifetime Variance Example
 
 - https://lifetime-variance.sunshowers.io/
 
 #### Build a YAML parser in Rust (serde-yaml)
 
-https://www.youtube.com/playlist?list=PLMHbQxe1e9MmX_OeeyFLlqyZrBQ6PgGjL
+- https://www.youtube.com/playlist?list=PLMHbQxe1e9MmX_OeeyFLlqyZrBQ6PgGjL
 
 #### Data Oriented GUI in Rust ([[ECS]] with [[Flutter]] examples)
 
-https://youtu.be/4YTfxresvS8
+- https://youtu.be/4YTfxresvS8
 
 #### Analysis of various tricky Rust code
 
-https://github.com/dtolnay/case-studies
+- https://github.com/dtolnay/case-studies
 
 #### Writing an [[Operating System]] in Rust
 
-https://github.com/phil-opp/blog_os
+- https://github.com/phil-opp/blog_os
 
 #### [[Pascal Hertleif]] - Writing Idiomatic Libraries in Rust
 
-https://youtu.be/0zOg8_B71gE
+- https://youtu.be/0zOg8_B71gE
 
 #### The Talk You've Been Await-ing for
 
-https://youtu.be/NNwK5ZPAJCk
+- https://youtu.be/NNwK5ZPAJCk
 
 #### Idiomatic tree and graph like structures in Rust
 
-https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/
+- https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/
 
 #### Idiomatic Rust by [[Matthias Endler]].
 
-https://github.com/mre/idiomatic-rust
+- https://github.com/mre/idiomatic-rust
 
 #### Rust Linz, November 2021 - Serde Shenanigans by [[Armin Ronacher]]
 
-https://youtu.be/UhZGYS13twc
+- https://youtu.be/UhZGYS13twc
 
-## People
+#### [[Operating System]] development tutorials in Rust on the Raspberry Pi
 
-- [[David Tolnay]]
+- https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials
 
 ---
 
