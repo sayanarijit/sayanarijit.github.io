@@ -14,6 +14,8 @@ However, there are scenarios on the web where WebAssembly is more suitable. For 
 
 Also, WebAssembly has managed to find plenty of use cases outside Web (e.g. embedded configuration language) and is thriving in the multi-platform space (e.g. [[Flutter]]).
 
+https://youtu.be/o6qe4lw9-8c
+
 ## Learn more:
 
 - https://webassembly.org

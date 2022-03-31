@@ -12,9 +12,11 @@ It's 2022 and Rust is still on a spree, ranking at the top as the world's most l
 
 Rust is a saviour for the `C` and `C++` developers about to jump off the window due to frustration causing from countless bugs, memory leaks and hellish dependency management system.
 
-But for me, Rust just has my favourite type system and [[functional programming]]-like APIs with a divine philosophy (the Zen of Python[^1] done right) for a general purpose programming language.
+But for me, Rust just has my favourite type system and [[functional programming]]-like APIs with a divine philosophy (the Zen of [[Python]] done right) for a general purpose programming language.
 
 https://youtu.be/zmtHaZG7pPc
+
+> ~ by [[Armin Ronacher]]
 
 ## ❤️ Me and Rust
 
@@ -67,6 +69,10 @@ https://rust-leipzig.github.io/architecture/2016/12/20/idiomatic-trees-in-rust/
 
 https://github.com/mre/idiomatic-rust
 
+#### Rust Linz, November 2021 - Serde Shenanigans by [[Armin Ronacher]]
+
+https://youtu.be/UhZGYS13twc
+
 ## People
 
 - [[David Tolnay]]
@@ -77,5 +83,3 @@ Learn more:
 
 - https://doc.rust-lang.org/book/
 - https://github.com/rust-unofficial/awesome-rust
-
-[^1]: https://peps.python.org/pep-0020/#the-zen-of-python
