@@ -48,7 +48,7 @@ Why can't we build a personal digital decision tree yet?
 <details>
   <summary>Do Not Repeat The Argument</summary>
 
-Most debates have repetitive arguments. Once a long debate starts, we often get tired repeating the same arguments just reach where we were before and can't continue anymore.
+Most debates have repetitive arguments. Once a long debate starts, we often get tired repeating the same arguments just to reach where we were before and can't continue anymore.
 
 So, build a platform which will let anyone see the already recorded arguments as navigation links and provide another option to add an unique argument if they have any.
 
