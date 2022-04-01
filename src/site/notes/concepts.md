@@ -24,7 +24,7 @@ A genius who cannot answer a single history question. "Is past really important?
 
 </details>
 
-### Plot
+### Scene
 
 <details>
   <summary>Artist's Pain</summary>
@@ -39,3 +39,11 @@ He started drawing. Looks like a face. A face so miserable. Looks like the face 
 He doesn't cry. But if he ever does, he doesn't like others to see his tears. He'd do anything to hide them. But if he hides his eyes, he can't keep an watch on me. He doesn't know what I might end up doing. He doesn't understand me. He doesn't understand any of what's happening. Not even why his eyes are begging to let it all out. All he knows at the moment is that he needs to keep me in his blurry sight at any cost, while I'm still standing frozen, facing towards the door in close proximity, staring downwards, probably crying too.
 
 </details>
+
+---
+
+You may also find these concepts interesting:
+
+- https://en.wikipedia.org/wiki/Girls%27_Last_Tour
+- https://en.wikipedia.org/wiki/Serial_Experiments_Lain
+- https://en.wikipedia.org/wiki/Ergo_Proxy
