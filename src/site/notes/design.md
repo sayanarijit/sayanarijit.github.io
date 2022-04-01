@@ -16,6 +16,8 @@ https://youtu.be/lZp4salRFFc
 
 ## Resources
 
+- https://www.uidesigndaily.com/
+- https://collectui.com/
 - https://www.figma.com
 - https://penpot.app/
 - https://www.photopea.com/

@@ -88,3 +88,4 @@ Learn more:
 
 - https://doc.rust-lang.org/book/
 - https://github.com/rust-unofficial/awesome-rust
+- https://fasterthanli.me/

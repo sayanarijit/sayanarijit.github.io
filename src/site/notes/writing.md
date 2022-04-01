@@ -20,9 +20,7 @@ https://youtu.be/aFwVf5a3pZM
 
 ## Non Technical
 
-### Concepts
-
-- Character: A genius who cannot answer a single history question. "Is past really important?" he asks.
+See [[concepts]].
 
 ---
 

@@ -76,7 +76,7 @@ Some popular FP languages are:
 
 - [[Elm]]: My favourite FP language that offers you zero runtime error guarantee on the frontend. It's delightful as it claims and very easy to pick up.
 - PureScript: Another FP language for the frontend.
-- Haskell: The most popular general purpose FP language.
+- Haskell: The most popular general purpose FP language with the weird moto "avoid success at all costs"[^1].
 - Erlang: FP langguage for the backend optimized for massive concurrency and fault tolerance.
 - Clozure and ClozureScript: Backend and frontend FP gateway for Java developers. It's a dialect of Lisp (a family of FP languages).
 - Scala: Another FP gateway for Java developers.
@@ -95,3 +95,7 @@ Learn More:
 - https://github.com/xgrommx/awesome-functional-programming
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
 - https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw
+- https://www.haskellforall.com/?m=0
+- Practical Common Lisp: https://gigamonkeys.com/book/
+
+[^1]: https://news.ycombinator.com/item?id=12056169

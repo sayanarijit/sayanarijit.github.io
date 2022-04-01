@@ -30,7 +30,8 @@ This is my digital garden built using [[eleventy-garden]].
 
 ## Resources:
 
-- Obsidian Zettelkasten Workflow - https://youtu.be/wB89lJs5A3s
+- Obsidian: https://obsidian.md
+- Obsidian Zettelkasten Workflow: https://youtu.be/wB89lJs5A3s
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
 [^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind

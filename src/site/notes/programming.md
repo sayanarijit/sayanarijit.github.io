@@ -17,6 +17,10 @@ There are many paradigms of programming.
 
 Learn more: https://cs.lmu.edu/~ray/notes/paradigms/
 
+For some (including me), programming is art.
+
+https://youtu.be/6avJHaC3C2U
+
 ## Resources
 
 ### Websites
