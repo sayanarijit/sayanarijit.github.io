@@ -8,7 +8,7 @@ tags:
 
 # Programming
 
-Programming is the art of solving problems by writing code[^1].
+Programming is the [[art]] of solving problems by writing code[^1].
 
 When the problem solving is done by developing some software, it's called
 [[software development]].
