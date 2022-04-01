@@ -43,3 +43,4 @@ Some of the most popular terminals are:
 - https://github.com/cdleon/awesome-terminals
 - https://github.com/agarrharr/awesome-cli-apps
 - https://github.com/rothgar/awesome-tuis
+- https://qmacro.org/

@@ -18,6 +18,10 @@ There are many ways to develop software. Most popular of them are:
 - Behaviour Driven Development (BDD)
 - Domain Driven Development (DDD)
 
+## Web Development
+
+- https://github.com/andreasbm/web-skills
+
 ----------
 
 Also See:

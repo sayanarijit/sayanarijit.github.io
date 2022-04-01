@@ -27,14 +27,17 @@ https://youtu.be/lZp4salRFFc
 
 ## Resources
 
-- https://www.uidesigndaily.com/
-- https://collectui.com/
-- https://htmlrev.com/
+- FREE UI resources: https://www.uidesigndaily.com/
+- Daily Designer Inspiration: https://collectui.com/
+- Free HTML templates: https://htmlrev.com/
 - https://www.youtube.com/c/BlenderGuruOfficial
+
+## Tools
+
+See [[tools]]
 
 ---
 
 Also See:
 
-- [[tools]]
 - [[art]]

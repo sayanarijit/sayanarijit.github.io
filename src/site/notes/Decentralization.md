@@ -16,6 +16,7 @@ Related Standards:
 - https://www.w3.org/TR/activitypub/
 - https://www.w3.org/TR/webmention/
 - https://indieweb.org/
+- https://www.jvt.me/posts/2019/10/20/indieweb-talk/
 - https://github.com/gdamdam/awesome-decentralized-web
 - https://decentralized-id.com/web-standards/linked-data/
 - https://schema.org

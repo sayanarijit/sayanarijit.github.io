@@ -24,6 +24,38 @@ People can co-read books uploaded by any participant, as identifiable or anonymo
 
 </details>
 
+<details>
+  <summary>Building Together</summary>
+
+A platform where we post what we are doing, what we've done, if something's working, if something's not, others can also comment why things didn't work out, what can be done instead.
+
+</details>
+
+<details>
+  <summary>Scam report platform</summary>
+
+Most of the time we get scammed and we don't even know it. A platform to report and get aware of the latest scams based of topics, locations, severity etc will help everyone.
+
+</details>
+
+<details>
+  <summary>Decision Tree</summary>
+
+Why can't we build a personal digital decision tree yet?
+
+</details>
+
+<details>
+  <summary>Do Not Repeat The Argument</summary>
+
+Most debates have repetitive arguments. Once a long debate starts, we often get tired repeating the same arguments just reach where we were before and can't continue anymore.
+
+So, build a platform which will let anyone see the already recorded arguments as navigation links and provide another option to add an unique argument if they have any.
+
+</details>
+
+More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
+
 ## Writing
 
 ### Character

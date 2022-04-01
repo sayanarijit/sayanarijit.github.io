@@ -27,6 +27,10 @@ For programmers, opensource opens door to tremendous learning and career growth 
 - https://endler.dev/2021/oss-money/ by [[Matthias Endler]]
 - https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/ by [[Armin Ronacher]]
 
+## Benevolent dictators for life
+
+- https://en.wikipedia.org/wiki/Benevolent_dictator_for_life
+
 [^1]: https://opensource.org/licenses
 [^2]: https://github.com
 [^3]: https://www.kernel.org

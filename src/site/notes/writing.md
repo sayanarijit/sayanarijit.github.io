@@ -53,9 +53,25 @@ See [[concepts]].
 - Develop and work a marketing plan
 - Repeat the process the rest of your life
 
+### The writers pyramid
+
+- Those who want to write, think they have a book inside
+- Those who take initiative to learn writing (🙋 me)
+- Those who write the first novel
+- Those who write another
+- Those who get published
+- Those who get published again and again
+- The real fortune
+
+⚠️ Further notes are private. I highly recommend reading:
+
+https://www.audible.in/pd/How-to-Write-Best-Selling-Fiction-Audiobook/1629976954
+
 ---
 
 Also see:
 
 - [[speaking]]
 - How to Build a Universe That Doesn’t Fall Apart Two Days Later: https://urbigenous.net/library/how_to_build.html
+- Creating Strong Video Game Characters: https://youtu.be/4mgK2hL33Vw
+- Storytelling Tools to Boost Your Indie Game's Narrative and Gameplay: https://youtu.be/8fXE-E1hjKk

@@ -31,3 +31,5 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - https://github.com/simskij/awesome-software-architecture
 - https://blog.pragmaticengineer.com/software-architecture-is-overrated/
 - https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/
+- https://developers.cloudflare.com/
+- https://www.worldql.com/posts/2021-08-worldql-scalable-minecraft/
