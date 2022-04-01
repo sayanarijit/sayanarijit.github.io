@@ -14,6 +14,8 @@ tags:
 
 - There's no need to unnecessary new-ness. Most people crave for "familiar" ~ (TODO find source).
 
+- "Don't lose sight of youself" ~ Everyone
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/

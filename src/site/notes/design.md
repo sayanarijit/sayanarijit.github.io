@@ -9,19 +9,28 @@ tags:
 
 # Design
 
-## Web
+## Basics
 
-### Learn
+### Composition
 
-https://youtu.be/lZp4salRFFc
+https://youtu.be/O8i7OKbWmRM
+
+### Colors
 
 https://youtu.be/Qj1FK8n7WgY
+
+## Web
+
+### Tailwind CSS
+
+https://youtu.be/lZp4salRFFc
 
 ## Resources
 
 - https://www.uidesigndaily.com/
 - https://collectui.com/
 - https://htmlrev.com/
+- https://www.youtube.com/c/BlenderGuruOfficial
 
 ---
 
