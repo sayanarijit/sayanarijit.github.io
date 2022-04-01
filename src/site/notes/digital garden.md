@@ -28,6 +28,12 @@ It can be used to:
 
 This is my digital garden built using [[eleventy-garden]].
 
+## As Alternative to School System?
+
+Just a thought, but what if everyone, instead of learning the same syllabus and competing with each other
+with the same knowledge base, build their own digital garden by following wherever their own interests
+lead them to? Could we fix the lack of talent pool and the rise of unemployment?
+
 ## Resources:
 
 - Obsidian: https://obsidian.md
