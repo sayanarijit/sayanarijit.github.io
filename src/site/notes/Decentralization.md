@@ -24,3 +24,7 @@ Live [[opensource]] projects:
 
 - https://github.com/LemmyNet/lemmy
 - https://github.com/mastodon/mastodon
+
+### Knowledge Graph
+
+- https://www.youtube.com/playlist?list=PLDhh0lALedc5paY4N3NRZ3j_ui9foL7Qc

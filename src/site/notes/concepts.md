@@ -13,6 +13,17 @@ I still don't know what to do with them, but I feel something of value might com
 
 Feel free to steal, but please share with me what you come up with.
 
+## Idea
+
+### Software
+
+<details>
+  <summary>Online Co-Reading App</summary>
+
+People can co-read books uploaded by any participant, as identifiable or anonymous user. Once done reading a page, people can group chat, only with others who are also done reading. When everyone reading a page clicks done, the page is can be turned.
+
+</details>
+
 ## Writing
 
 ### Character
@@ -37,6 +48,13 @@ He started drawing. Looks like a face. A face so miserable. Looks like the face 
   <summary>Selfish Me</summary>
 
 He doesn't cry. But if he ever does, he doesn't like others to see his tears. He'd do anything to hide them. But if he hides his eyes, he can't keep an watch on me. He doesn't know what I might end up doing. He doesn't understand me. He doesn't understand any of what's happening. Not even why his eyes are begging to let it all out. All he knows at the moment is that he needs to keep me in his blurry sight at any cost, while I'm still standing frozen, facing towards the door in close proximity, staring downwards, probably crying too.
+
+</details>
+
+<details>
+  <summary>Why are they laughing teacher?</summary>
+
+Teacher asked why do you want to become doctor? Student replied "to earn money". Everybody laughed, except the teacher.
 
 </details>
 

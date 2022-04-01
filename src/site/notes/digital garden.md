@@ -32,6 +32,7 @@ This is my digital garden built using [[eleventy-garden]].
 
 - Obsidian: https://obsidian.md
 - Obsidian Zettelkasten Workflow: https://youtu.be/wB89lJs5A3s
+- Second Brain: https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
 [^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind

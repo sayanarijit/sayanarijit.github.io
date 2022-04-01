@@ -4,6 +4,7 @@ tags:
   - tech
   - computer-science
   - design
+  - art
 ---
 
 # Design
@@ -14,11 +15,17 @@ tags:
 
 https://youtu.be/lZp4salRFFc
 
+https://youtu.be/Qj1FK8n7WgY
+
 ## Resources
 
 - https://www.uidesigndaily.com/
 - https://collectui.com/
-- https://www.figma.com
-- https://penpot.app/
-- https://www.photopea.com/
 - https://htmlrev.com/
+
+---
+
+Also See:
+
+- [[tools]]
+- [[art]]

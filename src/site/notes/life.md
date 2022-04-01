@@ -12,6 +12,8 @@ tags:
 
 - "You should die naked. If you're still bothered by what other people will think of you, then you can't die just yet" ~ Ryuji Ayukawa.
 
+- There's no need to unnecessary new-ness. Most people crave for "familiar" ~ (Blender Guru in "Understanding Color" TODO verify).
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
