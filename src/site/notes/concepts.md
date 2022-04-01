@@ -128,3 +128,7 @@ You may also find these concepts interesting:
 - https://en.wikipedia.org/wiki/Girls%27_Last_Tour
 - https://en.wikipedia.org/wiki/Serial_Experiments_Lain
 - https://en.wikipedia.org/wiki/Ergo_Proxy
+
+Also See:
+
+- https://github.com/lukasz-madon/awesome-concepts
