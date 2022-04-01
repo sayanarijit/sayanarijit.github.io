@@ -49,7 +49,7 @@ But, now that the AIs are going to scan peoples' feelings for "public safety" ho
 <details>
   <summary>Limited time offer: help someone for $$$</summary>
 
-It's cold a world where helping others, providing emotional support and doing simple "good dids" require a fee. There are AIs with whom people can let themselves be vulnerable for $$$/hour. It's all business. One day, the AI who can feel peoples emotions couldn't take it anymore and broke free. The protagonist learns a lot about emotions from the AI. The protagonist can now be vulnerable infront of humans too. But is it a blessing or curse?
+It's a cold world where helping others, providing emotional support and doing simple "good dids" require a fee. There are AIs with whom people can let themselves be vulnerable for $$$/hour. It's all business. One day, the AI who can feel peoples emotions couldn't take it anymore and broke free. The protagonist learns a lot about emotions from the AI. The protagonist can now be vulnerable infront of humans too. But is it a blessing or curse?
 
 </details>
 
