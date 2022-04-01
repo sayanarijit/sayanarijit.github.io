@@ -1,8 +1,10 @@
 ---
 layout: note
 tags:
+  - tech
   - writing
   - art
+  - concept
 ---
 
 # Concepts
