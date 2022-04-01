@@ -18,7 +18,7 @@ Feel free to steal, but please share with me what you come up with.
 ### Character
 
 <details>
-  <summary>Dettached Genius</summary>
+  <summary>Detached Genius</summary>
 
 A genius who cannot answer a single history question. "Is past really important?" he asks.
 
