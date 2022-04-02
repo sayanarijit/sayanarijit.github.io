@@ -112,6 +112,7 @@ Also See:
 
 - https://doc.rust-lang.org/book/
 - https://github.com/rust-unofficial/awesome-rust
+- https://github.com/tower-rs/tower/tree/master/guides
 - https://fasterthanli.me/
 - https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/
 - https://dimforge.com/

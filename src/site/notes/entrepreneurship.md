@@ -22,6 +22,7 @@ tags:
 - https://rocketlabs.co/submit-your-startup
 - http://web.archive.org/web/20150314220012/http://promotehour.com/
 - https://awesomeindie.com/
+  https://www.notion.so/logology/Where-to-post-your-project-bc6ce54240884770b2467c3b0f7c1624
 - https://airtable.com/shrwqaak73gy83w9A/tblu5RcUft9fYp9Ju/viwFHmIyMniXzlpK4?blocks=show
 
 ## Learning
@@ -55,3 +56,10 @@ See [[seo]]
 
 - https://pioneer.app/courses
 - http://paulgraham.com/articles.html
+
+---
+
+Also See:
+
+- https://github.com/KrishMunot/awesome-startup
+- https://github.com/jasonnoahchoi/awesome-free-startup-resources

@@ -82,21 +82,31 @@ Some popular FP languages are:
 - Scala: Another FP gateway for Java developers.
 - Nix: A dynamic configuration/scripting language.
 
----
 
 ## Resources
 
-Functional Programming for Pragmatists • Richard Feldman • GOTO 2021
+### Functional Programming for Pragmatists • Richard Feldman • GOTO 2021
 
 https://youtu.be/3n17wHe5wEw
+
+### Functional Programming Design Patterns
+
+https://vimeo.com/113588389
+
+### The Functional Programmer's Toolkit
+
+https://youtu.be/Nrp_LZ-XGsY
+
+---
 
 Learn More:
 
 - https://github.com/xgrommx/awesome-functional-programming
-- https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
+- https://www.youtube.com/c/LambdaWorld
+- SICP: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
 - https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw
 - https://www.haskellforall.com/?m=0
 - Practical Common Lisp: https://gigamonkeys.com/book/
--  How to use NixOS for lightweight integration tests: https://www.haskellforall.com/2020/11/how-to-use-nixos-for-lightweight.html
+- How to use NixOS for lightweight integration tests: https://www.haskellforall.com/2020/11/how-to-use-nixos-for-lightweight.html
 
 [^1]: https://news.ycombinator.com/item?id=12056169

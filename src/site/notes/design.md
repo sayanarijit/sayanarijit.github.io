@@ -33,6 +33,8 @@ https://youtu.be/lZp4salRFFc
 - https://www.youtube.com/c/BlenderGuruOfficial
 - https://dev.to/afif/still-100-css-loaders-for-your-next-project-57hp
 - https://twitter.com/vponamariov/status/1381584285300359169
+- Open source emojis for designers, developers and everyone else: https://openmoji.org
+- https://themesberg.com/templates/bootstrap/free
 
 ## Tools
 

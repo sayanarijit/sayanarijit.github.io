@@ -45,6 +45,10 @@ The closest alternative to (Neo)Vim is Emacs, which is also widely popular, but 
 
 https://youtu.be/futay9NjOac
 
+#### Vim as an IDE
+
+https://youtu.be/Gs1VDYnS-Ac
+
 ### Plugins
 
 - https://vimawesome.com/
@@ -54,3 +58,5 @@ https://youtu.be/futay9NjOac
 Also See:
 
 - https://www.reddit.com/r/neovim/comments/lazni2/resources_on_how_to_create_your_own_initlua/
+
+- https://sanctum.geek.nz/arabesque/vim-koans/

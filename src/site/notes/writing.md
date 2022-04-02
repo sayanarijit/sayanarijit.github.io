@@ -29,3 +29,4 @@ See [[fiction]].
 Also see:
 
 - [[speaking]]
+- https://supermemo.guru/wiki/Advantages_of_incremental_writing

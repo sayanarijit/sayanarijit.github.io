@@ -23,6 +23,10 @@ Or
 
 https://youtu.be/I8LbkfSSR58
 
+Or Category Theory for the Working Hacker by Philip Wadler
+
+https://youtu.be/V10hzjgoklA
+
 ## Resources
 
 - https://bartoszmilewski.com/category/category-theory/

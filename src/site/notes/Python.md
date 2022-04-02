@@ -56,3 +56,9 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://github.com/trananhkma/fucking-awesome-python
 
 [^1]: https://peps.python.org/pep-0020/
+
+---
+
+Also See:
+
+- https://github.com/mjhea0/awesome-fastapi

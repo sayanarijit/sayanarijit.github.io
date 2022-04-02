@@ -39,6 +39,7 @@ tags:
 - Blazing-fast screen sharing: https://pop.com/
 - Where team bonding happens: https://getmibo.com/
 - More secure, more flexible, and completely free video conferencing: https://jitsi.org
+- https://thenextweb.com/news/300-awesome-free-things-massive-list-free-resources-know
 
 ---
 

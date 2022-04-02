@@ -29,10 +29,11 @@ Read more:
 
 - https://github.com/sporto/awesome-elm
 
-### Frameworks
+### Frameworks & Libraries (handpicked by me)
 
 - https://elm-spa.dev
 - https://elm-pages.com/
+- https://github.com/dillonkearns/elm-graphql
 
 ### Videos
 
@@ -43,3 +44,15 @@ https://youtu.be/ukVqQGbxM9A
 #### ElmLive - RPG Platform
 
 https://youtu.be/rLSrQjYFVoU
+
+#### Types Without Borders by [[Dillon Kearns]]
+
+https://youtu.be/memIRXFSNkU
+
+---
+
+Also See:
+
+- https://incrementalelm.com/
+- https://elm-radio.com/
+- https://frontendmasters.com/courses/advanced-elm/
