@@ -1,7 +1,6 @@
 ---
 layout: note
 tags:
-  - math
   - individual
   - computer-science
   - learning
