@@ -29,7 +29,7 @@ TODO
 
 This advice is obvious, but it seems we still need to be reminded of every now and then.
 
-There are major differences between **_I'll be able to do_**, **_I can_** and **_I do_**. See for yourself.
+There are major differences between **_I'll be able to_**, **_I can_** and **_I do_**. See for yourself.
 
 - Example 1
 
