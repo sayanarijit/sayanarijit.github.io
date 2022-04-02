@@ -33,12 +33,12 @@ There are major differences between **_I'll be able to do_**, **_I can do_** and
 
 - Example 1
 
-  - I'm very positive that I'll be able to run a profitable restaurant, if you invest $$$ in me.
-  - I can run a restaurant. I know because I did once in the past. Invest $$$ in me confidently.
-  - I sell homemade food to my neighbours and they love it. I have 10 regular customers, but this is my limit with this small kitchen. Wish I had $$$ to get myself a restaurant.
+  - I'm very positive that **_I'll be able to_** run a profitable restaurant, if you invest $$$ in me.
+  - **_I can run_** a restaurant. I know because I did once in the past. Invest $$$ in me confidently.
+  - **_I do_** sell homemade food to my neighbours and they love it. I have 10 regular customers, but this is my limit with this small kitchen. Wish I had $$$ to get myself a restaurant.
 
 - Example 2
 
-  - I'll do my best to learn and build software if you hire me.
-  - I can build software. I built a faculty management app back in school. I also have certification. So, you can hire me.
-  - I build tiny software projects as a hobby every now and then. I wish someone paid me for building bigger software projects though.
+  - **_I'll be able to_** learn and build software if you hire me.
+  - **_I can_** build software. I built a faculty management app back in school. I also have certification. So, you can hire me.
+  - **_I do_** build tiny software projects as a hobby every now and then. I wish someone paid me for building bigger software projects though.
