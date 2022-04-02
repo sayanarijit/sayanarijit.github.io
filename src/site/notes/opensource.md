@@ -18,6 +18,10 @@ GitHub[^2] is the biggest opensource collaboration platform that uses [[git]], t
 
 I enjoy being part of the awesome opensource community. I publish my opensource projects on GitHub as @sayanarijit[^4].
 
+## Learn
+
+- https://opensource.guide/
+
 ## Career
 
 For programmers, opensource opens door to tremendous learning and career growth opportunities leveraging the power of transparency and collaboration.
@@ -26,6 +30,7 @@ For programmers, opensource opens door to tremendous learning and career growth 
 
 - https://endler.dev/2021/oss-money/ by [[Matthias Endler]]
 - https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/ by [[Armin Ronacher]]
+- https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html
 
 ## Benevolent dictators for life
 

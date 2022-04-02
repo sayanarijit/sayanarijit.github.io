@@ -15,9 +15,7 @@ I still don't know what to do with them, but I feel something of value might com
 
 Feel free to steal, but please share with me what you come up with.
 
-## Idea
-
-### Software
+## Software Idea
 
 <details>
   <summary>Online Co-Reading App</summary>
@@ -58,7 +56,7 @@ So, build a platform which will let anyone see the already recorded arguments as
 
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
-## Writing
+## Fiction Writing
 
 ### Character
 
@@ -130,6 +128,7 @@ You may also find these concepts interesting:
 - https://en.wikipedia.org/wiki/Girls%27_Last_Tour
 - https://en.wikipedia.org/wiki/Serial_Experiments_Lain
 - https://en.wikipedia.org/wiki/Ergo_Proxy
+- https://kevinlynagh.com/ideas/
 
 Also See:
 

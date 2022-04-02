@@ -18,10 +18,13 @@ tags:
 - Draw ASCII diagrams: https://asciiflow.com
 - Free and Open Source PaaS: https://caprover.com/
 - Free host for opensource project: https://fosshost.org/
+- Asciinema to GIF: https://dstein64.github.io/gifcast/
+- Instant webhooks, scripts and APIs: https://autocode.com/app/
 
 ## Design
 
 - https://www.figma.com
+- https://www.canva.com/
 - https://penpot.app/
 - https://www.photopea.com/
 - The easiest way to find a color palette: https://palitra.app/
@@ -33,6 +36,9 @@ tags:
 - Name generator: https://www.namy.ai/
 - Accounting: https://plaintextaccounting.org
 - Virtual space: https://popspace.io/
+- Blazing-fast screen sharing: https://pop.com/
+- Where team bonding happens: https://getmibo.com/
+- More secure, more flexible, and completely free video conferencing: https://jitsi.org
 
 ---
 

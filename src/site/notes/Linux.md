@@ -14,3 +14,9 @@ Apart from super computers and servers, Linux is also being used in Mobile (Andr
 Linux based desktops are widely popular among programmers for being developer friendly.
 
 Linux is an [[opensource]] OS kernel created by [[Linus Torvalds]].
+
+---
+
+Also See:
+
+- Linux Timeline v20.10: https://www.reddit.com/r/linux/comments/o4x3ve/linux_timeline_v2010/

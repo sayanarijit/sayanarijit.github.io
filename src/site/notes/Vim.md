@@ -48,3 +48,9 @@ https://youtu.be/futay9NjOac
 ### Plugins
 
 - https://vimawesome.com/
+
+---
+
+Also See:
+
+- https://www.reddit.com/r/neovim/comments/lazni2/resources_on_how_to_create_your_own_initlua/

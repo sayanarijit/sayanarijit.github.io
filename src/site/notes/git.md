@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - computer-science
+  - learning
 ---
 
 # Git
@@ -24,8 +25,14 @@ Similar version control systems are:
 - SVN
 - Mercurial
 
+## Learn
+
+### An open source game about learning Git!
+
+https://ohmygit.org/
+
 ---
 
-Learn more:
+Also See:
 
 - https://github.com/dictcp/awesome-git

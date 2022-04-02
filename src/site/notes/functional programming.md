@@ -97,5 +97,6 @@ Learn More:
 - https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw
 - https://www.haskellforall.com/?m=0
 - Practical Common Lisp: https://gigamonkeys.com/book/
+-  How to use NixOS for lightweight integration tests: https://www.haskellforall.com/2020/11/how-to-use-nixos-for-lightweight.html
 
 [^1]: https://news.ycombinator.com/item?id=12056169

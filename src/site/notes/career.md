@@ -3,9 +3,21 @@ layout: note
 tags:
   - life
   - career
+  - learning
 ---
 
 # Career
+
+## Computer Science
+
+- See [[computer science]], [[programming]], [[algorithm]], [[Learning]] etc.
+
+## Game Development
+
+- http://gamelab.mit.edu/study/courses/
+- https://gafferongames.com/
+- See [[design]], [[art]], [[concepts]], and [[writing]].
+- https://brainium.com/
 
 ## Jobs
 

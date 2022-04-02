@@ -16,6 +16,10 @@ Also, WebAssembly has managed to find plenty of use cases outside Web (e.g. embe
 
 https://youtu.be/o6qe4lw9-8c
 
+## Resources
+
+- Run [[Rust]] WASM on the cloud: https://webassembly.cloud/
+
 ## Learn more:
 
 - https://webassembly.org

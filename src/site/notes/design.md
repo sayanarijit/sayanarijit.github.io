@@ -31,6 +31,8 @@ https://youtu.be/lZp4salRFFc
 - Daily Designer Inspiration: https://collectui.com/
 - Free HTML templates: https://htmlrev.com/
 - https://www.youtube.com/c/BlenderGuruOfficial
+- https://dev.to/afif/still-100-css-loaders-for-your-next-project-57hp
+- https://twitter.com/vponamariov/status/1381584285300359169
 
 ## Tools
 

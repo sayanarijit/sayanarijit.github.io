@@ -23,3 +23,5 @@ All I know about art is:
 Also See:
 
 - [[design]]
+- Art Gallery: https://www.deviantart.com/
+- [[fiction]]

@@ -44,3 +44,7 @@ Some of the most popular terminals are:
 - https://github.com/agarrharr/awesome-cli-apps
 - https://github.com/rothgar/awesome-tuis
 - https://qmacro.org/
+
+Also See:
+
+- OpenAI-powered Linux shell that does what you mean: https://youtu.be/j0UnS3jHhAA

@@ -82,11 +82,38 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials
 
+#### Green Threads Explained in 200 Lines of Rust
+
+- https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/
+
+#### Book Exploring Async Basics with Rust
+
+- https://cfsamson.github.io/book-exploring-async-basics
+
+#### Actors with Tokio
+
+- https://ryhl.io/blog/actors-with-tokio/
+
+#### Learn Rust With Entirely Too Many Linked Lists
+
+- https://rust-unofficial.github.io/too-many-lists/
+
+#### Explaining rust-analyzer
+
+- https://www.youtube.com/playlist?list=PLhb66M_x9UmrqXhQuIpWC5VgTdrGxMx3y
+
+#### Make A Language
+
+- https://arzg.github.io/lang/
+
 ---
 
-Learn more:
+Also See:
 
 - https://doc.rust-lang.org/book/
 - https://github.com/rust-unofficial/awesome-rust
 - https://fasterthanli.me/
 - https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/
+- https://dimforge.com/
+- https://cheats.rs/
+- https://www.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/

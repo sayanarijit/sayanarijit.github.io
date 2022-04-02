@@ -20,6 +20,7 @@ Related Standards:
 - https://github.com/gdamdam/awesome-decentralized-web
 - https://decentralized-id.com/web-standards/linked-data/
 - https://schema.org
+- https://blockchainhub.net/web3-decentralized-web/
 
 Live [[opensource]] projects:
 

@@ -27,3 +27,10 @@ See [[career]].
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
+- https://benwiederhake.github.io/randombias/
+
+## Mental Health
+
+### Dabrowski’s Theory and Existential Depression in Gifted Children and Adults
+
+- https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/

@@ -8,11 +8,18 @@ tags:
 
 # Category Theory
 
-Category Theory is a field of [[Mathematics]].
+Category Theory is a field of [[Mathematics]] which IMO defines the most interesting concepts of [[functional programming]].
 
 [[Bartosz Milewski]] can tell you all about Category Theory.
 
+
+https://youtu.be/iJ7V1KXJpsE
+
+Or
+
 https://youtu.be/JH_Ou17_zyU
+
+Or
 
 https://youtu.be/I8LbkfSSR58
 
