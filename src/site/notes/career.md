@@ -34,7 +34,7 @@ There are major differences between **_I'll be able to do_**, **\_I can** and **
 - Example 1
 
   - I'm very positive that **_I'll be able to_** run a profitable restaurant, if you invest $$$ in me.
-  - **\_I can** run a restaurant. I know because I did once in the past. Invest $$$ in me confidently.
+  - **_I can_** run a restaurant. I know because I did once in the past. Invest $$$ in me confidently.
   - **_I do_** sell homemade food to my neighbours and they love it. I have 10 regular customers, but this is my limit with this small kitchen. Wish I had $$$ to get myself a restaurant.
 
 - Example 2
