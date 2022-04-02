@@ -72,7 +72,7 @@ A genius who cannot answer a single history question. "Is past really important?
 <details>
   <summary>Paranoid of Feeling</summary>
 
-In a world filled with people and institutions exploiting every opportunity to influence what or how people feel about something or someone, without their approval, "for their own benefit", the protagonist feels paranoid of feeling anything.
+In a world filled with people and institutions exploiting every opportunity to influence what or how people feel about something or someone, without their approval, "for their own benefit", the protagonist is paranoid of feeling anything.
 
 But, now that the AIs are going to scan peoples' feelings for "public safety" how is he going to survive?
 
