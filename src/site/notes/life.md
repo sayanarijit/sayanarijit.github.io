@@ -43,4 +43,5 @@ See [[career]].
 
 Also See:
 
-- https://wiki.xxiivv.com/site/aesthetics.html
+- https://wiki.xxiivv.com/site/lifestyle.html
+- My Journey (A.P.J. Abdul Kalam): https://www.goodreads.com/book/show/18371021-my-journey

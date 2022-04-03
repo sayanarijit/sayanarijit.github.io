@@ -36,6 +36,7 @@ lead them to? Could we fix the lack of talent pool and the rise of unemployment 
 
 ## Resources:
 
+- https://github.com/fhoehl/awesome-zettelkasten
 - Obsidian: https://obsidian.md
 - Obsidian Zettelkasten Workflow: https://youtu.be/wB89lJs5A3s
 - Second Brain: https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/

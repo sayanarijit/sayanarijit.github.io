@@ -34,6 +34,10 @@ tags:
 - https://rocketlabs.co/submit-your-startup
 - https://submit.co/
 
+## Value Proposition
+
+- Golden Circle: https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
+
 ## Ideas
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use
