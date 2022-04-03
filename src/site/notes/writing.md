@@ -30,3 +30,4 @@ Also see:
 
 - [[speaking]]
 - https://supermemo.guru/wiki/Advantages_of_incremental_writing
+- https://news.ycombinator.com/item?id=21691168
