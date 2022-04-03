@@ -24,3 +24,4 @@ https://youtu.be/o6qe4lw9-8c
 
 - https://webassembly.org
 - https://github.com/mbasso/awesome-wasm
+- https://lunatic.solutions/
