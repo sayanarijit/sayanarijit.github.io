@@ -39,6 +39,7 @@ lead them to? Could we fix the lack of talent pool and the rise of unemployment 
 - Obsidian: https://obsidian.md
 - Obsidian Zettelkasten Workflow: https://youtu.be/wB89lJs5A3s
 - Second Brain: https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/
+- Quartz: https://quartz.jzhao.xyz/
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
 [^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind
