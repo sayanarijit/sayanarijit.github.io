@@ -38,6 +38,7 @@ tags:
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 - http://www.paulgraham.com/startupideas.html
+- Learn spreadsheet-ops and try to turn them into products.
 
 ## Work Cultures
 
@@ -51,6 +52,16 @@ See [[seo]]
 ## Technical
 
 - https://anthonynsimon.com/blog/one-man-saas-architecture/
+
+## Project Planning
+
+- What are the major deliverables of project?
+
+- How are we supposed to get our deliverables on or before time?
+
+- Who will be involved in the project? What will be their responsibility?
+
+- When will the project start? And when is it expected to end?
 
 ## Others
 

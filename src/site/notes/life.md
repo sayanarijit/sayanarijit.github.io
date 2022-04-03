@@ -38,3 +38,9 @@ See [[career]].
 ### Dabrowski’s Theory and Existential Depression in Gifted Children and Adults
 
 - https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/
+
+---
+
+Also See:
+
+- https://wiki.xxiivv.com/site/aesthetics.html
