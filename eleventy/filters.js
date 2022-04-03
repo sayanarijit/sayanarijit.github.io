@@ -88,6 +88,8 @@ module.exports = (eleventyConfig, md) => {
       (item.data.tags || []).forEach((tag) => tagSet.add(tag));
     });
 
-    return filterTagList([...tagSet]);
+    let tags = filterTagList([...tagSet]);
+    tags.sort();
+    return tags;
   });
 };

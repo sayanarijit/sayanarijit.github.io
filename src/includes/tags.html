@@ -1,9 +1,10 @@
 <p>
-  {% if tags.length > 0%} {% for tag in tags %}
+  {% assign sortedTags = tags | sort %} {% if tags.length > 0%} {% for tag in
+  sortedTags %}
   <span>
     <span> </span>
     <a href="/tags/{{tag}}">🏷️ {{tag}}</a>
     <span> </span>
   </span>
-  {% endfor %} {% else %} {% endif %}
+  {% endfor %} {% endif %}
 </p>
