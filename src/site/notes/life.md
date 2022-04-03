@@ -24,6 +24,10 @@ See [[career]].
 
 - "When you ask a dumb question, you might get a smart, unexpected answer" ~ James Scott Bell
 
+- "Meaningful life" is subjective. But "The meaning of life" is objective. Living a "meaningful life" is an aspect of living a good life, or of well-being, which some achieve and others don't, to differing degrees. If there is a "meaning of life", it would be a single meaning that applies to everyone.
+
+- The purpose of life might be to ultimately figure out the purpose of life collectively.
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/

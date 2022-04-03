@@ -14,6 +14,8 @@ There's also an [[RSS feed]] you can subscribe to.
 
 > ⚠️ These notes are not necessarily correct, as they contain my own interpretation of things.
 
+➕ [[Create New Note]]
+
 # Tags
 
 <ul>

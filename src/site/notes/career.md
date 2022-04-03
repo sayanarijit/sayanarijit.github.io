@@ -19,9 +19,9 @@ tags:
 - See [[design]], [[art]], [[concepts]], and [[writing]].
 - https://brainium.com/
 
-## Jobs
+## Find Work
 
-TODO
+- See [[jobs]]
 
 ## Web Developer
 
