@@ -13,7 +13,7 @@ Related terms are:
 
 - Personal Knowledge Management (PKM)
 - Zettelkasten
-- Second Brain
+- Second Brain[^3]
 - Knowledge Graph
 - Mind Garden[^2]
 
@@ -44,3 +44,4 @@ lead them to? Could we fix the lack of talent pool and the rise of unemployment 
 
 [^1]: https://github.com/MaggieAppleton/digital-gardeners
 [^2]: https://www.mentalnodes.com/a-gardening-guide-for-your-mind
+[^3]: https://github.com/KasperZutterman/Second-Brain
