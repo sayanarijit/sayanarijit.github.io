@@ -13,7 +13,7 @@ tags:
 # Armin Ronacher
 
 
-Armin Ronacher is an [[oopensource]] developer, founder, speaker, blogger.
+Armin Ronacher is an [[opensource]] developer, founder, speaker, blogger.
 
 He is well knows for his contributions towards [[Python]], and currently [[Rust]] ecosystem.
 
