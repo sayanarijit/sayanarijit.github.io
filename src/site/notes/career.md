@@ -14,10 +14,7 @@ tags:
 
 ## Game Development
 
-- http://gamelab.mit.edu/study/courses/
-- https://gafferongames.com/
-- See [[design]], [[art]], [[concepts]], and [[writing]].
-- https://brainium.com/
+- See [[game development]]
 
 ## Find Work
 
@@ -45,9 +42,9 @@ There are major differences between **_I'll be able to_**, **_I can_** and **_I 
 
 - Example 1
 
-  - I'm very positive that **_I'll be able to_** run a profitable restaurant, if you invest $$$ in me.
-  - **_I can_** run a profitable restaurant. I know because I did once in the past. Invest $$$ in me confidently.
-  - **_I do_** sell homemade food to my neighbours and they love it. I cook for up-to 10 regular customers in my little kitchen. I wish I had $$$ to get myself a restaurant.
+  - I'm very positive that **_I'll be able to_** run a profitable restaurant, if you invest `$$$` in me.
+  - **_I can_** run a profitable restaurant. I know because I did once in the past. Invest `$$$` in me confidently.
+  - **_I do_** sell homemade food to my neighbours and they love it. I cook for up-to 10 regular customers in my little kitchen. I wish I had `$$$` to get myself a restaurant.
 
 - Example 2
 
