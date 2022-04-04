@@ -106,6 +106,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://arzg.github.io/lang/
 
+#### Dynamic vs Static Dispatch in Rust
+
+- https://youtu.be/tM2r9HD4ivQ
+
 ---
 
 Also See:
