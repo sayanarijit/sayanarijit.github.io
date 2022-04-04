@@ -32,7 +32,7 @@ All jobs are [[computer science]] related.
 - https://remoteindian.com/jobs
 - https://remoteleaf.com/
 
-### Consultancy
+### Consulting
 
 - https://sourcehut.org/consultancy/
 - https://wellpaid.io/
