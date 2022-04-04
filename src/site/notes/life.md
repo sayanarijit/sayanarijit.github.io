@@ -28,6 +28,8 @@ See [[career]].
 
 - The purpose of life might be to ultimately figure out the purpose of life collectively.
 
+- Randy Pausch's Last Lecture: https://www.cmu.edu/randyslecture/
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
