@@ -13,6 +13,8 @@ tags:
 
 - Sam Altman on Choosing Projects, Creating Value, and Finding Purpose: https://youtu.be/uEl2KUZ3JWA
 
+- Golden Circle: https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
+
 ## Marketing
 
 - https://www.helpareporter.com/
@@ -33,10 +35,6 @@ tags:
 - https://www.communitybuildingguide.com/
 - https://rocketlabs.co/submit-your-startup
 - https://submit.co/
-
-## Value Proposition
-
-- Golden Circle: https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
 
 ## Ideas
 
