@@ -49,7 +49,7 @@ tags:
 
 ## SEO
 
-See [[seo]]
+See [[SEO]]
 
 ## Technical
 
