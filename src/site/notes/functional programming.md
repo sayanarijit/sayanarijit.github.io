@@ -61,7 +61,7 @@ https://youtu.be/QyJZzq0v7Z4
 
 Mathematics is the basis of FP, but IMO [[Category Theory]] defines the most interesting concepts of FP.
 
-Two algebraic data types that define the building block that you will encounter in many FP languages are:
+Two algebraic data types that define the building blocks of FP that you will encounter in many FP languages are:
 
 - Sum Type (or): Only one of the many possible values of the type can exist at one time (e.g. `int`, `char`, `enum` in OOP).
 - Product Type (and): Values of different types exist together (e.g. `object`, `list of objects` in OOP).
