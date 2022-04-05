@@ -61,12 +61,10 @@ https://youtu.be/QyJZzq0v7Z4
 
 Mathematics is the basis of FP, but IMO [[Category Theory]] defines the most interesting concepts of FP.
 
-Four primary mathematical data types that you will encounter in many FP languages are:
+Two algebraic data types that define the building block that you will encounter in many FP languages are:
 
-- Unit Type: Only one version of the data can exist in the entire category (e.g. `null` in OOP).
-- Sum Type: Only one of the many versions of data in a particular category can exist (e.g. `int`, `char`, `enum` in OOP).
-- Product Type: A collection of Unit Type, Sum Type and Product Type data (e.g. `object`, `list of objects` in OOP).
-- Function: Functions are first-class citizens in FP. i.e. they can be passed around as argumets like any other data type.
+- Sum Type (or): Only one of the many possible values of the type can exist at one time (e.g. `int`, `char`, `enum` in OOP).
+- Product Type (and): Values of different types exist together (e.g. `object`, `list of objects` in OOP).
 
 https://youtu.be/JH_Ou17_zyU
 
