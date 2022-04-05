@@ -64,4 +64,4 @@ Also see:
 - How to Build a Universe That Doesn’t Fall Apart Two Days Later: https://urbigenous.net/library/how_to_build.html
 - Creating Strong Video Game Characters: https://youtu.be/4mgK2hL33Vw
 - Storytelling Tools to Boost Your Indie Game's Narrative and Gameplay: https://youtu.be/8fXE-E1hjKk
-- Learn about writing from this awesome animes: https://en.wikipedia.org/wiki/Shirobako
+- Learn about writing from this awesome anime: https://en.wikipedia.org/wiki/Shirobako
