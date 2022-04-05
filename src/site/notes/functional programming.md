@@ -63,7 +63,7 @@ Mathematics is the basis of FP, but IMO [[Category Theory]] defines the most int
 
 Two algebraic data types that define the building blocks of FP that you will encounter in many FP languages are:
 
-- Sum Type (or): Only one of the many possible values of the type can exist at one time (e.g. `int`, `char`, `enum` in OOP).
+- Sum Type (or): Value of only one of the many possible types can exist at one time (e.g. `int`, `char`, `enum` in OOP).
 - Product Type (and): Values of different types exist together (e.g. `object`, `list of objects` in OOP).
 
 https://youtu.be/JH_Ou17_zyU
