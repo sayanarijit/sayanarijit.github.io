@@ -51,3 +51,4 @@ All jobs are [[computer science]] related.
 - https://github.com/randallkanna/awesome-job-list
 - https://jobseer.ai/
 - https://www.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers
+- https://github.com/Kaustubh-Natuskar/moreThanFAANGM
