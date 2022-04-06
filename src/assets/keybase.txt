@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sayanarijit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://arijitbasu.in
+  * I am sayanarijit (https://keybase.io/sayanarijit) on keybase.
+  * I have a public key ASBLw7LpxU4kSCUZe2Ari3dNuh8BSX8yLqDoe5nP35R3HAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204bc3b2e9c54e244825197b602b8b774dba1f01497f322ea0e87b99cfdf94771c0a",
+      "host": "keybase.io",
+      "kid": "01204bc3b2e9c54e244825197b602b8b774dba1f01497f322ea0e87b99cfdf94771c0a",
+      "uid": "b04a685caa69121f67138af3acdac819",
+      "username": "sayanarijit"
+    },
+    "merkle_root": {
+      "ctime": 1649226993,
+      "hash": "79e40dc1c1c11740fabae96e21fa5b06234f89166b0266b6228218727648e9c45d1015cb258a559ffa0a523196258d89d7d50009de726333656ba3121d720ab7",
+      "hash_meta": "49f32ab414d6a48ea14e08171c8f453d9596c1271904871094056a79b28c9e18",
+      "seqno": 22238844
+    },
+    "service": {
+      "entropy": "m69CA5vNF5RBDKkZvPTHiQBO",
+      "hostname": "arijitbasu.in",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1649227021,
+  "expire_in": 504576000,
+  "prev": "7dad4b783afb4e0b8305182e45117dca299adbfbb6d96a92d56f6f9ed781a65a",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgS8Oy6cVOJEglGXtgK4t3TbofAUl/Mi6g6HuZz9+UdxwKp3BheWxvYWTESpcCHMQgfa1LeDr7TguDBRguRRF9yima2/u22WqS1W9vnteBplrEIBsFSafiE/MS83oCTE7zHG3965FWoeBTzluXbQICqEMRAgHCo3NpZ8RAunnQ7uPN3mCfEW0UWKtQpNCEnZLn3ykxNmPmbm+AA6yMEAKEKmEOCYZJK0GO4cFjoL5tj+x3xkHt3GNZpacDBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDkehQC3R6tTU2SjKNtfbGKqbeySKDA601rz1GHcH4nJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sayanarijit
+
+==================================================================
