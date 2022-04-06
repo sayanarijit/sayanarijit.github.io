@@ -16,3 +16,4 @@ tags:
 - https://ahrefs.com/blog/seo-checklist/
 - https://www.clickminded.com/seo-checklist/
 - https://www.semrush.com/blog/seo-checklist/
+- Favicon generator: https://www.favicon-generator.org/
