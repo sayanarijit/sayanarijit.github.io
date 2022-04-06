@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
+  eleventyConfig.addPassthroughCopy({ 'src/site/keybase.txt': 'keybase.txt' });
   eleventyConfig.setUseGitIgnore(false);
 
   const embedYouTube = require('eleventy-plugin-youtube-embed');
