@@ -30,8 +30,9 @@ See [[career]].
 
 - Randy Pausch's Last Lecture: https://www.cmu.edu/randyslecture/
 
-- Joe Rogan with Naval Ravikant: https://youtu.be/3qHkcs3kG44
- Skip to 1:36:08
+- If there was an objective meaning of life, we wouldn't be free, we'd work like robots and compete with each other to fulfill that single meaning more than the others - Naval Ravikant: https://youtu.be/3qHkcs3kG44 Skip to 1:36:08
+
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
