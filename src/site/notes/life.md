@@ -30,6 +30,8 @@ See [[career]].
 
 - Randy Pausch's Last Lecture: https://www.cmu.edu/randyslecture/
 
+- Joe Rogan with Naval Ravikant: https://youtu.be/3qHkcs3kG44
+ Skip to 1:36:08
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
