@@ -22,6 +22,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 
 ## Resources
 
+- Software Engineering blogs: https://github.com/sumodirjo/engineering-blogs
 - https://blog.pragmaticengineer.com/
 - https://github.com/Alliedium/awesome-software-engineering
 - https://backend.husseinnasser.com/
