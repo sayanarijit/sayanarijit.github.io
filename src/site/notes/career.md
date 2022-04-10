@@ -51,3 +51,10 @@ There are major differences between **_I'll be able to_**, **_I can_** and **_I 
   - **_I'll be able to_** learn and build software if you hire me.
   - **_I can_** build software. I built a faculty management app back in school. I also have certification. So, you can hire me.
   - **_I do_** build tiny software projects as a hobby every now and then. I wish someone paid me for building bigger software projects.
+
+-----
+
+Also See:
+
+- [[money]]
+- [[life]]
