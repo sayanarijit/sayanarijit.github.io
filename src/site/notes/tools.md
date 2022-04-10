@@ -20,6 +20,7 @@ tags:
 - Free host for opensource project: https://fosshost.org/
 - Asciinema to GIF: https://dstein64.github.io/gifcast/
 - Instant webhooks, scripts and APIs: https://autocode.com/app/
+- Deploy App Servers: https://fly.io
 
 ## Design
 
