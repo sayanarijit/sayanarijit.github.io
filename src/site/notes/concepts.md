@@ -18,6 +18,13 @@ Feel free to steal, but please share with me what you come up with.
 ## Software Idea
 
 <details>
+  <summary>GitHub for writers</summary>
+
+A platform for writers around the world to collaborate openly and build interesting characters, plots, scenerios etc. Not only for profit, but for fun, learning and inspiring others.
+
+</details>
+
+<details>
   <summary>Online Co-Reading App</summary>
 
 People can co-read books uploaded by any participant, as identifiable or anonymous user. Once done reading a page, people can group chat, only with others who are also done reading. When everyone reading a page clicks done, the page is can be turned.
