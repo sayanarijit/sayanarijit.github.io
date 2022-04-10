@@ -35,6 +35,7 @@ https://youtu.be/lZp4salRFFc
 - https://twitter.com/vponamariov/status/1381584285300359169
 - Open source emojis for designers, developers and everyone else: https://openmoji.org
 - https://themesberg.com/templates/bootstrap/free
+- Design system: https://nordhealth.design/
 
 ## Tools
 
