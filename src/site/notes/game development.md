@@ -65,3 +65,5 @@ tags:
 - [https://github.com/KhronosGroup/glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO)
 
 - [https://www.turbosquid.com/3d-models/free-max-mode-caterham-sports-car/733021](https://www.turbosquid.com/3d-models/free-max-mode-caterham-sports-car/733021)
+
+- https://gamemakers.substack.com
