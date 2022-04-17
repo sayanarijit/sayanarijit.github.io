@@ -30,7 +30,7 @@ See [[career]].
 
 - Randy Pausch's Last Lecture: https://www.cmu.edu/randyslecture/
 
-- If there was an objective meaning of life, we wouldn't be free, we'd work like robots and compete with each other to fulfill that single meaning more than the others - Naval Ravikant: https://youtu.be/3qHkcs3kG44 Skip to 1:36:08
+- If there was an objective meaning of life, we wouldn't be free, we'd work like robots and compete with each other to fulfill that single meaning more than the others - [[Naval Ravikant]]: https://youtu.be/3qHkcs3kG44 Skip to 1:36:08
 
 - If you are confused about how you want to live, focus on how you want to die.
 
