@@ -110,6 +110,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://youtu.be/tM2r9HD4ivQ
 
+#### Implementing a safe garbage collector in Rust
+
+- https://coredumped.dev/2022/04/11/implementing-a-safe-garbage-collector-in-rust/
+
 ---
 
 Also See:
