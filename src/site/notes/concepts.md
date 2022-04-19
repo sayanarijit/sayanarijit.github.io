@@ -128,20 +128,6 @@ Argument: You can be a worker or an artist.
 
 Argument: Credit vs copyright.
 
-<details>
-  <summary>The world is run by a bunch of homeless</summary>
-
-"I know that they are Indians and they will always stay Indians, but when the
-topic is being discussed, the emotion runs so deep in me that I don't want to
-think of them as Indians, I want to think of them as runaways from their home.
-
-Maybe their home couldn't or didn't treat them right, or maybe they couldn't or
-didn't appreciate the treatment, whatever may be the reason, I think they ran
-away from their home, and now the world is run by a bunch of homeless."
-
-</details>
-
-
 ---
 
 You may also find these concepts interesting:
