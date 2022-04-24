@@ -34,6 +34,8 @@ See [[career]].
 
 - If you are confused about how you want to live, focus on how you want to die.
 
+- If you're doing something you like, wear something different, be unique, be creative, express yourself.
+
 
 ## We all are Hypocrites
 
