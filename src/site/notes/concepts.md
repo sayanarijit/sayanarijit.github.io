@@ -88,6 +88,13 @@ A passionate drummer who talks to his drums. Each drum is apparently named after
 
 </details>
 
+<details>
+  <summary>The misunderstood optimist</summary>
+
+People say he's a pessimistic. He seems depressed even when everyone else around him are having a blast in every party. He's a quiet person, but he says he's happy most of time. But during party, apparently the loud music tries to deny him the freedom to hear other sounds. But isn't that the point?
+
+</details>
+
 ### Plot
 
 <details>
