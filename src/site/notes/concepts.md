@@ -81,6 +81,13 @@ During childhood, as part of a fun play, two brothers developed their own commun
 
 </details>
 
+<details>
+  <summary></summary>
+
+A drummer who talks to his drums. Each drum is apparently named after people he knew from his past. Except one special drum. He doesn't know who it is named after. So he can't play that particular drum well.
+
+</details>
+
 ### Plot
 
 <details>
