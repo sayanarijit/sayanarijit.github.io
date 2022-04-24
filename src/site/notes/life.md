@@ -41,6 +41,7 @@ See [[career]].
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
 - https://benwiederhake.github.io/randombias/
+- https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/consistency-and-ethics/
 
 ## Mental Health
 
