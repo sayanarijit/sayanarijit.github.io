@@ -38,7 +38,7 @@ My Pythonic [[opensource]] projects:
 
 https://github.com/sayanarijit?tab=repositories&language=python
 
-## Frameworks and Libraries (handpicked by me)
+## Frameworks, Libraries and Tools (handpicked by me)
 
 - https://fastapi.tiangolo.com/
 - https://github.com/pallets/flask
@@ -48,6 +48,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://pydantic-docs.helpmanual.io/
 - https://typer.tiangolo.com/
 - https://github.com/celery/celery
+- https://arijitbasu.in/notes/concepts/
 
 ## Resources
 
