@@ -48,7 +48,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://pydantic-docs.helpmanual.io/
 - https://typer.tiangolo.com/
 - https://github.com/celery/celery
-- https://arijitbasu.in/notes/concepts/
+- https://github.com/bloomberg/memray
 
 ## Resources
 
