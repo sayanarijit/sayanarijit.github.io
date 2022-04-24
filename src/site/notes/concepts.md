@@ -74,6 +74,13 @@ A genius who cannot answer a single history question. "Is past really important?
 
 </details>
 
+<details>
+  <summary>Hidden meaning communication duo</summary>
+
+During childhood, as part of a fun play, two brothers developed their own communication language that can he hidden under the disguise of their native language. They became so proficient in it, that when they're together, they can fool almost anybody in the world. Yes they have sharp brains.
+
+</details>
+
 ### Plot
 
 <details>
