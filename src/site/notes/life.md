@@ -49,6 +49,10 @@ See [[career]].
 
 - https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/
 
+## Ethics
+
+- https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/
+
 ---
 
 Also See:
