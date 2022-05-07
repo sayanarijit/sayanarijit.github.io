@@ -52,6 +52,19 @@ There are major differences between **_I'll be able to_**, **_I can_** and **_I 
   - **_I can_** build software. I built a faculty management app back in school. I also have certification. So, you can hire me.
   - **_I do_** build tiny software projects as a hobby every now and then. I wish someone paid me for building bigger software projects.
 
+### Don't
+
+This is similar to the above advice, but worth mentioning anyway.
+
+You rarely get anywhere with "**after I** get this, **then I'll** do that" mentality, unless someone else wants you to do it. So for things you genuinely want to do, better try to recognise and get rid of this mentality.
+
+Examples:
+
+- **After I** improve my lifestyle, **then I'll** start practicing yoga.
+- **After I** become rich, **then I'll** become humble.
+- **After I** get hired, **then I'll** learn things I want to learn.
+- **After I** become successful, **then I'll** work hard.
+
 -----
 
 Also See:
