@@ -61,6 +61,20 @@ So, build a platform which will let anyone see the already recorded arguments as
 
 </details>
 
+<details>
+  <summary>Self Awareness Assistant</summary>
+
+A digital assistant to help with self awareness. It asks us increasing difficult questions, and helps us by providing resources we can use to find an answer (both subjective and objective), if we don't already have.
+
+</details>
+
+<details>
+  <summary>TODO list that helps us enjoy boredom</summary>
+
+Most TODO lists today exists to destroy our boredom by making us anxious. I want to see a TODO list that won't show me a thing unless it's the perfect time to do it.
+
+</details>
+
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
 ## Fiction Writing
