@@ -36,6 +36,8 @@ See [[career]].
 
 - If you're doing something you like, wear something different, be unique, be creative, express yourself.
 
+- If you want something, before aquiring it, ask yourself... Will it make you happier in life? Once you get it, would you really cherish it for the rest of your life, even if you don't get to show it off to other people?
+
 
 ## We all are Hypocrites
 
