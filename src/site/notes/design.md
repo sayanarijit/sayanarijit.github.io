@@ -36,6 +36,7 @@ https://youtu.be/lZp4salRFFc
 - Open source emojis for designers, developers and everyone else: https://openmoji.org
 - https://themesberg.com/templates/bootstrap/free
 - Design system: https://nordhealth.design/
+- Firefox Design: https://design.firefox.com/
 
 ## Tools
 
