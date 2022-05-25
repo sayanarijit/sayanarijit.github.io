@@ -28,6 +28,6 @@ Read this book if:
 
 ## Notes
 
-Notes are private.
+https://hamberg.no/gtd
 
 https://www.notion.so/sayanarijit/GTD-bb9a871ac09247c295e643948716e075
