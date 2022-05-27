@@ -75,6 +75,14 @@ Most TODO lists today exists to destroy our boredom by making us anxious. I want
 
 </details>
 
+
+<details>
+  <summary>How unique are you?</summary>
+
+A psychological game that asks philosophical questions with only two options, both should be valid answers, but the user will choose one. Each question is related to one another. See how many questions does it take for you to be considered completely unique.
+
+</details>
+
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
 ## Fiction Writing
