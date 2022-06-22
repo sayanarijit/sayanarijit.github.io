@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - computer-science
+  - personal-opinion
 ---
 
 # Configuration, Environments and Secrets
