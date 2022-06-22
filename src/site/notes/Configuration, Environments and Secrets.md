@@ -4,8 +4,6 @@ tags:
   - tech
   - computer-science
   - career
-  - software-engineering
-  - software-development
 ---
 
 # Configuration, Environments and Secrets
