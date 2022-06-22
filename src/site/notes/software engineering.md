@@ -20,6 +20,10 @@ For example, when you build a backend for a website, you neither write the datab
 
 However, the role of a Software Engineer include responsibilities way beyond just integrating software. They are also responsible for designing, deploying, analysing and maintaining software.
 
+## Personal Opinions
+
+-- [[Configuration, Environments and Secrets]]
+
 ## Resources
 
 - Software Engineering blogs: https://github.com/sumodirjo/engineering-blogs
