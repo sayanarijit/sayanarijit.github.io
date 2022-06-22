@@ -3,7 +3,6 @@ layout: note
 tags:
   - tech
   - computer-science
-  - career
 ---
 
 # Configuration, Environments and Secrets
