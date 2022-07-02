@@ -38,6 +38,9 @@ See [[career]].
 
 - If you want something, before aquiring it, ask yourself... Will it make you happier in life? Once you get it, would you really cherish it for the rest of your life, even if you don't get to show it off to other people?
 
+- Develop a third eye for detecting distracting information. Be aware of the distractions. Keep a record of what distracted you throughout the day. Review weekly or monthly and optimize. Even relevant information can be irrelevant at the wrong time. Optimize how to handle them.
+
+- Keep a record of what you own and why. Track every little thing. Review weekly or monthly to optimise.
 
 ## We all are Hypocrites
 
