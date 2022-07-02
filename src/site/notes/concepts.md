@@ -178,6 +178,8 @@ Argument: You can be a worker or an artist.
 
 Argument: Credit vs copyright.
 
+Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement
+
 ---
 
 You may also find these concepts interesting:
