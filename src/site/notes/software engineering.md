@@ -22,7 +22,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 
 ## Personal Opinions
 
-- [[Configuration, Environments and Secrets]]
+- [[Configuration Environments and Secrets]]
 
 ## Resources
 
