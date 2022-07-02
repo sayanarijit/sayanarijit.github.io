@@ -114,6 +114,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://coredumped.dev/2022/04/11/implementing-a-safe-garbage-collector-in-rust/
 
+#### The curse of strong typing
+
+- https://fasterthanli.me/articles/the-curse-of-strong-typing
+
 ---
 
 Also See:

@@ -38,6 +38,10 @@ All jobs are [[computer science]] related.
 - https://wellpaid.io/
 - https://chrisachard.com/how-to-find-consulting-clients
 
+### Anon Friendly
+
+- https://anonfriendly.com/
+
 ### Other
 
 - https://github.com/randallkanna/awesome-job-list

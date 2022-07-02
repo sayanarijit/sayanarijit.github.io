@@ -75,7 +75,6 @@ Most TODO lists today exists to destroy our boredom by making us anxious. I want
 
 </details>
 
-
 <details>
   <summary>How unique are you?</summary>
 
@@ -121,6 +120,14 @@ A passionate drummer who talks to his drums. Each drum is apparently named after
   <summary>The misunderstood optimist</summary>
 
 People say he's a pessimistic. He seems depressed even when everyone else around him are having a blast in every party. He's a quiet person, but he says he's happy most of time. But during party, apparently the loud music tries to deny him the freedom to hear other sounds. But isn't that the point?
+
+</details>
+
+<details>
+  <summary>The Typical Writer</summary>
+
+Me: what's your job?
+Writer: I listen to interesting arguments, a lot. Whether it's online or in real life. And note them down. If possible, try to make them argue more, and note everything down. And when I have enough, I organized them and sell them. I call them stories.
 
 </details>
 
@@ -178,7 +185,9 @@ Argument: You can be a worker or an artist.
 
 Argument: Credit vs copyright.
 
-Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement
+Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement.
+
+Point of view: Embrace bubbles because the whole humanity and even the whole universe is just a bubble.
 
 ---
 

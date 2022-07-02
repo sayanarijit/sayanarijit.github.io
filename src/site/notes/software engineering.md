@@ -40,3 +40,9 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/
 - https://developers.cloudflare.com/
 - https://www.worldql.com/posts/2021-08-worldql-scalable-minecraft/
+
+---
+
+Also See:
+
+- [[security]]
