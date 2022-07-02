@@ -55,6 +55,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://www.python.org/
 - https://github.com/vinta/awesome-python
 - https://github.com/trananhkma/fucking-awesome-python
+- https://www.cosmicpython.com/
 
 [^1]: https://peps.python.org/pep-0020/
 
