@@ -77,3 +77,4 @@ Also See:
 - https://github.com/KrishMunot/awesome-startup
 - https://github.com/jasonnoahchoi/awesome-free-startup-resources
 - https://baremetrics.com/blog/saas-financial-model
+- [[money]]

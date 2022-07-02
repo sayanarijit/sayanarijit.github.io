@@ -3,6 +3,7 @@ layout: note
 tags:
   - career
   - life
+  - business
 ---
 
 # Money
