@@ -30,9 +30,11 @@ tags:
 
 - If you like playing games, it may not always mean you will like making games too. ~ my friend.
 
-- If you like playing games for fun, it may not always mean you will like playing games for money too. ~ me.
+- If you like making games for fun, it may not always mean you will like making games for money too. ~ me.
 
 - People can fail only when they actually try aiming for success. If you have convinced yourself you are going to fail and you still do it, you aren't trying. So you can neither fail nor succeed. ~ (TODO find source)
+
+- A lot of the highest paying jobs nowadays is about making people buy things they don't need. Set your priorities first, morality != money.
 
 ### Do
 
