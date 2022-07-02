@@ -83,6 +83,13 @@ A psychological game that asks philosophical questions with only two options, bo
 
 </details>
 
+<details>
+  <summary>Turn distraction into productivity</summary>
+
+A browser plugin which lets you select a section of a website and turn it into a notepad or a todo list or a blank canvas etc. An one-click button to toggle between the section and the notepad.
+
+</details>
+
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
 ## Fiction Writing
