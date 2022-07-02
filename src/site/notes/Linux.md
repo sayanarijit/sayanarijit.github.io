@@ -3,6 +3,7 @@ layout: note
 tags:
   - tech
   - os
+  - computer-science
 ---
 
 # Linux
@@ -14,6 +15,10 @@ Apart from super computers and servers, Linux is also being used in Mobile (Andr
 Linux based desktops are widely popular among programmers for being developer friendly.
 
 Linux is an [[opensource]] OS kernel created by [[Linus Torvalds]].
+
+# Resources
+
+- Awesome Linux Software: https://github.com/luong-komorebi/Awesome-Linux-Software
 
 ---
 
