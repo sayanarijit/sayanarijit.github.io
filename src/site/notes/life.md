@@ -42,7 +42,7 @@ See [[career]].
 
 - Keep a record of what you own and why. Track every little thing. Review weekly or monthly to optimise.
 
-- Be aware of when you are rushing but going nowhere. It's usually when you want to just get things done, and when things turn out hairy, you feel annoyed instead of feeling curious and excited. Or when you are unable to get bored, or when you feel asleep while reading a book. Recognise, slow down and take back control. Hairy things should excite you, not annoy you.
+- Be aware of when you are rushing but going nowhere. It's usually when you want to just get things done, and when things turn out hairy, you feel annoyed instead of feeling curious and excited. Or when you are unable to get bored, or when you feel asleep while reading a book. Recognise, slow down and take back control. Hairy things should excite you, not annoy you. Everyone driving a car doesn't mean you are slower on your feet.
 
 ## We all are Hypocrites
 
