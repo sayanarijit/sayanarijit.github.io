@@ -26,7 +26,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 
 ## Resources
 
-- https://github.com/InterviewReady/system-design-resources
+- System Design resources: https://github.com/InterviewReady/system-design-resources
 - Software Engineering blogs: https://github.com/sumodirjo/engineering-blogs
 - https://blog.pragmaticengineer.com/
 - https://github.com/Alliedium/awesome-software-engineering
