@@ -22,6 +22,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/site/id_ed25519.txt": "id_ed25519.txt",
   });
+  eleventyConfig.addPassthroughCopy({
+    "src/site/keyboard.html": "keyboard.html",
+  });
   eleventyConfig.setUseGitIgnore(false);
 
   const embedYouTube = require("eleventy-plugin-youtube-embed");
