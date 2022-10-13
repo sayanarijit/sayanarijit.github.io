@@ -16,7 +16,7 @@ All I know about art is:
 - It's possible that art is very close to [[Mathematics]], specifically "Chaos theory"[^1].
 - Artists don't like rules. But they like tools.
 
-Most popular artists are the best users of scientific tools while the most popular scientists are the best storytellers.
+Most popular artists are the best users of tools while the most popular scientists are the best storytellers.
 
 [^1]: https://en.wikipedia.org/wiki/Chaos_theory
 
