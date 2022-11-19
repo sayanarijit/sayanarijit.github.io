@@ -30,7 +30,7 @@ A collection of values for different configuration variables defining a particul
 For example:
 
 - A development environment containing a set of values for database URL, number of threads etc. that are tuned for serving the developer.
-- A production environment containing a set of values for database URL, number of threads etc. that are tuned for serving the user.
+- A production environment containing a set of values for database URL, number of threads etc. that are tuned for serving the users.
 
 So, environments should be:
 
@@ -52,11 +52,11 @@ So, secrets should be:
 
 ## Combining All 3
 
-- Configuration variables should be public and easy to find i.e. defined in the codebase of the program, preferably one single file.
+- Configuration variables should be public and easy to find i.e. defined in the codebase of the program as a single source of truth, i.e. one single file.
 - Values for configuration variables should either be public (defined in the codebase), or should come from the environment.
-- Values that are defined in the codebase should not contain secrets, and should be common to all environments.
-- Values that are defined in the environment may contain secrets and mostly be unique to each environment (except common secrets which are rare).
-- Environments should be encrypted and protected as they will contain secrets.
+- Values that are defined in the codebase should not contain plain text secrets, but may contain encrypted secrets.
+- Values that are defined in the environment should preferebly serve as switches, and may contain secrets.
+- Environments should be encrypted, isolated and protected as they may contain secrets and access to critical services.
 
 ## Proof of Concept
 
@@ -66,13 +66,13 @@ So, secrets should be:
   ```
   number_of_threads = 10
   database_url = match env:
-    case dev: "dev_url"
-    case prod: from_env("prod_url")
+    case "dev": "dev_url"
+    case "prod": environment.decrypt("prod_url")
     else: "default_url"
   ```
   See https://github.com/sayanarijit/enva
-- Secret values should come from the environment.
+- Secret values or master password should come from the environment.
 - If there is a common configuration defined separately in a common repo, only import the values, and define the variables explicitly for each program. So that it's easy to find.
 - Define the environment specific values in the environment variables (/etc/environment). They are easy to provision, but requires reboot to change.
-- Encrypt the environment variables. Decrypt during the provisioning.
+- Define secrets in git synced vault, with the master password defined as environment variable, or as a restricted file in user's home directory.
 - Harden security of each environment.
