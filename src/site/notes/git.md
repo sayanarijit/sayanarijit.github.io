@@ -36,3 +36,5 @@ https://ohmygit.org/
 Also See:
 
 - https://github.com/dictcp/awesome-git
+- Distributed, offline-first bug tracker embedded in git, with bridges:
+  https://github.com/MichaelMure/git-bug

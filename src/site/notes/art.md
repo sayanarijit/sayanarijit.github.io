@@ -27,3 +27,4 @@ Also See:
 - [[design]]
 - Art Gallery: https://www.deviantart.com/
 - [[fiction]]
+- Make Art Not Content: https://open.spotify.com/show/2RYqdOdca8BinN0Jc9Zind

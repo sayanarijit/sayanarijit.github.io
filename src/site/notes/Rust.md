@@ -118,6 +118,14 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://fasterthanli.me/articles/the-curse-of-strong-typing
 
+#### Type-Driven API Design in Rust
+
+- https://youtu.be/bnnacleqg6k
+
+#### A Better Way to Borrow in Rust: Stack Tokens
+
+- https://lucumr.pocoo.org/2022/11/23/stack-tokens/
+
 ---
 
 Also See:

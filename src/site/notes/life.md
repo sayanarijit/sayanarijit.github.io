@@ -44,6 +44,10 @@ See [[career]].
 
 - Be aware of when you are rushing but getting nowhere. It's usually when you want to just get things done, and when things turn out hairy, you feel annoyed instead of feeling curious and excited. Or when you are unable to get bored, or when you feel asleep while reading a book. Recognise, slow down and take back control. Hairy things should excite you, not annoy you. Everyone driving a car doesn't mean you are slower on your feet.
 
+- Digest the information you have on your plate for now. Don't over consume.
+
+- Block sources of information. Only seek information when you're done with the current ones. There's no point in playing the busy man schedule.
+
 ## We all are Hypocrites
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
