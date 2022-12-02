@@ -23,9 +23,9 @@ Notes from the [Fastbook][1].
 - Two things can be learned by AI are - text and visual data.
 - Many kinds of data (e.g. sound, temperature) can be represented as pictures, and thus be used by a visual learner.
 - An "architecture" is the implementation of a deep leaning algorithm that can recognize patterns from the given set of inputs and outputs, and use them to predict outputs for future inputs, even unseen ones.
-- Architecture "resnet34" is an example of an CNN (Convolutional Neural Network) implementation with 34 layers.
-- While learning, the architecture goes through the training data, often multiple times, each time, storing the recognized patterns in its layers as values called "parameters" aka "weights".
 - A "model" is an instance of an architecture with parameters, i.e. an instance of an architecture that has learned things.
+- "resnet34" is an example of a pre-trained model using the CNN (Convolutional Neural Network) architecture with 34 layers.
+- While learning, the model goes through the training data, often multiple times, each time, storing the recognized patterns in its layers as values called "parameters" aka "weights".
 - The last layer of a model, aka the "head", stores the most specialized parameters for the dataset it has been trained on.
 - While training a pre-trained model, the parameters in the latter layers, specially the head is replaced with new parameters acquired from the new dataset.
 - It's easier and faster to fine-tune, i.e. train a pre-trained model, than training one from scratch.
