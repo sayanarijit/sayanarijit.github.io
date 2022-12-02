@@ -14,7 +14,7 @@ Notes from the [Fastbook][1].
 
 ### Chapter 1: Intro
 
-- GPUs are capable of PDP (parallel distributes processing), an important ability necessary to train AI models mimicking the neural networks in our brain.
+- GPUs are capable of PDP (parallel distributed processing), an important ability necessary to train AI models mimicking the neural networks in our brain.
 - As of now it's preferable to rent GPUs than to buy them because
   - Prices and specs are rapidly changing.
   - Hard to setup.
