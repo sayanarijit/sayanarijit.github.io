@@ -80,7 +80,7 @@ learner.fine_tune(1)
 
 - Use the [Drivetrain][3] approach to get better results.
 - When training vision learning models, use Data Augmentation i.e. transform the training images by cropping, rotating, applying filters etc.
-- Think about the possible biases is the dataset.
+- Think about the possible biases in the dataset.
 - Train a small model first, and use that to clean the data before training bigger models.
 - Data cleaning can be done by plotting confusion metrics.
 - Create notebook apps as POC first.
