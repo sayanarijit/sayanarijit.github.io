@@ -19,7 +19,7 @@ Notes from the [Fastbook][1].
   - Prices and specs are rapidly changing.
   - Hard to setup.
   - Hard to maintain.
-- "Deep Learning" is the state of the art machine learning approach, usable is a wide range of applications.
+- "Deep Learning" is the state of the art machine learning approach, usable in a wide range of applications.
 - Two things can be learned by AI are - text and visual data.
 - Many kinds of data (e.g. sound, temperature) can be represented as pictures, and thus be used by a visual learner.
 - An "architecture" is the implementation of a deep leaning algorithm that can recognize patterns from the given set of inputs and outputs, and use them to predict outputs for future inputs, even unseen ones.
