@@ -87,6 +87,25 @@ learner.fine_tune(1)
 - To avoid disaster, do human checks, keep the scope limited, expand gradually.
 - Be aware of positive feedback loops, where the model starts learning biases when data doesn't represent the intention.
 
+### Chapter 3: MNIST basics
+
+- MNIST is a popular dataset containing images of handwritten digits.
+- We generally use the Image library from PIL to work on images, it's supported directly by Jupyter Notebook.
+- numpy "array" and pytorch "tensor" are mathematical data structures that can store values of any dimension (digit, array of digits, array of array of digits...).
+- They are almost similar, but tensor restricts its elements to be of the same type and shape, which lets it utilize the GPU and provide some other conveniences required for deep learning.
+- Images can be stored in a tensor by dividing each pixel by 255.
+- Image stored in a tensor can be shown in Jupyter notebook using the `show_image()` function.
+- Multiple images can be stacked into a tensor using the `torch.stack()` function.
+- The first axis of the stacked tensor is the indexes of the images.
+- Get the mean image of all stacked images using the `.mean()` method.
+- `.mean((-1,-2))` will take the mean ranging over the values indexed by the last two axes (horizontal, vertical) of the stacked tensor.
+- Get the mean absolute value loss (L1 loss) (`(img1-img2).abs().mean()`) using the `F.l1_loss()` function.
+- Get the mean squared error (MSE) (`((img1-img2)^2).mean().sqrt()`) using the `F.mse_loss()` function.
+- These functions can be used to get the differences between two images.
+- As compared to L1 loss, MSE is more strict towards large differences.
+- "Gradient" in SGD is a measure of - for each weight, how changing that weight would change the loss.
+-
+
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
 [3]: https://www.oreilly.com/radar/drivetrain-approach-data-products
