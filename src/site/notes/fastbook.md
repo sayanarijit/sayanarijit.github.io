@@ -97,6 +97,7 @@ learner.fine_tune(1)
 - Image stored in a tensor can be shown in Jupyter notebook using the `show_image()` function.
 - Multiple images can be stacked into a tensor using the `torch.stack()` function.
 - The first axis of the stacked tensor is the indexes of the images.
+- To implement a simple digit recognizer without using deep learning is to compare the target image with the ideal image (mean of all the images of the same category).
 - Get the mean image of all stacked images using the `.mean()` method.
 - `.mean((-1,-2))` will take the mean ranging over the values indexed by the last two axes (horizontal, vertical) of the stacked tensor.
 - Get the mean absolute value loss (L1 loss) (`(img1-img2).abs().mean()`) using the `F.l1_loss()` function.
