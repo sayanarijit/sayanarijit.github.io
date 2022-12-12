@@ -124,10 +124,10 @@ metadesc = site.desc %} {% if desc %} {% assign metadesc = desc %} {% endif %}
 <link rel="webmention" href="https://webmention.io/arijitbasu.in/webmention" />
 <link rel="pingback" href="https://webmention.io/arijitbasu.in/xmlrpc" />
 
-<!-- Highlight js -->
+<!-- Prism JS Syntax highlighting -->
 <link
+  href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"
   rel="stylesheet"
-  href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css"
 />
 
 <!-- Style -->
@@ -143,7 +143,13 @@ metadesc = site.desc %} {% if desc %} {% assign metadesc = desc %} {% endif %}
   function gtag() {
     dataLayer.push(arguments);
   }
-  gtag('js', new Date());
+  gtag("js", new Date());
 
-  gtag('config', 'G-979D0WCJB8');
+  gtag("config", "G-979D0WCJB8");
+</script>
+
+<!-- Mermaid JS for diagrams -->
+<script type="module">
+  import mermaid from "https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
 </script>

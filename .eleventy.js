@@ -1,4 +1,4 @@
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   const md = require("./eleventy/markdownIt");
   eleventyConfig.setLibrary("md", md);
 
@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
   const wm = require("./eleventy/webmentions");
   eleventyConfig.addFilter("getMentionsForUrl", wm);
 
-  eleventyConfig.addCollection("notes", function (collection) {
+  eleventyConfig.addCollection("notes", function(collection) {
     return collection.getFilteredByGlob(["src/site/notes/*.md"]);
   });
 

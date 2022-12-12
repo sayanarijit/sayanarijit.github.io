@@ -103,8 +103,20 @@ learner.fine_tune(1)
 - Get the mean squared error (MSE) (`((img1-img2)^2).mean().sqrt()`) using the `F.mse_loss()` function.
 - These functions can be used to get the differences between two images.
 - As compared to L1 loss, MSE is more strict towards large differences.
-- "Gradient" in SGD is a measure of - for each weight, how changing that weight would change the loss.
--
+
+Typical deep learning flow:
+
+```mermaid
+flowchart LR;
+  init-->predict-->loss-->gradient-->step-->stop
+  step--repeat-->predict
+```
+
+- Init: Initialize the parameters to random values.
+- Loss: A number that is small for good performance (prediction).
+- Gradient: A measure of - for each weight, how changing that weight would change the loss.
+- Step: Increase of decrease the weights a bit to minimize the loss. Use calculus magic to avoid doing it the slow way (i.e. try and measure).
+- Stop: We can stop the loop either after a specific number of iterations (epochs), or until the accuracy starts degrading.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
