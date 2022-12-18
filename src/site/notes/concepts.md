@@ -161,7 +161,10 @@ Choose two characters. A prompt will show and suggest the tone of the next dialo
 
 </details>
 
-More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
+More:
+
+- https://github.com/Divide-By-0/ideas-for-projects-people-would-use
+- Mostly AI https://github.com/dmarx/bench-warmers
 
 ## Fiction Writing
 
@@ -289,9 +292,9 @@ In modern times, we tend to prefer diplomacy over brute force nature of conflict
 </details>
 
 <details>
-  <summary>A trip of achievement</summary>
+<summary>I have a puncture</summary>
 
-What if achievement is an addiction being overused by the social and corporate leaders to drive the world to according to their own will?
+The "mechanic" kept punching holes and patching the brand new tyre as I watched. One part of me wanted to break every little bone in his body, another part wanted to just give up and die. Yet I was standing enjoying the wonderful, precious feeling of despair.
 
 </details>
 

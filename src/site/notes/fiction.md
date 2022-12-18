@@ -99,15 +99,45 @@ Explain a very boring act or thing the best way possible
 
 Describe even the observer's story.
 
-Let your readers explore the world from your character's eyes, like you do in a travel vlog
+Let your readers explore the world from your character's eyes, like you do in a travel vlog.
 
-Educate, entertain or enlight your readers
+Educate, entertain or enlighten your readers
 
 Explore alternatives of "said" or substitute it with actions.
 
+A story must include change. Even sub stories. Starting of the story is the opposite of the ending.
+
+Story can't have two meanings. Find only one meaning at the end and begin the story with the opposite meaning.
+
+Don't tell other people's stories. Tell your side of other people's stories.
+
+Don't perform. Tell. Storytelling is not theatre of poetry.
+
+Every great story ever told is essentially about a 5 second moment in a person's life.
+
+If possible, keep the place of start and end the same.
+
+Halt the story when suspense is created. Forcefully if required.
+
+Create a cinematic experience - always provide a physical location to help your reader visualise the scene
+
+Use "but" and "therefore" instead of "and". You can hide "but"s by turning positives into negatives. "I am dumb" -> "I am not smart" ("I could be smart, but I'm not")
+
+Use contrast to enhance emotion. E.g. before collision, show sunshine and roses.
+
+Hide important information (time bomb of surprise) into other non important details.
+
+If using humor, open stories with humor. Use humor before and after horror.
+
+Carefully build/setup the tower of emotions before delivering ball of punchline.
+
+Push opposing words together to make them funny. E.g. Sweet angelic asshole; cupcake, pineapple flavored ice-cream and despair.
+
+Don't break the time traveling by reminding the reader about reality. E.g. "It was 1991, cellphones didn't exist" (don't mention things that doesn't exist, at-least directly)
+
 ### Dialogue
 
-every word that comes out of a character's mouth, must serve e purpose.
+Every word that comes out of a character's mouth, must serve e purpose.
 
 Build vocabulary for each character from their background. Listen to real people from those backgrounds.
 
