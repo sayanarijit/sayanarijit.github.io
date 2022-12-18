@@ -42,6 +42,10 @@ All jobs are [[computer science]] related.
 
 - https://anonfriendly.com/
 
+### FOSS
+
+- https://www.fossjobs.net/
+
 ### Other
 
 - https://github.com/randallkanna/awesome-job-list

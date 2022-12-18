@@ -126,6 +126,14 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://lucumr.pocoo.org/2022/11/23/stack-tokens/
 
+#### High Performance Rust UI
+
+- https://youtu.be/zVUTZlNCb8U
+
+#### The HTTP crash course nobody asked for
+
+- https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for
+
 ---
 
 Also See:

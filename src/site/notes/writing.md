@@ -31,3 +31,4 @@ Also see:
 - [[speaking]]
 - https://supermemo.guru/wiki/Advantages_of_incremental_writing
 - https://news.ycombinator.com/item?id=21691168
+- ScrollStack Masterclass: Valuable insights from popular writers: https://www.youtube.com/playlist?list=PLh2TzmcCtlsP2HklmZ0Y7sm9dMh9OpISZ

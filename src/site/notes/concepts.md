@@ -89,6 +89,22 @@ A browser plugin which lets you select a section of a website and turn it into a
 
 </details>
 
+<details>
+  <summary>Postgres proxy to parallelize unit tests</summary>
+
+A postgres proxy that creates a new schema for every connection. Drops schemas
+automatically. Can be a pytest plugin.
+
+</details>
+
+<details>
+  <summary>A whiteboard app with shooter view</summary>
+
+A mouse operated unlimited whiteboard with a first person shooter view.
+Auto indention and auto newline.
+
+</details>
+
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
 ## Fiction Writing
@@ -188,6 +204,8 @@ Argument: Credit vs copyright.
 Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement.
 
 Point of view: Embrace bubbles because the whole humanity and even the whole universe is just a bubble.
+
+Rant: The significance of "what did you cook today?"
 
 ---
 

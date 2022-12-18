@@ -8,6 +8,12 @@ tags:
 
 # Fiction
 
+## Insights
+
+- "a story is a gossip" - arunava sinha [^1][1] [^2][2]
+
+- "A story is an honest lie", "Define characters by their desire, but never give it to them. Give them their need instead." - Swapnil Narendra [^3][3] [^4][4]
+
 ## Concepts
 
 See [[concepts]].
@@ -65,3 +71,8 @@ Also see:
 - Creating Strong Video Game Characters: https://youtu.be/4mgK2hL33Vw
 - Storytelling Tools to Boost Your Indie Game's Narrative and Gameplay: https://youtu.be/8fXE-E1hjKk
 - Learn about writing from this awesome anime: https://en.wikipedia.org/wiki/Shirobako
+
+[1]: https://youtu.be/b2Gf4Yh9PW4
+[2]: https://arunavasinha.in
+[3]: https://youtu.be/Y2KSwaK9N7A
+[4]: https://www.aavirbhaav.com
