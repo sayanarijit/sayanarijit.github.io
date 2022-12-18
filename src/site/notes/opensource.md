@@ -22,6 +22,7 @@ I enjoy being part of the awesome opensource community. I publish my opensource 
 
 - https://opensource.guide/
 - https://un.curl.dev/
+- https://sfosc.org/docs/
 
 ## Career
 
@@ -32,6 +33,7 @@ For programmers, opensource opens door to tremendous learning and career growth 
 - https://endler.dev/2021/oss-money/ by [[Matthias Endler]]
 - https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/ by [[Armin Ronacher]]
 - https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html
+- https://dev.to/novu/how-to-get-funds-for-an-open-source-company-1996
 
 ## Benevolent dictators for life
 

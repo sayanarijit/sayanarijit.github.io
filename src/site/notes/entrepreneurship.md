@@ -35,6 +35,7 @@ tags:
 - https://www.communitybuildingguide.com/
 - https://rocketlabs.co/submit-your-startup
 - https://submit.co/
+- Stop Running in Circles and Ship Work that Matters https://basecamp.com/shapeup
 
 ## Ideas
 

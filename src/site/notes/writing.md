@@ -24,6 +24,12 @@ https://youtu.be/aFwVf5a3pZM
 
 See [[fiction]].
 
+### Tools
+
+- https://www.well-storied.com/tools
+- https://www.studiobinder.com/
+- https://callofwriting.com/
+
 ---
 
 Also see:
@@ -32,3 +38,4 @@ Also see:
 - https://supermemo.guru/wiki/Advantages_of_incremental_writing
 - https://news.ycombinator.com/item?id=21691168
 - ScrollStack Masterclass: Valuable insights from popular writers: https://www.youtube.com/playlist?list=PLh2TzmcCtlsP2HklmZ0Y7sm9dMh9OpISZ
+- https://blog.streetwriters.co/

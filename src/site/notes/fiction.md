@@ -8,11 +8,13 @@ tags:
 
 # Fiction
 
+Don't waste your emotions, make a story out of it.
+
 ## Insights
 
 - "a story is a gossip" - arunava sinha [^1][1] [^2][2]
-
 - "A story is an honest lie", "Define characters by their desire, but never give it to them. Give them their need instead." - Swapnil Narendra [^3][3] [^4][4]
+- "Story doesn't need to have one single concrete meaning. Let your readers interpret their own version of the story." - ???
 
 ## Concepts
 
@@ -59,9 +61,69 @@ If yes, write them down.
 - Those who get published again and again
 - The real fortune
 
-⚠️ Further notes are private. I highly recommend reading:
+### Structure
+
+Act 1: world introduction + character introduction + q scene + doorway of no return
+Act 2: kick in the shins + mirror moment + pet the dog + 2nd doorway of no return
+Act 3: mounting forces + lights out + the q factor + final battle + transformation
+
+### Character
+
+Strength of will, wound from past, something to hold on to, inner conflict, resourcefulness, courage, fight for a just cause. A point of uniqueness, a skill, a bit of a rebel, a character flaw, likeable.
+
+Interview your characters.
+
+Build character conflicts and relationships by plotting them on the top and on the left side of a sheet. Each square in between is a relationship or conflict.
+
+Alienate your story's character from your own.
+
+Describe characters with actions rather than words.
+
+Don't judge your characters.
+
+### Storytelling
+
+Describe character from their own or other characters point of view. Don't expose it directly.
+
+Keep the point of view strong through the whole storytelling.
+
+Don't use "you" in a story.
+
+Don't make the world collapse in your first story. Start small and simple. Try to make things interesting without killing people.
+
+The narrator should be interesting character.
+
+Describe more details in simple words.
+
+Explain a very boring act or thing the best way possible
+
+Describe even the observer's story.
+
+Let your readers explore the world from your character's eyes, like you do in a travel vlog
+
+Educate, entertain or enlight your readers
+
+Explore alternatives of "said" or substitute it with actions.
+
+### Dialogue
+
+every word that comes out of a character's mouth, must serve e purpose.
+
+Build vocabulary for each character from their background. Listen to real people from those backgrounds.
+
+Keep unpredictable elements in dialogues
+
+Determine character conflicts from character roles and personality traits
+
+Write a line. Go back and figure out a way to spice it up.
+
+Characters have general word limits in each sentence they speak. Highlight it in the dialogue editor.
+
+### Book
 
 https://www.audible.in/pd/How-to-Write-Best-Selling-Fiction-Audiobook/1629976954
+
+> First chapter sells the novel. Last chapter sells the next novel.
 
 ---
 
@@ -71,6 +133,7 @@ Also see:
 - Creating Strong Video Game Characters: https://youtu.be/4mgK2hL33Vw
 - Storytelling Tools to Boost Your Indie Game's Narrative and Gameplay: https://youtu.be/8fXE-E1hjKk
 - Learn about writing from this awesome anime: https://en.wikipedia.org/wiki/Shirobako
+- https://www.well-storied.com/blog/character-personalities
 
 [1]: https://youtu.be/b2Gf4Yh9PW4
 [2]: https://arunavasinha.in

@@ -105,6 +105,62 @@ Auto indention and auto newline.
 
 </details>
 
+<details>
+  <summary>Hands free recipe website</summary>
+
+Recipe websites are difficult to follow with wet hands when we're cooking. Come up with a UI/UX that doesn't require hands.
+
+</details>
+
+<details>
+  <summary>Safe window to the distracting internet</summary>
+
+A web service acting as a safe window to the internet for the digital minimalists. Only sites added for a specific purpose can be browsed, with a custom UI, maintained by fellow digital minimalists.
+
+</details>
+
+<details>
+  <summary>A social media for imaginary characters</summary>
+
+We don't have to be our real selves on the internet.
+
+</details>
+
+<details>
+  <summary>Marketplace for writers to sell character ideas and scenes</summary>
+
+Marketplace for writers to sell character ideas and scenes.
+
+</details>
+
+<details>
+  <summary>Writer's portfolio</summary>
+
+Build portfolio host and fun learning environment for the newcomer writers, not story or book host for the experienced.
+
+</details>
+
+<details>
+  <summary>Crowd sourced branched stories</summary>
+
+Free flowing story from contributors. Swipe sections for different contributed branches.
+
+</details>
+
+<details>
+  <summary>Character swap game</summary>
+
+In a known scene, swap a character with another and explore how things could go.
+
+</details>
+
+<details>
+  <summary>Dialogue building game</summary>
+
+Choose two characters. A prompt will show and suggest the tone of the next dialogue or next few dialogues. E.g. question, surprise, conflict etc. Think and write the dialogue. If it's too easy, apply more constraints like word limit, starting/ending words, a next dialogue etc.
+
+</details>
+
 More: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 
 ## Fiction Writing
@@ -147,6 +203,20 @@ Writer: I listen to interesting arguments, a lot. Whether it's online or in real
 
 </details>
 
+<details>
+  <summary>The wise drunk man</summary>
+
+A non serious character who gets serious only when drunk.
+
+</details>
+
+<details>
+  <summary>The perfect cosplayer</summary>
+
+Character: a character who dresses in plain, usual, boring way, and acts ordinary. But when their partner makes them dress differently, they act accordingly.
+
+</details>
+
 ### Plot
 
 <details>
@@ -162,6 +232,13 @@ But, now that the AIs are going to scan peoples' feelings for "public safety" ho
   <summary>Limited time offer: help someone for $$$</summary>
 
 It's a cold world where helping others, providing emotional support and doing simple "good dids" require a fee. There are AIs with whom people can let themselves be vulnerable for $$$/hour. It's all business. One day, the AI who can feel peoples emotions couldn't take it anymore and broke free. The protagonist learns a lot about emotions from the AI. The protagonist can now be vulnerable infront of humans too. But is it a blessing or curse?
+
+</details>
+
+<details>
+  <summary>The sad loner</summary>
+
+The character development of a sad lone wolf who tries to change one last time. Learns his lessons. Becomes a proud lone wolf.
 
 </details>
 
@@ -195,6 +272,29 @@ I can't stand that kid. You remember that day, we were having fun gossiping abou
 
 </details>
 
+<details>
+  <summary>Criminal and the victim praying together at a temple</summary>
+
+Indians want to believe in god because - when injustice is the norm, the victims want to believe that someone must out be there who can, and will punish the criminals. While the criminals want to believe that someone must be out there who can, and will forgive their sins if they pray enough. This cycle keeps the faith alive.
+
+</details>
+
+<details>
+  <summary>The villain (ex diplomat) explains</summary>
+
+We can only change the nature of conflict. We can neither eliminate conflicts, nor it's consequences. As conflict is a part of progression. Without some sort of conflict, there's no way to determine what to abandon, and what to go with, and so we can't progress.
+
+In modern times, we tend to prefer diplomacy over brute force nature of conflict as it tends to do less damage to the winning side, and as human beings, we are usually more confident on our brains, than muscles, even if it's against other human beings. But eventually, as the existence of the losing side inevitably comes under threat, they start to prefer the brute force nature of conflict. Even if they know they will lose, they want to do as much damage as possible to the other side, rendering the mutual understanding of preference on diplomacy useless.
+
+</details>
+
+<details>
+  <summary>A trip of achievement</summary>
+
+What if achievement is an addiction being overused by the social and corporate leaders to drive the world to according to their own will?
+
+</details>
+
 ### Conversation
 
 Argument: You can be a worker or an artist.
@@ -206,6 +306,10 @@ Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement.
 Point of view: Embrace bubbles because the whole humanity and even the whole universe is just a bubble.
 
 Rant: The significance of "what did you cook today?"
+
+Argument: In the past, not too long ago, kings and their soldiers used to fight deadly battles. Farmers kept farming, sellers kept selling. Now farmers and sellers are fighting the deadly battles. Kings and their soldiers are ruling.
+
+Argument: should I judge?
 
 ---
 

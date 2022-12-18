@@ -7,9 +7,17 @@ tags:
 
 # Mathematics
 
-Wiki explains mathematics: https://en.wikipedia.org/wiki/Mathematics
+#### A Mathematician’s Lament
 
-A Mathematician’s Lament: https://www.maa.org/external_archive/devlin/LockhartsLament.pdf
+https://www.maa.org/external_archive/devlin/LockhartsLament.pdf
+
+#### Richard Feynman. Why.
+
+https://youtu.be/36GT2zI8lVA
+
+#### Differentiable Programming from Scratch
+
+https://thenumb.at/Autodiff/
 
 ## Resources
 

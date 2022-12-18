@@ -48,7 +48,13 @@ See [[career]].
 
 - Block sources of information. Only seek information when you're done with the current ones. There's no point in playing the busy man schedule.
 
+- Stop reading "how to"s. If you genuinely want to do something, start doing it, you'll it figure it out. If you don't, trying to execute "how to"s you've read will only bring you pain and suffering.
+
+- When you're up against stereotypical stupidity, just change the perspective. Jump one dimension up.
+
 ## We all are Hypocrites
+
+Before acting all wise, remember your forgotten foolishness. Remember the dark memories that you are keeping hidden from yourself. You were someone you truly resent now.
 
 - https://untoldstory.in/art/funny-indian-comics-brown-paper-bag/
 - https://benwiederhake.github.io/randombias/
@@ -63,6 +69,8 @@ See [[career]].
 ## Ethics
 
 - https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/
+
+- "Morality is not some objective truth. It's a skill that we develop as we progress both individually as a human and collectively as mankind." ~ ???
 
 ---
 

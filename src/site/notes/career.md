@@ -67,7 +67,7 @@ Examples:
 - **After I** get hired, **then I'll** learn things I want to learn.
 - **After I** become successful, **then I'll** work hard.
 
------
+---
 
 Also See:
 

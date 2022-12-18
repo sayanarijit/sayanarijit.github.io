@@ -31,6 +31,10 @@ Similar version control systems are:
 
 https://ohmygit.org/
 
+### Flight rules for git
+
+https://github.com/k88hudson/git-flight-rules
+
 ---
 
 Also See:

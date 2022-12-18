@@ -45,6 +45,7 @@ All jobs are [[computer science]] related.
 ### FOSS
 
 - https://www.fossjobs.net/
+- https://fossunited.org/foss-jobs
 
 ### Other
 

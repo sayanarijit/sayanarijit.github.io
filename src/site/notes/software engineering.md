@@ -26,9 +26,12 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 
 ## Resources
 
+- Learn how to design systems at scale and prepare for system design interviews https://github.com/karanpratapsingh/system-design
 - System Design resources: https://github.com/InterviewReady/system-design-resources
 - Software Engineering blogs: https://github.com/sumodirjo/engineering-blogs
 - Awesome DB tools: https://github.com/mgramin/awesome-db-tools
+- The Architecture of Open Source Applications http://aosabook.org/en/index.html
+- Implementing webhooks https://webhooks.fyi/
 - https://blog.pragmaticengineer.com/
 - https://github.com/Alliedium/awesome-software-engineering
 - https://backend.husseinnasser.com/
