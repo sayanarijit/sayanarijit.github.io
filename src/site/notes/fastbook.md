@@ -25,7 +25,7 @@ Notes from the [Fastbook][1].
 - An "architecture" is the implementation of a deep leaning algorithm that can recognize patterns from the given set of inputs and outputs, and use them to predict outputs for future inputs, even unseen ones.
 - A "model" is an instance of an architecture with parameters, i.e. an instance of an architecture that has learned things.
 - "resnet34" is an example of a pre-trained model using the CNN (Convolutional Neural Network) architecture with 34 layers.
-- While learning, the model goes through the training data, often multiple times, each time, storing the recognized patterns in its layers as values called "parameters" aka "weights".
+- While learning, the model goes through the training data, often multiple times, each time, storing the recognized patterns in its layers as values called "parameters" aka "weights" + "biases".
 - The last layer of a model, aka the "head", stores the most specialized parameters for the dataset it has been trained on.
 - While training a pre-trained model, the parameters in the latter layers, specially the head is replaced with new parameters acquired from the new dataset.
 - It's easier and faster to fine-tune, i.e. train a pre-trained model, than training one from scratch.
@@ -115,9 +115,26 @@ flowchart LR;
 
 - Init: Initialize the parameters to random values.
 - Loss: A number that is small for good performance (prediction).
-- Gradient: A measure of - for each weight, how changing that weight would change the loss.
+- Gradient: A measure of - for each weight, how changing that weight would change the loss, i.e. d(loss) / d(weight), for each weight, treating other weights as constant.
 - Step: Increase of decrease the weights a bit to minimize the loss. Use calculus magic to avoid doing it the slow way (i.e. try and measure).
 - Stop: We can stop the loop either after a specific number of iterations (epochs), or until the accuracy starts degrading.
+
+Given a function `def f(w): calculate_loss(w)`,
+
+- Use `plot_function(f, 'weight', 'loss')` and `plt.scatter(w, f(w), color='red');` to plot the function and plot the loss for any value of `w`.
+- Use `wt = tensor(w).requires_grad_()`, `ft = f(wt)` and `ft.backward()` to tell pytorch to calculate the gradient (i.e. d(loss) / d(weight)) for any value of `w`.
+- `ft.backward()`, i.e. "backpropagation" is the process of calculating the gradient of each layer. It could've been named `ft.calculate_gradient()` to make life easier.
+- `wt.grad` is the gradient of the function at weight `w`. `w` and `wt.grad` are usually vectors.
+- If the calculated gradient (slope) is very small, it means we're closer to the optimal value.
+- We keep stepping until we reach the optimal value.
+- Stepping function: `w = w - gradient(w) * lr` where `lr` is "learning rate" (usually between 0.001, 0.1).
+- If learning rate is too low, it might require a lot of steps to reach the optimal value.
+- If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
+- Use "Sigmoid" function to calculate the loss which should be between (0, 1).
+
+```python
+def sigmoid(x): return 1/(1+torch.exp(-x))
+```
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
