@@ -214,6 +214,8 @@ class BasicOptim:
 path = untar_data(URLs.MNIST_SAMPLE)
 Path.BASE_PATH = path
 
+# Load images into pytorch tensors
+
 train_threes = (path/'train'/'3').ls().sorted()
 train_threes = torch.stack([tensor(Image.open(o)) for o in train_threes].float() / 255
 
@@ -237,8 +239,6 @@ valid_dset = list(zip(valid_x, valid_y))
 # Batch size is a tradeoff between speed vs GPU memory
 train_dl = DataLoader(train_dset, batch_size=256)
 valid_dl = DataLoader(valid_dset, batch_size=256)
-
-xb, yb = first(train_dl)
 
 dls = DataLoaders(train_dl, valid_dl)
 
