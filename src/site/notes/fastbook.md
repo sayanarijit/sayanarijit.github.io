@@ -152,6 +152,22 @@ def mnist_loss(predictions, targets):
 
     return loss
 
+def init_params(size, std=1.0):
+    return (torch.randn(size)*std).requires_grad_()
+
+# Similar to Pytorch's nn.Linear()
+class LinearModel:
+    def __init__(self, size, bias):
+        self.weights = init_params(size)
+        # w*x will always be 0 if "x" is 0. Hence, we need a bias "b"
+        # So, the eq is: y = w*x + b
+        self.bias = init_params(bias)
+
+    def parameters(self):
+        return (self.weights, self.bias)
+
+    def __call__(self, x):
+        return (self.weights @ x) + self.bias  # Matrix multiplication
 
 class BasicOptim:
     def __init__(self, data_loaders, model):
@@ -159,6 +175,7 @@ class BasicOptim:
         self.model = model
 
     def calculate_gradient(self, image, result):
+        # Calculate weights and bias gradients
         preds = self.model(image)
         loss = mnist_loss(preds, result)
 
@@ -167,10 +184,12 @@ class BasicOptim:
         loss.backward()
 
     def step(self, learning_rate):
+        # Update weights and bias
         for p in list(self.model.parameters()):
             p.data -= p.grad.data * learning_rate
 
     def reset_gradient(self, *args, **kwargs):
+        # Reset weights and bias gradients
         for p in list(self.model.parameters()):
             p.grad = None
 
@@ -181,7 +200,7 @@ class BasicOptim:
             self.reset_gradient()
 
     def validate_epoch(self):
-        accuracy = [batch_accuracy(self.model(xb), yb) for xb, yb in self.dls.valid]
+        accuracy = [batch_accuracy(self.parameters(xb), yb) for xb, yb in self.dls.valid]
         return round(torch.stack(accuracy).mean().item(), 4)
 
     def train_model(model, epochs, learning_rate):
@@ -217,17 +236,18 @@ valid_dset = list(zip(valid_x, valid_y))
 train_dl = DataLoader(train_dset, batch_size=256)
 valid_dl = DataLoader(valid_dset, batch_size=256)
 
+xb, yb = first(train_dl)
+
 dls = DataLoaders(train_dl, valid_dl)
 
-# Pytorch function to get the initial weights and bias
-linear_model = nn.Linear(28*28, 1)
-
 # Using our custom learner
-opt = BasicOptim(dls, linear_model)
+model = LinearModel(28*28, 1)
+opt = BasicOptim(dls, model, parameters)
 opt.train_model(20, learning_rate=lr)
 
 ## Similar to Pytorch's Learner
-# learn = Learner(dls, linear_model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
+# model = nn.Linear(28*28, 1)
+# learn = Learner(dls, model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
 # learn.fit(20, lr=lr)
 ```
 
