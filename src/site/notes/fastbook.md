@@ -132,8 +132,103 @@ Given a function `def f(w): calculate_loss(w)`,
 - If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
 - Use "Sigmoid" function to calculate the loss which should be between (0, 1).
 
+Code for implementing (unoptimized) linear learner for classifying images of 3s and 7s and training it:
+
 ```python
-def sigmoid(x): return 1/(1+torch.exp(-x))
+def sigmoid(x):
+    return 1 / (1 + torch.exp(-x))
+
+def batch_accuracy(xb, yb):
+    preds = xb.sigmoid()  # i.e. sigmoid(xb)
+    correct = (preds>0.5) == yb
+    return correct.float().mean()
+
+def mnist_loss(predictions, targets):
+    predictions = sigmoid(predictions)
+
+    # Similar to [(1-predictions)[i] if targets[i]==1 else predictions[i] for i in range(len(targets))]
+    # but faster (uses GPU)
+    loss = torch.where(targets==1, 1-predictions, predictions).mean()
+
+    return loss
+
+
+class BasicOptim:
+    def __init__(self, data_loaders, model):
+        self.dls = data_loaders
+        self.model = model
+
+    def calculate_gradient(self, image, result):
+        preds = self.model(image)
+        loss = mnist_loss(preds, result)
+
+        # Updates self.model.parameters().grad
+        # Uses differentiation, i.e. tensor(w).requires_grad_()
+        loss.backward()
+
+    def step(self, learning_rate):
+        for p in list(self.model.parameters()):
+            p.data -= p.grad.data * learning_rate
+
+    def reset_gradient(self, *args, **kwargs):
+        for p in list(self.model.parameters()):
+            p.grad = None
+
+    def train_epoch(self, learning_rate):
+        for batch_of_images, batch_of_results in self.dls.train:
+            self.calculate_gradient(batch_of_images, batch_of_results)
+            self.step(learning_rate)
+            self.reset_gradient()
+
+    def validate_epoch(self):
+        accuracy = [batch_accuracy(self.model(xb), yb) for xb, yb in self.dls.valid]
+        return round(torch.stack(accuracy).mean().item(), 4)
+
+    def train_model(model, epochs, learning_rate):
+        for i in range(epochs):
+            self.train_epoch(learning_rate)
+            print(validate_epoch(model), end=' ')
+
+# Load data from MNIST dataset
+path = untar_data(URLs.MNIST_SAMPLE)
+Path.BASE_PATH = path
+
+train_threes = (path/'train'/'3').ls().sorted()
+train_threes = torch.stack([tensor(Image.open(o)) for o in train_threes].float() / 255
+
+valid_threes = (path/'valid'/'3').ls().sorted()
+valid_threes = torch.stack([tensor(Image.open(o)) for o in valid_threes].float() / 255
+
+train_sevens = (path/'train'/'7').ls().sorted()
+train_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float() / 255
+
+valid_sevens = (path/'valid'/'7').ls().sorted()
+valid_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float() / 255
+
+train_x = torch.cat([train_threes, train_sevens]).view(-1, 28*28)
+train_y = tensor([1]*len(train_threes) + [0]*len(train_sevens)).unsqueeze(1)
+train_dset = list(zip(train_x, train_y))
+
+valid_x = torch.cat([valid_threes, valid_sevens]).view(-1, 28*28)
+valid_y = tensor([1]*len(valid_threes) + [0]*len(valid_sevens)).unsqueeze(1)
+valid_dset = list(zip(valid_x, valid_y))
+
+# Batch size is a compromise between speed vs GPU memory
+train_dl = DataLoader(train_dset, batch_size=256)
+valid_dl = DataLoader(valid_dset, batch_size=256)
+
+dls = DataLoaders(train_dl, valid_dl)
+
+# Pytorch function to get the initial weights and bias
+linear_model = nn.Linear(28*28, 1)
+
+# Using our custom learner
+opt = BasicOptim(dls, linear_model)
+opt.train_model(20, learning_rate=lr)
+
+## Similar to Pytorch's Learner
+# learn = Learner(dls, linear_model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
+# learn.fit(20, lr=lr)
 ```
 
 [1]: https://github.com/fastai/fastbook
