@@ -126,9 +126,9 @@ def sigmoid(x):
     """Function to ensure the loss is between (0, 1)."""
     return 1 / (1 + torch.exp(-x))
 
-def batch_accuracy(xb, yb):
-    preds = xb.sigmoid()  # i.e. sigmoid(xb)
-    correct = (preds>0.5) == yb
+def batch_accuracy(predictions_batch, targets_batch):
+    preds = predictions_batch.sigmoid()  # i.e. sigmoid(prediction_batch)
+    correct = (preds>0.5) == targets_batch
     return correct.float().mean()
 
 def mnist_loss(predictions, targets):
@@ -165,7 +165,7 @@ class LinearModel:
 
 class BasicOptim:
     def __init__(self, data_loaders, model):
-        self.dls = data_loaders
+        self.data_loaders = data_loaders
         self.model = model
 
     def calculate_gradient(self, image, result):
@@ -187,8 +187,8 @@ class BasicOptim:
         If learning rate is too low, it might require a lot of steps to reach the optimal value.
         If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
         """
-        for p in list(self.model.parameters()):
-            p.data -= p.grad.data * learning_rate
+        for param in list(self.model.parameters()):
+            param.data -= param.grad.data * learning_rate
 
     def reset_gradient(self):
         """Reset the calculated gradients."""
@@ -196,17 +196,22 @@ class BasicOptim:
             p.grad = None
 
     def train_epoch(self, learning_rate):
-        for batch_of_images, batch_of_results in self.dls.train:
-            self.calculate_gradient(batch_of_images, batch_of_results)
+        for batch_of_images, batch_of_targets in self.data_loaders.train:
+            self.calculate_gradient(batch_of_images, batch_of_targets)
             self.step(learning_rate)
             self.reset_gradient()
 
     def validate_epoch(self):
-        accuracy = [batch_accuracy(self.model(xb), yb) for xb, yb in self.dls.valid]
+        accuracy = []
+        for batch_of_images, batch_of_targets in self.data_loaders.valid:
+            batch_of_predictions = self.model(batch_of_images)
+            acc = batch_accuracy(batch_of_predictions, batch_of_targets)
+            accuracy.append(acc)
+
         return round(torch.stack(accuracy).mean().item(), 4)
 
     def train_model(model, epochs, learning_rate):
-        for i in range(epochs):
+        for _ in range(epochs):
             self.train_epoch(learning_rate)
             print(validate_epoch(model), end=' ')
 
@@ -228,29 +233,53 @@ train_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float()
 valid_sevens = (path/'valid'/'7').ls().sorted()
 valid_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float() / 255
 
-train_x = torch.cat([train_threes, train_sevens]).view(-1, 28*28)
-train_y = tensor([1]*len(train_threes) + [0]*len(train_sevens)).unsqueeze(1)
-train_dset = list(zip(train_x, train_y))
+train_images = torch.cat([train_threes, train_sevens]).view(-1, 28*28)
+train_targets = tensor([1]*len(train_threes) + [0]*len(train_sevens)).unsqueeze(1)
+train_dset = list(zip(train_images, train_targets))
 
-valid_x = torch.cat([valid_threes, valid_sevens]).view(-1, 28*28)
-valid_y = tensor([1]*len(valid_threes) + [0]*len(valid_sevens)).unsqueeze(1)
-valid_dset = list(zip(valid_x, valid_y))
+valid_images = torch.cat([valid_threes, valid_sevens]).view(-1, 28*28)
+valid_targets = tensor([1]*len(valid_threes) + [0]*len(valid_sevens)).unsqueeze(1)
+valid_dset = list(zip(valid_images, valid_targets))
 
 # Batch size is a tradeoff between speed vs GPU memory
 train_dl = DataLoader(train_dset, batch_size=256)
 valid_dl = DataLoader(valid_dset, batch_size=256)
 
-dls = DataLoaders(train_dl, valid_dl)
+data_loaders = DataLoaders(train_dl, valid_dl)
 
 # Using our custom learner
 model = LinearModel(28*28, 1)
-opt = BasicOptim(dls, model)
+opt = BasicOptim(data_loaders, model)
 opt.train_model(20, learning_rate=1.0)
 
 ## Similar to Pytorch's Learner
 # model = nn.Linear(28*28, 1)
-# learn = Learner(dls, model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
+# learn = Learner(data_loaders, model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
 # learn.fit(20, lr=1.0)
+```
+
+- To turn it into a more complex and capable neural network, implement a non-linear classifier.
+
+```python
+
+# weights1 has 30 output activations, meaning the first layer can construct 30 different
+# features, each representing some different mix of pixels, it can be anything base on
+# complexity.
+weights1 = init_params((28*28, 30))
+bias1 = init_params(30)
+
+# weights2 must have 30 inputs activations so they match.
+weights2 = init_params((30, 1))
+bias2 = init_params(1)
+
+def simple_net(xb):
+    res = (xb @ weights1) + bias1
+
+    # Rectified Linear Unit, aka ReLU, i.e. Pytorch's `F.relu` to replace all negative numbers to zero.
+    res = res.max(tensor(0.0))
+
+    res = (res @ weights2) + bias2
+    return res
 ```
 
 [1]: https://github.com/fastai/fastbook
