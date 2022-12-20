@@ -213,7 +213,7 @@ valid_x = torch.cat([valid_threes, valid_sevens]).view(-1, 28*28)
 valid_y = tensor([1]*len(valid_threes) + [0]*len(valid_sevens)).unsqueeze(1)
 valid_dset = list(zip(valid_x, valid_y))
 
-# Batch size is a compromise between speed vs GPU memory
+# Batch size is a tradeoff between speed vs GPU memory
 train_dl = DataLoader(train_dset, batch_size=256)
 valid_dl = DataLoader(valid_dset, batch_size=256)
 
