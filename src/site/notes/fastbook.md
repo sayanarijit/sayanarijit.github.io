@@ -119,23 +119,11 @@ flowchart LR;
 - Step: Increase of decrease the weights a bit to minimize the loss. Use calculus magic to avoid doing it the slow way (i.e. try and measure).
 - Stop: We can stop the loop either after a specific number of iterations (epochs), or until the accuracy starts degrading.
 
-Given a function `def f(w): calculate_loss(w)`,
-
-- Use `plot_function(f, 'weight', 'loss')` and `plt.scatter(w, f(w), color='red');` to plot the function and plot the loss for any value of `w`.
-- Use `wt = tensor(w).requires_grad_()`, `ft = f(wt)` and `ft.backward()` to tell pytorch to calculate the gradient (i.e. d(loss) / d(weight)) for any value of `w`.
-- `ft.backward()`, i.e. "backpropagation" is the process of calculating the gradient of each layer. It could've been named `ft.calculate_gradient()` to make life easier.
-- `wt.grad` is the gradient of the function at weight `w`. `w` and `wt.grad` are usually vectors.
-- If the calculated gradient (slope) is very small, it means we're closer to the optimal value.
-- We keep stepping until we reach the optimal value.
-- Stepping function: `w = w - gradient(w) * lr` where `lr` is "learning rate" (usually between 0.001, 0.1).
-- If learning rate is too low, it might require a lot of steps to reach the optimal value.
-- If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
-- Use "Sigmoid" function to calculate the loss which should be between (0, 1).
-
 Code for implementing (unoptimized) linear learner for classifying images of 3s and 7s and training it:
 
 ```python
 def sigmoid(x):
+    """Function to ensure the loss is between (0, 1)."""
     return 1 / (1 + torch.exp(-x))
 
 def batch_accuracy(xb, yb):
@@ -153,7 +141,13 @@ def mnist_loss(predictions, targets):
     return loss
 
 def init_params(size, std=1.0):
-    return (torch.randn(size)*std).requires_grad_()
+    params = torch.randn(size) * std
+
+    # Tell pytorch to track the gradient, i.e. d(loss) / d(weight) for each param
+    # which is updated via `params.backward()`, and accessible via params.grad
+    params = params.requires_grad_()
+
+    return params
 
 # Similar to Pytorch's nn.Linear()
 class LinearModel:
@@ -175,21 +169,29 @@ class BasicOptim:
         self.model = model
 
     def calculate_gradient(self, image, result):
-        # Calculate weights and bias gradients
+        """Calculate gradients i.e. slope i.e. `d(loss) / d(weight)` of weights and biases.
+
+        If it's is very small, it means we're closer to the optimal value.
+        """
+
         preds = self.model(image)
         loss = mnist_loss(preds, result)
 
-        # Updates self.model.parameters().grad
-        # Uses differentiation, i.e. tensor(w).requires_grad_()
+        # Updates self.model.parameters[n].grad for each layer, see init_params()
+        # It could've been named `.calculate_gradient()` to make life easier.
         loss.backward()
 
     def step(self, learning_rate):
-        # Update weights and bias
+        """Step function to update the weights and biases.
+
+        If learning rate is too low, it might require a lot of steps to reach the optimal value.
+        If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
+        """
         for p in list(self.model.parameters()):
             p.data -= p.grad.data * learning_rate
 
     def reset_gradient(self, *args, **kwargs):
-        # Reset weights and bias gradients
+        """Reset the calculated gradients."""
         for p in list(self.model.parameters()):
             p.grad = None
 
@@ -242,13 +244,13 @@ dls = DataLoaders(train_dl, valid_dl)
 
 # Using our custom learner
 model = LinearModel(28*28, 1)
-opt = BasicOptim(dls, model, parameters)
-opt.train_model(20, learning_rate=lr)
+opt = BasicOptim(dls, model)
+opt.train_model(20, learning_rate=1.0)
 
 ## Similar to Pytorch's Learner
 # model = nn.Linear(28*28, 1)
 # learn = Learner(dls, model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
-# learn.fit(20, lr=lr)
+# learn.fit(20, lr=1.0)
 ```
 
 [1]: https://github.com/fastai/fastbook
