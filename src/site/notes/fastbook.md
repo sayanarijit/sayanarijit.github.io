@@ -202,7 +202,7 @@ class BasicOptim:
             self.reset_gradient()
 
     def validate_epoch(self):
-        accuracy = [batch_accuracy(self.parameters(xb), yb) for xb, yb in self.dls.valid]
+        accuracy = [batch_accuracy(self.model(xb), yb) for xb, yb in self.dls.valid]
         return round(torch.stack(accuracy).mean().item(), 4)
 
     def train_model(model, epochs, learning_rate):
