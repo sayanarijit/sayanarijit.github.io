@@ -190,7 +190,7 @@ class BasicOptim:
         for p in list(self.model.parameters()):
             p.data -= p.grad.data * learning_rate
 
-    def reset_gradient(self, *args, **kwargs):
+    def reset_gradient(self):
         """Reset the calculated gradients."""
         for p in list(self.model.parameters()):
             p.grad = None
