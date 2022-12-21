@@ -274,7 +274,7 @@ opt.train_model(20, learning_rate=1.0)
 ```
 
 - To turn it into a more complex and capable neural network, we need to add more layers.
-- Adding more linear layers isn't very useful because multiple linear layers in a row can be represented
+- Just adding more linear layers isn't very useful because multiple linear layers in a row can be represented
   with one single layer with a different set of parameters. It's not true if there's a non-linear layer
   between them (e.g. ReLU).
 - Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
