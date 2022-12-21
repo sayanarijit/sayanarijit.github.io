@@ -155,8 +155,9 @@ def init_params(size, std=1.0):
 
 # Similar to Pytorch's nn.Linear()
 class LinearModel:
-    def __init__(self, size, out_features):
-        self.weights = init_params((size, out_features))  # torch.Size([size, out_features])
+    """A simple linear model."""
+    def __init__(self, in_features, out_features):
+        self.weights = init_params((in_features, out_features))  # torch.Size([in_features, out_features])
         # w*x will always be 0 if "x" is 0. Hence, we need a bias "b"
         # So, the eq is: y = w*x + b
         self.bias = init_params(out_features)  # torch.Size([out_features])
@@ -279,33 +280,36 @@ opt.train_model(20, learning_rate=1.0)
 - Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 ```python
-class SimpleNet
-  def __init__(self, size, out):
-      """A simple multi layer neural network."""
+# ⚠️ There's some issue with this implementation
 
-      # weights1 has 30 output activations, meaning the first layer can construct 30 different
-      # features, each representing some different mix of pixels, it can be anything based on
-      # complexity.
-      self.weights1 = init_params((size, 30))
-      self.bias1 = init_params(30)
+class SimpleNet:
+    """A simple multi layer neural network."""
+    def __init__(self, in_features, out_features):
+        # Layer 1: Linear
+        # Has 30 output activations, meaning the first layer can construct 30 different
+        # features, each representing some different mix of pixels, it can be anything based on
+        # complexity.
+        self.layer1 = LinearModel(in_features, 30)
 
-      # weights2 must have 30 inputs activations so they match.
-      self.weights2 = init_params((30, out))
-      self.bias2 = init_params(out)
+        # Layer 2: Nonlinearity a.k.a Activation Function
+        # Similar to `F.relu` i.e. Rectified Linear Unit to replace all negative numbers to zero.
+        self.layer2 = lambda xb: xb.max(tensor(0.0))
 
-  def __call__(self, xb):
+        # Layer 3: Linear
+        # Must have 30 inputs activations so they match.
+        self.layer3 = LinearModel(30, out_features)
 
-      # Layer 1: Linear
-      res = (xb @ self.weights1) + self.bias1
+    def parameters(self):
+        w1, b1 = self.layer1.parameters()
+        w2, b2 = self.layer3.parameters()
+        return (w1, b1, w2, b2)
 
-      # Layer 2: Nonlinearity a.k.a Activation Function
-      # Rectified Linear Unit, aka ReLU, i.e. Pytorch's `F.relu` to replace all negative numbers to zero.
-      res = res.max(tensor(0.0))
 
-      # Layer 3: Linear
-      res = (res @ self.weights2) + self.bias2
-
-      return res
+    def __call__(self, xb):
+        res = self.layer1(xb)
+        res = self.layer2(res)
+        res = self.layer3(res)
+        return res
 
 ## Similar to Pytorch's
 # simple_net = nn.Sequential(
