@@ -312,10 +312,10 @@ class SimpleNet:
         res = self.layer3(res)
         return res
 
-simple_net = SimpleNet(28*28, 1)
+model = SimpleNet(28*28, 1)
 
 ## Similar to Pytorch's
-# simple_net = nn.Sequential(
+# model = nn.Sequential(
 #     nn.Linear(28*28, 30),
 #     nn.ReLU(),
 #     nn.Linear(30, 1)
