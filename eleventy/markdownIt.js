@@ -1,6 +1,8 @@
 // Custom Markdown parser
 
 const markdownIt = require("markdown-it");
+const slugify = require("@sindresorhus/slugify");
+
 const markdownItOptions = {
   html: true,
   linkify: true,
@@ -9,6 +11,7 @@ const markdownItOptions = {
 const md = new markdownIt(markdownItOptions)
   .use(require("markdown-it-footnote"))
   .use(require("markdown-it-task-lists"))
+  .use(require("markdown-it-anchor"), { permalink: true })
   .use(require("markdown-it-external-anchor"), { domain: "arijitbasu.in" })
   .use(require("@binyamin/markdown-it-wikilinks"), {
     base: "/notes/",
