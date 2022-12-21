@@ -279,31 +279,33 @@ opt.train_model(20, learning_rate=1.0)
 - Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 ```python
-# Let's split our model and turn it into a multi layer model
+class SimpleNet
+  def __init__(self, size, out):
+      """A simple multi layer neural network."""
 
-# weights1 has 30 output activations, meaning the first layer can construct 30 different
-# features, each representing some different mix of pixels, it can be anything based on
-# complexity.
-weights1 = init_params((28*28, 30))
-bias1 = init_params(30)
+      # weights1 has 30 output activations, meaning the first layer can construct 30 different
+      # features, each representing some different mix of pixels, it can be anything based on
+      # complexity.
+      self.weights1 = init_params((size, 30))
+      self.bias1 = init_params(30)
 
-# weights2 must have 30 inputs activations so they match.
-weights2 = init_params((30, 1))
-bias2 = init_params(1)
+      # weights2 must have 30 inputs activations so they match.
+      self.weights2 = init_params((30, out))
+      self.bias2 = init_params(out)
 
-def simple_net(xb):
+  def __call__(self, xb):
 
-    # Layer 1: Linear
-    res = (xb @ weights1) + bias1
+      # Layer 1: Linear
+      res = (xb @ self.weights1) + self.bias1
 
-    # Layer 2: Nonlinearity a.k.a Activation Function
-    # Rectified Linear Unit, aka ReLU, i.e. Pytorch's `F.relu` to replace all negative numbers to zero.
-    res = res.max(tensor(0.0))
+      # Layer 2: Nonlinearity a.k.a Activation Function
+      # Rectified Linear Unit, aka ReLU, i.e. Pytorch's `F.relu` to replace all negative numbers to zero.
+      res = res.max(tensor(0.0))
 
-    # Layer 3: Linear
-    res = (res @ weights2) + bias2
+      # Layer 3: Linear
+      res = (res @ self.weights2) + self.bias2
 
-    return res
+      return res
 
 ## Similar to Pytorch's
 # simple_net = nn.Sequential(
