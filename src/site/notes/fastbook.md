@@ -151,17 +151,17 @@ def init_params(size, std=1.0):
 
 # Similar to Pytorch's nn.Linear()
 class LinearModel:
-    def __init__(self, size, bias):
-        self.weights = init_params(size)
+    def __init__(self, size, out_features):
+        self.weights = init_params((size, out_features))
         # w*x will always be 0 if "x" is 0. Hence, we need a bias "b"
         # So, the eq is: y = w*x + b
-        self.bias = init_params(bias)
+        self.bias = init_params(1)
 
     def parameters(self):
         return (self.weights, self.bias)
 
-    def __call__(self, x):
-        return (self.weights @ x) + self.bias  # Matrix multiplication
+    def __call__(self, xb):
+        return (xb @ self.weights) + self.bias  # Matrix multiplication
 
 class BasicOptim:
     def __init__(self, data_loaders, model):
@@ -210,10 +210,16 @@ class BasicOptim:
 
         return round(torch.stack(accuracy).mean().item(), 4)
 
-    def train_model(model, epochs, learning_rate):
+    def train_model(self, epochs, learning_rate):
         for _ in range(epochs):
             self.train_epoch(learning_rate)
-            print(validate_epoch(model), end=' ')
+            print(self.validate_epoch(), end=' ')
+
+# Load data from MNIST dataset
+path = untar_data(URLs.MNIST_SAMPLE)
+Path.BASE_PATH = path
+
+# Load images into pytorch tensors
 
 # Load data from MNIST dataset
 path = untar_data(URLs.MNIST_SAMPLE)
@@ -222,16 +228,16 @@ Path.BASE_PATH = path
 # Load images into pytorch tensors
 
 train_threes = (path/'train'/'3').ls().sorted()
-train_threes = torch.stack([tensor(Image.open(o)) for o in train_threes].float() / 255
+train_threes = torch.stack([tensor(Image.open(o)) for o in train_threes]).float() / 255
 
 valid_threes = (path/'valid'/'3').ls().sorted()
-valid_threes = torch.stack([tensor(Image.open(o)) for o in valid_threes].float() / 255
+valid_threes = torch.stack([tensor(Image.open(o)) for o in valid_threes]).float() / 255
 
 train_sevens = (path/'train'/'7').ls().sorted()
-train_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float() / 255
+train_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens]).float() / 255
 
 valid_sevens = (path/'valid'/'7').ls().sorted()
-valid_sevens = torch.stack([tensor(Image.open(o)) for o in train_sevens].float() / 255
+valid_sevens = torch.stack([tensor(Image.open(o)) for o in valid_sevens]).float() / 255
 
 train_images = torch.cat([train_threes, train_sevens]).view(-1, 28*28)
 train_targets = tensor([1]*len(train_threes) + [0]*len(train_sevens)).unsqueeze(1)
