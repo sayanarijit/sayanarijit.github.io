@@ -168,7 +168,8 @@ class LinearModel:
     def __call__(self, xb):
         return (xb @ self.weights) + self.bias  # Matrix multiplication
 
-class BasicOptim:
+class SimpleLearner:
+    """A simple learner to train models."""
     def __init__(self, data_loaders, model):
         self.data_loaders = data_loaders
         self.model = model
@@ -260,8 +261,8 @@ data_loaders = DataLoaders(train_dl, valid_dl)
 
 # Using our custom learner
 model = LinearModel(28*28, 1)
-opt = BasicOptim(data_loaders, model)
-opt.train_model(20, learning_rate=1.0)
+learner = SimpleLearner(data_loaders, model)
+learner.train_model(20, learning_rate=1.0)
 
 ## Similar to Pytorch's Learner
 # model = nn.Linear(28*28, 1)
