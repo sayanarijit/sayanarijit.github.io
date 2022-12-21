@@ -91,7 +91,11 @@ learner.fine_tune(1)
 
 - MNIST is a popular dataset containing images of handwritten digits.
 - We generally use the Image library from PIL to work on images, it's supported directly by Jupyter Notebook.
-- numpy "array" and pytorch "tensor" are mathematical data structures that can store values of any dimension (digit, array of digits, array of array of digits...).
+- numpy "array" and pytorch "tensor" are mathematical data structures (matrix) that can store values of any dimension.
+  - Single digit i.e. scalar i.e. rank 0
+  - Array of digits i.e. vector i.e. rank 1
+  - Array of array of digits i.e. matrix i.e. rank 2
+  - Multi rank matrix and matrices
 - They are almost similar, but tensor restricts its elements to be of the same type and shape, which lets it utilize the GPU and provide some other conveniences required for deep learning.
 - Images can be stored in a tensor by dividing each pixel by 255.
 - Image stored in a tensor can be shown in Jupyter notebook using the `show_image()` function.
@@ -152,10 +156,10 @@ def init_params(size, std=1.0):
 # Similar to Pytorch's nn.Linear()
 class LinearModel:
     def __init__(self, size, out_features):
-        self.weights = init_params((size, out_features))
+        self.weights = init_params((size, out_features))  # torch.Size([size, out_features])
         # w*x will always be 0 if "x" is 0. Hence, we need a bias "b"
         # So, the eq is: y = w*x + b
-        self.bias = init_params(1)
+        self.bias = init_params(out_features)  # torch.Size([out_features])
 
     def parameters(self):
         return (self.weights, self.bias)
@@ -262,12 +266,15 @@ opt.train_model(20, learning_rate=1.0)
 # model = nn.Linear(28*28, 1)
 # learn = Learner(data_loaders, model, opt_func=SGD, loss_func=mnist_loss, metrics=batch_accuracy)
 # learn.fit(20, lr=1.0)
+#
+## Plot the recorded learning proces with
+# plt.plot(L(learn.recorder.values).itemgot(2));
+# print("Final accuracy:", learn.recorder.values[-1][2])
 ```
 
 - To turn it into a more complex and capable neural network, implement a non-linear classifier.
 
 ```python
-
 # weights1 has 30 output activations, meaning the first layer can construct 30 different
 # features, each representing some different mix of pixels, it can be anything base on
 # complexity.
@@ -279,14 +286,31 @@ weights2 = init_params((30, 1))
 bias2 = init_params(1)
 
 def simple_net(xb):
+
+    # Layer 1: Linear
     res = (xb @ weights1) + bias1
 
+    # Layer 2: Nonlinearity a.k.a Activation Function
     # Rectified Linear Unit, aka ReLU, i.e. Pytorch's `F.relu` to replace all negative numbers to zero.
     res = res.max(tensor(0.0))
 
+    # Layer 3: Linear
     res = (res @ weights2) + bias2
+
     return res
+
+## Similar to Pytorch's
+# simple_net = nn.Sequential(
+#     nn.Linear(28*28, 30),
+#     nn.ReLU(),
+#     nn.Linear(30, 1)
+# )
 ```
+
+- Adding more linear layers isn't very useful because multiple linear layers in a row can be represented
+  with one single layer with a different set of parameters. It's not true if there's a non-linear layer
+  between them (e.g. ReLU).
+- Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
