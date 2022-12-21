@@ -272,11 +272,17 @@ opt.train_model(20, learning_rate=1.0)
 # print("Final accuracy:", learn.recorder.values[-1][2])
 ```
 
-- To turn it into a more complex and capable neural network, implement a non-linear classifier.
+- To turn it into a more complex and capable neural network, we need to add more layers.
+- Adding more linear layers isn't very useful because multiple linear layers in a row can be represented
+  with one single layer with a different set of parameters. It's not true if there's a non-linear layer
+  between them (e.g. ReLU).
+- Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 ```python
+# Let's split our model and turn it into a multi layer model
+
 # weights1 has 30 output activations, meaning the first layer can construct 30 different
-# features, each representing some different mix of pixels, it can be anything base on
+# features, each representing some different mix of pixels, it can be anything based on
 # complexity.
 weights1 = init_params((28*28, 30))
 bias1 = init_params(30)
@@ -306,11 +312,6 @@ def simple_net(xb):
 #     nn.Linear(30, 1)
 # )
 ```
-
-- Adding more linear layers isn't very useful because multiple linear layers in a row can be represented
-  with one single layer with a different set of parameters. It's not true if there's a non-linear layer
-  between them (e.g. ReLU).
-- Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
