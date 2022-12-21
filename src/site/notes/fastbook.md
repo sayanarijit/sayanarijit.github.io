@@ -305,7 +305,6 @@ class SimpleNet:
         w2, b2 = self.layer3.parameters()
         return (w1, b1, w2, b2)
 
-
     def __call__(self, xb):
         res = self.layer1(xb)
         res = self.layer2(res)
@@ -316,9 +315,9 @@ model = SimpleNet(28*28, 1)
 
 ## Similar to Pytorch's
 # model = nn.Sequential(
-#     nn.Linear(28*28, 30),
-#     nn.ReLU(),
-#     nn.Linear(30, 1)
+#     nn.Linear(28*28, 30),  # Layer 1
+#     nn.ReLU(),             # Layer 2
+#     nn.Linear(30, 1),      # Layer 3
 # )
 ```
 
