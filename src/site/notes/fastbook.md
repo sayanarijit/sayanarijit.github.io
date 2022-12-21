@@ -87,7 +87,11 @@ learner.fine_tune(1)
 - To avoid disaster, do human checks, keep the scope limited, expand gradually.
 - Be aware of positive feedback loops, where the model starts learning biases when data doesn't represent the intention.
 
-### Chapter 3: MNIST basics
+### Chapter 3: Ethics
+
+Computers can be (too) powerful. Be responsible.
+
+### Chapter 4: MNIST basics
 
 - MNIST is a popular dataset containing images of handwritten digits.
 - We generally use the Image library from PIL to work on images, it's supported directly by Jupyter Notebook.
