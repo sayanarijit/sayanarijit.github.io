@@ -1,6 +1,7 @@
 // Custom Markdown parser
 
 const markdownIt = require("markdown-it");
+const anchor = require("markdown-it-anchor");
 
 const markdownItOptions = {
   html: true,
@@ -9,7 +10,9 @@ const markdownItOptions = {
 
 const md = new markdownIt(markdownItOptions)
   .use(require("markdown-it-footnote"))
-  .use(require("markdown-it-anchor"))
+  .use(anchor, {
+    permalink: anchor.permalink.linkInsideHeader({ placement: "before" }),
+  })
   .use(require("markdown-it-copy"))
   .use(require("markdown-it-external-anchor"), { domain: "arijitbasu.in" })
   .use(require("@binyamin/markdown-it-wikilinks"), {
