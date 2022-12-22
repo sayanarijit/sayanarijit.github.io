@@ -136,7 +136,7 @@ def sigmoid(x):
 
 def batch_accuracy(predictions_batch, targets_batch):
     preds = predictions_batch.sigmoid()  # i.e. sigmoid(prediction_batch)
-    correct = (preds>0.5) == targets_batch
+    correct = (preds>0) == targets_batch
     return correct.float().mean()
 
 def mnist_loss(predictions, targets):
@@ -324,6 +324,10 @@ model = SimpleNet(28*28, 1)
 #     nn.Linear(30, 1),      # Layer 3
 # )
 ```
+
+### Chapter 5: Pet Breeds
+
+- "Presizing" of images is necessary to ensure images are of the same dimension, so they can collate into tensors.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
