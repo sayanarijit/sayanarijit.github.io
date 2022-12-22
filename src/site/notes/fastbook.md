@@ -328,6 +328,13 @@ model = SimpleNet(28*28, 1)
 ### Chapter 5: Pet Breeds
 
 - "Presizing" of images is necessary to ensure images are of the same dimension, so they can collate into tensors.
+- To make the presizing transformations faster without losing pixels:
+  - `item_tfms`: First resize image to a relatively larger dimension to avoid empty spaces after the transformations.
+  - `batch_tfms`: Compose all other transformations, including resizing to the final dimension, into one single transformation, and perform it in GPU.
+- Use `DataLoaders().show_batch(nrows: int, ncol: int)` to ensure data and labels are correct. Use `.summary(path: Path)` to debug issues.
+- If not provided, fastai will select a loss function automatically based on the dataset.
+- Cross-Entropy Loss works on images, of more than two categories, is faster and reliable.
+- Use `DataLoaders().one_batch()` to get a batch of tensors, and pass it to `Learner().get_preds()` to get predictions for it.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
