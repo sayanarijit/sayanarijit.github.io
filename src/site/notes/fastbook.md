@@ -82,7 +82,7 @@ learner.fine_tune(1)
 - When training vision learning models, use Data Augmentation i.e. transform the training images by cropping, rotating, applying filters etc.
 - Think about the possible biases in the dataset.
 - Train a small model first, and use that to clean the data before training bigger models.
-- Data cleaning can be done by plotting confusion metrics.
+- Data cleaning can be done by plotting confusion matrix (`ClassificationInterpretation().plot_confusion_matrix()`).
 - Create notebook apps as POC first.
 - To avoid disaster, do human checks, keep the scope limited, expand gradually.
 - Be aware of positive feedback loops, where the model starts learning biases when data doesn't represent the intention.
@@ -333,7 +333,6 @@ model = SimpleNet(28*28, 1)
   - `batch_tfms`: Compose all other transformations, including resizing to the final dimension, into one single transformation, and perform it in GPU.
 - Use `DataLoaders().show_batch(nrows: int, ncol: int)` to ensure data and labels are correct. Use `.summary(path: Path)` to debug issues.
 - If not provided, fastai will select a loss function automatically based on the dataset.
-- Cross-Entropy Loss works on images, of more than two categories, is faster and reliable.
 - Use `DataLoaders().one_batch()` to get a batch of tensors, and pass it to `Learner().get_preds()` to get predictions for it.
 - "Softmax", a multi-category equivalent of "Sigmoid", is an activation function used in the final layer to ensure the numbers are between 0-1 and add up to 1.
 
@@ -347,6 +346,32 @@ model = SimpleNet(28*28, 1)
   ```
 
 - For more that two categories, we need an activation per category.
+- Logarithms increase linearly when the underlying signal increases exponentially or multiplicatively.
+
+  ```python
+  log(a * b) = log(a) + log(b)
+  ```
+
+  i.e. multiplication, which can create really large or really small numbers, can be replaced by addition,
+  which is much less likely to result in scales that are difficult for computers to handle.
+
+- To classify categories from loss, we need to invert the scale of log function, i.e. `-1 * log(loss)`.
+- Cross-Entropy Loss (`nn.CrossEntropyLoss(reduction='none')`/`F.cross_entropy`), aka Negative Log Likelihood loss (`F.nll_loss`) works on images,
+  of more than two categories, is faster and reliable. `reduction='none'` disables taking mean of the loss of all items.
+
+  ```python
+  cross_entropy = lambda activations, targets: nll_loss(log_softmax(activations, targets))
+  ```
+
+- Plot confusion matrix to interpret loss functions.
+
+  ```python
+    interp = ClassificationInterpretation.from_learner(learner)
+    interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
+
+    # Use this method to get the confusion matrix with the most incorrect predictions.
+    interp.most_confused(min_val=5)
+  ```
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
