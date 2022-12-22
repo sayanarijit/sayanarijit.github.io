@@ -373,6 +373,8 @@ model = SimpleNet(28*28, 1)
     interp.most_confused(min_val=5)
   ```
 
+- Use `Learner().lr_find(suggest_funcs=(minimum, steep))` to find a suitable learning rate.
+
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
 [3]: https://www.oreilly.com/radar/drivetrain-approach-data-products

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 👋 Hi
+👋 Hi
 
 I am Arijit Basu.
 
