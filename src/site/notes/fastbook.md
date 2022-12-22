@@ -335,6 +335,18 @@ model = SimpleNet(28*28, 1)
 - If not provided, fastai will select a loss function automatically based on the dataset.
 - Cross-Entropy Loss works on images, of more than two categories, is faster and reliable.
 - Use `DataLoaders().one_batch()` to get a batch of tensors, and pass it to `Learner().get_preds()` to get predictions for it.
+- "Softmax", a multi-category equivalent of "Sigmoid", is an activation function used in the final layer to ensure the numbers are between 0-1 and add up to 1.
+
+  ```python
+  # For any increase in x, exponential(x) increases very rapidly.
+  # It ensures all the numbers are positive, and amplifies the slightly bigger numbers
+  exponential = lambda x: e ** x  # e ~= 2.718,
+
+  # Dividing by sum ensures all the numbers add up to 1
+  softmax = lambda x: exponential(x) / exponential(x).sum(dim=1, keepdim=True)
+  ```
+
+- For more that two categories, we need an activation per category.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
