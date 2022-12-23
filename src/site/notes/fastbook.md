@@ -286,8 +286,6 @@ learner.train_model(20, learning_rate=1.0)
 - Deeper models, i.e. models with more layers require less parameters, hence are faster, but harder to train (i.e. optimize the params).
 
 ```python
-# ⚠️ There's some issue with this implementation
-
 class SimpleNet:
     """A simple multi layer neural network."""
     def __init__(self, in_features, out_features):
