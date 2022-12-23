@@ -136,11 +136,12 @@ def sigmoid(x):
 
 def batch_accuracy(predictions_batch, targets_batch):
     preds = predictions_batch.sigmoid()  # i.e. sigmoid(prediction_batch)
-    correct = (preds>0) == targets_batch
+    threes = preds > 0.5
+    correct = threes == targets_batch
     return correct.float().mean()
 
 def mnist_loss(predictions, targets):
-    predictions = sigmoid(predictions)
+    predictions = predictions.sigmoid()
 
     # Similar to [(1-predictions)[i] if targets[i]==1 else predictions[i] for i in range(len(targets))]
     # but faster (uses GPU)
@@ -167,7 +168,7 @@ class LinearModel:
         self.bias = init_params(out_features)  # torch.Size([out_features])
 
     def parameters(self):
-        return (self.weights, self.bias)
+        return self.weights, self.bias
 
     def __call__(self, xb):
         return (xb @ self.weights) + self.bias  # Matrix multiplication
@@ -178,14 +179,14 @@ class SimpleLearner:
         self.data_loaders = data_loaders
         self.model = model
 
-    def calculate_gradient(self, image, result):
+    def calculate_gradient(self, image, target):
         """Calculate gradients i.e. slope i.e. `d(loss) / d(weight)` of weights and biases.
 
         If it's is very small, it means we're closer to the optimal value.
         """
 
-        preds = self.model(image)
-        loss = mnist_loss(preds, result)
+        predictions = self.model(image)
+        loss = mnist_loss(predictions, target)
 
         # Updates self.model.parameters[n].grad for each layer, see init_params()
         # It could've been named `.calculate_gradient()` to make life easier.
@@ -197,12 +198,12 @@ class SimpleLearner:
         If learning rate is too low, it might require a lot of steps to reach the optimal value.
         If learning rate is too high, it might result in loss getting worse, or bounce around in circles.
         """
-        for param in list(self.model.parameters()):
+        for param in self.model.parameters():
             param.data -= param.grad.data * learning_rate
 
     def reset_gradient(self):
         """Reset the calculated gradients."""
-        for p in list(self.model.parameters()):
+        for p in self.model.parameters():
             p.grad = None
 
     def train_epoch(self, learning_rate):
@@ -307,7 +308,7 @@ class SimpleNet:
     def parameters(self):
         w1, b1 = self.layer1.parameters()
         w2, b2 = self.layer3.parameters()
-        return (w1, b1, w2, b2)
+        return w1, b1, w2, b2
 
     def __call__(self, xb):
         res = self.layer1(xb)
