@@ -15,7 +15,7 @@ Notes from the [Fastbook][1].
 The simplest equation that can power an AI is:
 
 ```python
-w * x + b = y
+w*x + b = y
 ```
 
 - Where `x` is the input, `y` is the output. `w` and `b` are weights and biases (so that `x=0` is handled).
