@@ -12,6 +12,8 @@ tags:
 
 Notes from the [Fastbook][1].
 
+### Overview
+
 The simplest equation that can power an AI is:
 
 ```python
@@ -21,7 +23,6 @@ w*x + b = y
 - Where `x` is the input, `y` is the output. `w` and `b` are parameters, i.e. weights and biases (so that `x=0` is handled).
 - During training, we learn the perfect values for `w` and `b` for the given values of `x` and `y`.
 - During prediction, we use the same equation with the learned values of `w` and `b` to get the value of `y` for a given value of `x`.
-
 
 ### Chapter 1: Intro
 
