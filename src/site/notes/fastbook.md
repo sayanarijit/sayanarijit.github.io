@@ -40,7 +40,7 @@ w*x + b = y
 - While learning, the model goes through the training data, often multiple times, each time, storing the recognized patterns in its layers as values called "parameters" aka "weights" + "biases".
 - The last layer of a model, aka the "head", stores the most specialized parameters for the dataset it has been trained on.
 - While training a pre-trained model, the parameters in the latter layers, specially the head is replaced with new parameters acquired from the new dataset.
-- It's easier and faster to fine-tune, i.e. train a pre-trained model, than training one from scratch.
+- It's easier and faster to fine-tune, i.e. train a pre-trained model (aka transfer learning), than training one from scratch.
 - Before training, the learner sets aside about 20% of the data for validation after the training.
 - Use the same set of data for validation in all iterations to avoid bias.
 - The error rate (percentage of incorrect predictions) should reduce after each epoch (iteration) of processing the dataset.
@@ -385,6 +385,19 @@ model = SimpleNet(28*28, 1)
   ```
 
 - Use `Learner().lr_find(suggest_funcs=(minimum, steep))` to find a suitable learning rate.
+- In general, the first few layers of an image classification model encode very general concepts
+  such as finding gradients and edges. Later layer encode more specific but still useful concepts.
+- Since the final layer of a (pre)trained model has specific number of activations (output
+  for each category) for the classification of the old training data, we replace it with new
+  layer(s) with random weights when finetuning.
+- Instead of using FastAI's `.fine_tune()` we can also manualy:
+  - Train the randomly added layers for one epoch, with all other layers "frozen",
+    i.e. `.fit_one_cycle()`.
+  - Unfreeze all of the layers, and train them all for the number of epochs requested,
+    i.e. `.unfreeze()`, `.lr_find()` and `.fit_one_cycle()` again.
+- We can pass learning rate in the format `(initial, final)` to tell FastAI to use a lower
+  learning rate initially, and gradually increase it upto a final value in the final layer,
+  because we may want to train the later layers quicker than initial layers (not entirely sure why).
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
