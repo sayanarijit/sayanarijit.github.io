@@ -398,6 +398,14 @@ model = SimpleNet(28*28, 1)
 - We can pass learning rate in the format `(initial, final)` to tell FastAI to use a lower
   learning rate initially, and gradually increase it upto a final value in the final layer,
   because we may want to train the later layers quicker than initial layers (not entirely sure why).
+  This is called "discriminative learning rate".
+- "capacity" of a model = how many layers and parameters does it have?
+- The higher the capacity the more GPU RAM it needs. Use smaller batch size (`bs=batch_size`) to avoid:
+  ```
+  Cuda runtime error: out of memory
+  ```
+- Use `Learner().to_fp16()` to enable GPU feature "tensor cores" that uses "mixed-precision training"
+  i.e. less precise numbers (aka fp16) where possible to achieve 2x-3x speed boost.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
