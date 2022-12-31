@@ -65,3 +65,4 @@ https://github.com/sayanarijit?tab=repositories&language=python
 Also See:
 
 - https://github.com/mjhea0/awesome-fastapi
+- High-performance parallel programming in Python https://www.taichi-lang.org/

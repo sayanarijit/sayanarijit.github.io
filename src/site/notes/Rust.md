@@ -134,6 +134,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for
 
+#### Learn to write Rust procedural macros
+
+- https://github.com/dtolnay/proc-macro-workshop
+
 ---
 
 Also See:
