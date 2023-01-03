@@ -41,7 +41,7 @@ body {
 }
 
 nav a {
-  margin: 0 12px;
+  margin: 0 6px;
   font-size: 1.25em;
 }
 
@@ -139,7 +139,7 @@ small {
   overflow: hidden;
 }
 .backlink__preview::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   background: linear-gradient(transparent, white);
