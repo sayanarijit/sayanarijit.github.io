@@ -69,6 +69,7 @@ data_loaders = ImageDataLoaders.from_name_func(
   seed=42,  # Use the same seed in each epoch to ensure same set of validation data is used.
   label_func=is_cat,  # Function to process labels from filename
   item_tfms=Resize(224),  # Resize the images to the same size for processing them efficiently in GPU.
+  # item_tfms=RandomResizedCrop(128, min_scale=0.35),  # Alternative
 )
 
 # Use a CNN implementation with 34 layers
@@ -270,10 +271,12 @@ valid_images = torch.cat([valid_threes, valid_sevens]).view(-1, 28*28)
 valid_targets = tensor([1]*len(valid_threes) + [0]*len(valid_sevens)).unsqueeze(1)
 valid_dset = list(zip(valid_images, valid_targets))
 
+# DataLoader builds on top of Dataset, and adds additional functionalitiies.
 # Batch size is a tradeoff between speed vs GPU memory
 train_dl = DataLoader(train_dset, batch_size=256)
 valid_dl = DataLoader(valid_dset, batch_size=256)
 
+# DataLoaders builds on top of Datasets
 data_loaders = DataLoaders(train_dl, valid_dl)
 
 # Using our custom learner
@@ -406,6 +409,35 @@ model = SimpleNet(28*28, 1)
   ```
 - Use `Learner().to_fp16()` to enable GPU feature "tensor cores" that uses "mixed-precision training"
   i.e. less precise numbers (aka fp16) where possible to achieve 2x-3x speed boost.
+
+### Chapter 6: Multicat
+
+- Pandas DataFrame is used to manipulate tabular or time-series data.
+  ```python
+  path = untar_data(URLs.PASCAL_2007)
+  df = pd.read_csv(path/'train.csv')  # Also supports reading from DB, py dicts and many other sources
+  df.head()  # Display preview
+  df.iloc[:, 0]  # Access rows and columns by number
+  df['fname']  # Access columns by name
+  ```
+- Use DataBlock to load datasets from DataFrame.
+  ```python
+  datablock = DataBlock(
+    blocks=(
+      ImageBlock,  # get_x points to a valid image
+      MultiCategoryBlock,  # For multiple labels, rather than single integer
+    ),
+    get_x=lambda r: path/'train'/r['fname'],
+    get_y=lambda r: r['labels'].split(' '),
+  )
+  datasets = datablock.datasets(df)
+  # datasets.train, datasets.valid
+  ```
+- jargon: One-hot encoding: Using a vector of zeros, with a one in each location that is
+  represented in the data, to encode a list of integers. e.g.
+  ```python
+  TensorMultiCategory([0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.])
+  ```
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
