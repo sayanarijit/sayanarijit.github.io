@@ -441,6 +441,7 @@ model = SimpleNet(28*28, 1)
   ```python
   TensorMultiCategory([0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.])
   ```
+  This format is used to keep the size of multi category outputs same.
 - Debug models by passing mini batches of data into it.
   ```python
   learn = vision_learner(dataloaders, resnet18)
