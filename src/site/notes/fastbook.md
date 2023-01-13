@@ -10,6 +10,8 @@ tags:
 
 # Fastbook
 
+YouTube Playlist: https://youtube.com/playlist?list=PLD80i8An1OEHdlrBwa7mKFaHX9tH86b93
+
 Notes from the [Fastbook][1].
 
 ### Overview
