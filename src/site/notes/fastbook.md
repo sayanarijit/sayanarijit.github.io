@@ -420,7 +420,7 @@ model = SimpleNet(28*28, 1)
   df.iloc[:, 0]  # Access rows and columns by number
   df['fname']  # Access columns by name
   ```
-- Use DataBlock to load datasets from DataFrame.
+- Use DataBlock to load datasets/dataloaders from DataFrame.
   ```python
   datablock = DataBlock(
     blocks=(
@@ -432,12 +432,31 @@ model = SimpleNet(28*28, 1)
   )
   datasets = datablock.datasets(df)
   # datasets.train, datasets.valid
+  dataloaders = datablock.dataloaders(df)
   ```
 - jargon: One-hot encoding: Using a vector of zeros, with a one in each location that is
   represented in the data, to encode a list of integers. e.g.
   ```python
   TensorMultiCategory([0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.])
   ```
+- Debug models by passing mini batches of data into it.
+  ```python
+  learn = vision_learner(dataloaders, resnet18)
+  x, y = to_cpu(dataloaders.train.one_batch())
+  activs = learn.model(x)
+  activs.shape
+  # torch.Size([64, 20])
+  activs[0]
+  # TensorBase([-1.4608,  0.9895,  0.5279, -1.0224, -1.4174, -0.1778, -0.4821, -0.2561,  0.6638,  0.1715,  2.3625,  4.2209,  1.0515,  4.5342,  0.5485,  1.0585, -0.7959,  2.2770, -1.9935,  1.9646], grad_fn=)
+  ```
+- `sigmoid`, `nll_loss`, `softmax`, and thus `cross_entropy` etc won't work with multi category since they return single digit. We need array of digits.
+  - F.cross_entropy / nn.CrossEntropyLoss -> F.binary_cross_entropy / nn.BCELoss
+    ```python
+    def binary_cross_entropy(inputs, targets):
+        inputs = inputs.sigmoid()
+        return -torch.where(targets==1, inputs, 1-inputs).log().mean()
+    ```
+  - For one-hot-encoded targets, we need F.binary_cross_entropy_with_logits / nn.BCEWithLogitsLoss.
 
 [1]: https://github.com/fastai/fastbook
 [2]: https://www.fast.ai
