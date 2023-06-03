@@ -14,6 +14,7 @@ tags:
 - Knowledge is stored in mind (both conscious and subconscious).
 - Mind consists of brain (body, the "mostly" conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
 - Yes, DNA is spirit (rather than body) because it connects us with other living beings possessing similar DNAs (corpus of knowledge).
+- No, spirit doesn't fly around, spooking or assisting other people. It can only merge and replicate by sex and birth.
 - Humans are spiritual, or so we think, because we don't have much access to other species' spirits (DNA), and so we can't perceive their existence.
 - The entire knowledge space shared by humans is called "humanity".
 - Even though we humans posses similar DNA (spirit), based on our culture (experiences), our spiritual beliefs take different shapes, resulting in different subgroups of knowledge called "religion"s.
