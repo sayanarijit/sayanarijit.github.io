@@ -10,6 +10,8 @@ tags:
 
 ## Personal Thoughts
 
+<details>
+  <summary>Too much misinformation! Open at your own risk</summary>
 - Knowledge is what we (living beings) learn through experiences.
 - Knowledge is stored in mind (both conscious and subconscious).
 - Mind consists of brain (body, the "mostly" conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
@@ -27,6 +29,7 @@ tags:
 - "Deep learning" the method we use to create AI, resembles our own evolution from one cell "Amoeba" to what we are now, but the pace is much faster, because the corpus of knowledge is already there.
 
 Also see: [[life]].
+</details>
 
 ## Books
 
