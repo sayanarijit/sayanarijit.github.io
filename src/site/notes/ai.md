@@ -12,6 +12,7 @@ tags:
 
 <details>
   <summary>Too much misinformation! Open at your own risk</summary>
+
 - Knowledge is what we (living beings) learn through experiences.
 
 - Knowledge is stored in mind (both conscious and subconscious).
