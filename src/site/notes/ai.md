@@ -12,7 +12,7 @@ tags:
 
 - Knowledge is what we (living beings) learn through experiences.
 - Knowledge is stored in mind (both conscious and subconscious).
-- Mind consists of brain (body, the conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
+- Mind consists of brain (body, the "mostly" conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
 - Yes, DNA is spirit (rather than body) because it connects us with other living beings possessing similar DNAs (corpus of knowledge).
 - Humans are spiritual, or so we think, because we don't have much access to other species' spirits (DNA), and so we can't perceive their existence.
 - The entire knowledge space shared by humans is called "humanity".
