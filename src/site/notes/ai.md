@@ -19,7 +19,7 @@ tags:
 
 - Mind consists of brain (body, the "mostly" conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
 
-- Yes, DNA is spirit (rather than body) because it connects us with other living beings possessing similar DNAs (corpus of knowledge).
+- Yes, DNA is spirit (rather than body) because it connects us with other living beings possessing similar DNAs ([corpus of knowledge](https://www.perplexity.ai/search/a4874d22-ade5-4462-bddb-3b8a1b1391d2?s=c)).
 
 - No, spirit doesn't fly around, spooking or assisting other people. It can only merge and replicate by sex and birth.
 
