@@ -25,3 +25,15 @@ https://thenumb.at/Autodiff/
 - https://github.com/rossant/awesome-math
 - https://www.youtube.com/c/misterwootube/playlists
 - https://www.maa.org/
+- Math books that made you significantly better at math? https://news.ycombinator.com/item?id=34439828
+
+### Linear Algebra
+
+- https://www.youtube.com/@3blue1brown
+- https://graphicallinearalgebra.net/
+- https://github.com/fastai/numerical-linear-algebra
+- Linear Algebra done right https://linear.axler.net/
+
+Also See:
+
+- [[ai]]

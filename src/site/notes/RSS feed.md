@@ -11,14 +11,14 @@ If you want to get updates from your favourite websites at your own convenience,
 
 Basically it is a link that you can copy and paste into your favourite RSS reader software. Once you do that, you will have subscribed to the feed and you will get the latest updates from the website when you open the reader.
 
-
 > ℹ️ The RSS feed URL for this website is: [`https://arijitbasu.in/feed.xml`][1]
-
-[1]: /feed.xml
-
----
 
 Learn more:
 
 - https://github.com/AboutRSS/ALL-about-RSS
 - https://github.com/plenaryapp/awesome-rss-feeds
+
+However, do note that [Feeds are Not Fit for Gardening][2].
+
+[1]: /feed.xml
+[2]: https://v5.chriskrycho.com/essays/feeds-are-not-fit-for-gardening/

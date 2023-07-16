@@ -29,3 +29,4 @@ Also see:
 - [[writing]]
 - https://sci-hub.st | https://sci-hub.se | https://sci-hub.ru
 - Should Knowledge Be Free? https://youtu.be/PriwCi6SzLo
+- https://github.com/fogus/papers-i-love

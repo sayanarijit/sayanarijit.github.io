@@ -161,6 +161,16 @@ Choose two characters. A prompt will show and suggest the tone of the next dialo
 
 </details>
 
+<details>
+  <summary>AI dropbox</summary>
+
+Drop all these idead into an AI dropbox and ask AI to compose them in creative ways.
+
+Maybe also auto drop things (bookmarks, github start etc.) automatically (or sync) to learn
+about my interests, and help me quick search things.
+
+</details>
+
 More:
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use

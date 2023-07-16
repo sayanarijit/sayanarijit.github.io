@@ -8,59 +8,58 @@ tags:
 
 # AI
 
-## Personal Thoughts
+## Learn
 
-<details>
-  <summary>Too much misinformation! Open at your own risk</summary>
-
-- Knowledge is what we (living beings) learn through experiences.
-
-- Knowledge is stored in mind (both conscious and subconscious).
-
-- Mind consists of brain (body, the "mostly" conscious part, only accessible to the owner) and DNA (spirit, the subconscious part, shared among every living being to some varying degree).
-
-- Yes, DNA is spirit (rather than body) because it connects us with other living beings possessing similar DNAs ([corpus of knowledge](https://www.perplexity.ai/search/a4874d22-ade5-4462-bddb-3b8a1b1391d2?s=c)).
-
-- No, spirit doesn't fly around, spooking or assisting other people. It can only merge and replicate by sex and birth.
-
-- Humans are spiritual, or so we think, because we don't have much access to other species' spirits (DNA), and so we can't perceive their existence.
-
-- The entire knowledge space shared by humans is called "humanity".
-
-- Even though we humans posses similar DNA (spirit), based on our culture (experiences), our spiritual beliefs take different shapes, resulting in different subgroups of knowledge like races, religions and even nationalities.
-
-- Each corpus of knowledge (e.g. subgroups like religions and also the entire group), being able to interconnect everyone who share the knowledge space (DNA), acts like a god, who "knows everything", "sees everything", and even "judges everyone".
-
-- If one stray away from our knowledge space, further enough, they are considered "no longer human", and is "punished".
-
-- The scope of punishment may differ, ranging from the specific individual, to the entire group who share the knowledge space.
-
-- But the guilty (both the individual and the entire group), is usually able to learn from its mistake and the punishment and eventually correct itself.
-
-- Internet is an unconventional example of such knowledge space, artificially created, which stores the knowledge in digital form and is derived from our own (human) knowledge space.
-
-- AI, the digital beings who share this knowledge space, can interact with humans to some degree because it resembles our own, to some degree.
-
-- "Deep learning" the method we use to create AI, resembles our own evolution from one cell "Amoeba" to what we are now, but the pace is much faster, because the corpus of knowledge is already there.
-
-Also see: [[life]].
-</details>
+- https://wandb.ai/fully-connected
+- What I Learned About Fine-tuning Stable Diffusion https://harrywang.me/sd
+- Efficient Large Language Model training with LoRA and Hugging Face https://www.philschmid.de/fine-tune-flan-t5-peft
+- Deep learning operations reinvented https://github.com/arogozhnikov/einops
+- Machine Learning Compilation https://mlc.ai/
+- Numbers every LLM Developer should know https://github.com/ray-project/llm-numbers
 
 ## Books
 
 - [[fastbook]]
 
+## Frameworks
+
+- https://github.com/tinygrad/tinygrad
+
 ## Models
 
 ### Text to Image
 
-- https://github.com/Stability-AI/stablediffusion
-- https://midjourney.com/
-- https://openai.com/dall-e-2/
+- Illusion Diffusion: https://github.com/tancik/Illusion-Diffusion/blob/main/IllusionDiffusion.ipynb
+- 1 click SD colab https://github.com/nolanaatama/sd-1click-colab
+- https://github.com/diff-usion/Awesome-Diffusion-Models
+- With animation: https://animatediff.github.io/
 
 ### Text to Text
 
 - https://openai.com/
+
+### Text to Voice
+
+- https://github.com/serp-ai/bark-with-voice-clone
+
+### Text to Music
+
+- https://github.com/facebookresearch/audiocraft
+- https://mubert.com/
+- https://github.com/archinetai/audio-ai-timeline
+
+### Text to Video
+
+- https://github.com/TaylorTheDeveloper/Stable-Diffusion-Animation-Processing
+- https://github.com/facebookresearch/AnimatedDrawings
+
+### Text to 3D
+
+- https://github.com/Stability-AI/stable-dreamfusion-multiview
+
+### Image to Image
+
+- https://github.com/prasunroy/pose-transfer
 
 ### Finetuning
 
@@ -68,6 +67,36 @@ Also see: [[life]].
 - https://dushyantmin.com/fine-tuning-stable-diffusion-v20-with-dreambooth
 - https://thenumb.at/Neural-Graphics/
 
-### People
+### Visual Classification
 
-- https://github.com/dmarx
+- https://github.com/IDEA-Research/Grounded-Segment-Anything
+  - https://github.com/sunu/SAM-in-Browser)
+- https://github.com/facebookresearch/ImageBind
+
+### GPU
+
+- https://github.com/run-house/runhouse
+- https://www.runpod.io/
+- https://www.paperspace.com/
+- https://oblivus.com/
+
+### GPU less
+
+- https://github.com/mlc-ai/mlc-llm
+
+### AI and NixOS
+
+- https://nixified.ai/
+
+### Tools
+
+- Label image data: https://myvision.ai/
+- Image processing: https://github.com/cvzone/cvzone
+- Streaming data processing: https://github.com/google/mediapipe
+
+---
+
+Also See:
+
+- [[Mathematics]]
+- https://github.com/camenduru

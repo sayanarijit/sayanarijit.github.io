@@ -10,6 +10,8 @@ tags:
 
 Don't waste your emotions, make a story out of it.
 
+Some artists show us something wrong with the world by painting the ugly picture of reality. Then there are artists who show us the same thing by painting a beautiful picture of fantasy.
+
 ## Insights
 
 - "a story is a gossip" - arunava sinha [^1][1] [^2][2]

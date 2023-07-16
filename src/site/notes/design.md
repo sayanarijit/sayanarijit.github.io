@@ -37,6 +37,9 @@ https://youtu.be/lZp4salRFFc
 - https://themesberg.com/templates/bootstrap/free
 - Design system: https://nordhealth.design/
 - Firefox Design: https://design.firefox.com/
+- Understanding SVG Paths https://www.nan.fyi/svg-paths
+
+- How to design almost any UI element: https://www.reddit.com/r/webdev/comments/mpgc9g/comment/gu9owie/?utm_medium=android_app&utm_source=share&context=3
 
 ## Tools
 

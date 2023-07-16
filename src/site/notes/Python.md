@@ -57,6 +57,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://github.com/trananhkma/fucking-awesome-python
 - https://www.cosmicpython.com/
 - Production-ready Docker packaging for Python developers https://pythonspeed.com/docker/
+- Interesting super fast web server: https://docs.socketify.dev/
 
 [^1]: https://peps.python.org/pep-0020/
 

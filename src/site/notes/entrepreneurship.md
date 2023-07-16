@@ -15,6 +15,8 @@ tags:
 
 - Golden Circle: https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action
 
+- Unconscious Bias @ Work: https://youtu.be/nLjFTHTgEVU
+
 ## Marketing
 
 - https://www.helpareporter.com/

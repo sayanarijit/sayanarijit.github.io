@@ -138,6 +138,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://github.com/dtolnay/proc-macro-workshop
 
+#### A journey through incremental computation
+
+- https://youtu.be/DSuX-LIAU-I
+
 ---
 
 Also See:

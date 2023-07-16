@@ -38,6 +38,8 @@ See [[career]].
 
 - If you want something, before aquiring it, ask yourself... Will it make you happier in life? Once you get it, would you really cherish it for the rest of your life, even if you don't get to show it off to other people?
 
+- If you own something, learn it in detail.
+
 - Develop a third eye for detecting distracting information. Be aware of the distractions. Keep a record of what distracted you throughout the day. Review weekly or monthly and optimize. Even relevant information can be irrelevant at the wrong time. Optimize how to handle them.
 
 - Keep a record of what you own and why. Track every little thing. Review weekly or monthly to optimise.
@@ -50,7 +52,13 @@ See [[career]].
 
 - Stop reading "how to"s. If you genuinely want to do something, start doing it, you'll it figure it out. If you don't, trying to execute "how to"s you've read will only bring you pain and suffering.
 
+- Procrastination starts with dishes in the basin. There shouldn't be any list without a TTL.
+
 - When you're up against stereotypical stupidity, just change the perspective. Jump one dimension up.
+
+- "you're missing out" is the ultimate weapon most scammers use to convince you.
+
+- There's no enemy, [only hedgehogs](https://www.psychologytoday.com/intl/blog/science-and-philosophy/202003/the-hedgehog-s-dilemma).
 
 ## We all are Hypocrites
 
@@ -62,6 +70,8 @@ Before acting all wise, remember your forgotten foolishness. Remember the dark m
 
 ## Mental Health
 
+Life where you don't desire anything, is depression.
+
 ### Dabrowski’s Theory and Existential Depression in Gifted Children and Adults
 
 - https://www.davidsongifted.org/gifted-blog/dabrowskis-theory-and-existential-depression-in-gifted-children-and-adults/
@@ -72,9 +82,13 @@ Before acting all wise, remember your forgotten foolishness. Remember the dark m
 
 - "Morality is not some objective truth. It's a skill that we develop as we progress both individually as a human and collectively as mankind." ~ ???
 
+https://youtu.be/lSvKNNtkUSU
+
+> Feelings have a judgement inside. Virtue is having correct judgements about the world, be it good or bad.
+
 ---
 
 Also See:
 
 - https://wiki.xxiivv.com/site/lifestyle.html
-- My Journey (A.P.J. Abdul Kalam): https://www.goodreads.com/book/show/18371021-my-journey
+- Alignment of Interest https://www.yarden-zamir.com/docs/alignment-of-interest/

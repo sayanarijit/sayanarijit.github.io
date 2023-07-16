@@ -8,7 +8,7 @@ tags:
 
 # Software Engineering
 
-It is a discipline of [[computer science]] that also deals with solving problems.
+Software Engineering that one problematic friend of [[computer science]] that's comfortable with saying "but somehow it works".
 
 ## Software Development vs Software Engineering
 
@@ -43,6 +43,8 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/
 - https://developers.cloudflare.com/
 - https://www.worldql.com/posts/2021-08-worldql-scalable-minecraft/
+- Architectural Decision Records (ADRs) https://adr.github.io/
+- Numbers every Engineer should know: http://brenocon.com/dean_perf.html
 
 ---
 

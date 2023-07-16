@@ -8,7 +8,7 @@ tags:
 
 # Money
 
-I believe in earning more as opposed of saving more, but not at the cost of losing what defines me.
+Money is a critical resource, but it's also limited. Which means, if you have more than you need, you're depriving someone else of their needs and opportunities.
 
 ## Resources
 

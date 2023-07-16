@@ -32,6 +32,10 @@ All jobs are [[computer science]] related.
 - https://remoteindian.com/jobs
 - https://remoteleaf.com/
 
+### Indian
+
+- https://ora.digitalindiacorporation.in/
+
 ### Consulting
 
 - https://sourcehut.org/consultancy/

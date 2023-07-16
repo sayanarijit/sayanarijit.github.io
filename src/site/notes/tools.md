@@ -21,6 +21,7 @@ tags:
 - Asciinema to GIF: https://dstein64.github.io/gifcast/
 - Instant webhooks, scripts and APIs: https://autocode.com/app/
 - Deploy App Servers: https://fly.io
+- Send emails using edge servers: https://github.com/Sh4yy/cloudflare-email
 
 ## Design
 
@@ -42,6 +43,8 @@ tags:
 - More secure, more flexible, and completely free video conferencing: https://jitsi.org
 - https://thenextweb.com/news/300-awesome-free-things-massive-list-free-resources-know
 - Presentation Slides for Developers: https://sli.dev/
+- Geometrizing images into geometric primitives https://www.samcodes.co.uk/project/geometrize-haxe-web/
+- Remove image backgrounds: https://github.com/danielgatis/rembg
 
 ---
 
