@@ -34,6 +34,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 ## Resources
 
+### Learning Async Rust With Entirely Too Many Web Servers
+
+- https://ibraheem.ca/posts/too-many-web-servers/
+
 #### Stanford Seminar - The Rust Programming Language
 
 - https://youtu.be/O5vzLKg7y-k
@@ -141,6 +145,7 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 #### A journey through incremental computation
 
 - https://youtu.be/DSuX-LIAU-I
+- https://github.com/salsa-rs/salsa
 
 ---
 

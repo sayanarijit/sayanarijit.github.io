@@ -38,11 +38,9 @@ See [[career]].
 
 - If you want something, before aquiring it, ask yourself... Will it make you happier in life? Once you get it, would you really cherish it for the rest of your life, even if you don't get to show it off to other people?
 
-- If you own something, learn it in detail.
-
 - Develop a third eye for detecting distracting information. Be aware of the distractions. Keep a record of what distracted you throughout the day. Review weekly or monthly and optimize. Even relevant information can be irrelevant at the wrong time. Optimize how to handle them.
 
-- Keep a record of what you own and why. Track every little thing. Review weekly or monthly to optimise.
+- Keep a record of what you own and why. Everything you own came with attached responsibilities. Identify them. Learn them. Maintain them.
 
 - Be aware of when you are rushing but getting nowhere. It's usually when you want to just get things done, and when things turn out hairy, you feel annoyed instead of feeling curious and excited. Or when you are unable to get bored, or when you feel asleep while reading a book. Recognise, slow down and take back control. Hairy things should excite you, not annoy you. Everyone driving a car doesn't mean you are slower on your feet.
 
@@ -58,7 +56,7 @@ See [[career]].
 
 - "you're missing out" is the ultimate weapon most scammers use to convince you.
 
-- There's no enemy, [only hedgehogs](https://www.psychologytoday.com/intl/blog/science-and-philosophy/202003/the-hedgehog-s-dilemma).
+- There's no enemy, [only fellow hedgehogs](https://www.psychologytoday.com/intl/blog/science-and-philosophy/202003/the-hedgehog-s-dilemma).
 
 ## We all are Hypocrites
 
