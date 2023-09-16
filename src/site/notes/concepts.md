@@ -176,6 +176,10 @@ More:
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use
 - Mostly AI https://github.com/dmarx/bench-warmers
 
+## Physical Products
+
+- A food storage (like hotpot) that has to be opened by thanking the farmers (and maybe god of food).
+
 ## Fiction Writing
 
 ### Character

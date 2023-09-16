@@ -12,6 +12,8 @@ See [[career]].
 
 ## Wisdom
 
+- Ikigai: https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html
+
 - https://wiki.nikitavoloboev.xyz/life
 
 - Joe Rogan's Life Advice: https://youtu.be/u4taz6dfPQc
@@ -57,6 +59,10 @@ See [[career]].
 - "you're missing out" is the ultimate weapon most scammers use to convince you.
 
 - There's no enemy, [only fellow hedgehogs](https://www.psychologytoday.com/intl/blog/science-and-philosophy/202003/the-hedgehog-s-dilemma).
+
+- Avoid clutter. Avoid putting everything into mobile. Try to take things out of mobile and put them into some physical space, somewhere they should belong. Those things should be visible only when you're near that physical space. You should be able to leave that space without leaving your mobile.
+
+- Avoid making relationships with brands. Brand to person relationships are mostly one sided, with the brand having unfair advantages. Either person to person, or brand to brand relationship works best.
 
 ## We all are Hypocrites
 

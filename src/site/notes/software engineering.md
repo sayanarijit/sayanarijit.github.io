@@ -45,6 +45,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - https://www.worldql.com/posts/2021-08-worldql-scalable-minecraft/
 - Architectural Decision Records (ADRs) https://adr.github.io/
 - Numbers every Engineer should know: http://brenocon.com/dean_perf.html
+- All about emails: https://youtu.be/mrGfahzt-4Q
 
 ---
 

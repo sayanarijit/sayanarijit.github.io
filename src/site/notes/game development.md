@@ -7,7 +7,6 @@ tags:
 
 # Game Development
 
-
 ## Resources
 
 - See [[design]], [[art]], [[concepts]], and [[fiction]].
@@ -67,3 +66,5 @@ tags:
 - [https://www.turbosquid.com/3d-models/free-max-mode-caterham-sports-car/733021](https://www.turbosquid.com/3d-models/free-max-mode-caterham-sports-car/733021)
 
 - https://gamemakers.substack.com
+
+- https://youtu.be/zyVTxGpEO30 Practical Creativity

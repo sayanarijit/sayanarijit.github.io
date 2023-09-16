@@ -37,16 +37,20 @@ tags:
 ### Text to Text
 
 - https://openai.com/
+- https://models.ai4bharat.org/
 
 ### Text to Voice
 
 - https://github.com/serp-ai/bark-with-voice-clone
+- https://seamless.metademolab.com/
+- https://models.ai4bharat.org/
 
 ### Text to Music
 
 - https://github.com/facebookresearch/audiocraft
 - https://mubert.com/
 - https://github.com/archinetai/audio-ai-timeline
+- https://github.com/Audio-AGI/WavJourney
 
 ### Text to Video
 
@@ -60,6 +64,7 @@ tags:
 ### Image to Image
 
 - https://github.com/prasunroy/pose-transfer
+- https://github.com/anopara/genetic-drawing
 
 ### Finetuning
 
@@ -79,6 +84,7 @@ tags:
 - https://www.runpod.io/
 - https://www.paperspace.com/
 - https://oblivus.com/
+- https://nlpcloud.com/
 
 ### GPU less
 
@@ -93,6 +99,12 @@ tags:
 - Label image data: https://myvision.ai/
 - Image processing: https://github.com/cvzone/cvzone
 - Streaming data processing: https://github.com/google/mediapipe
+- All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows: https://github.com/neuml/txtai
+
+### Data (India)
+
+- https://opencity.in/
+- https://data.gov.in/
 
 ---
 
