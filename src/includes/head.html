@@ -91,6 +91,7 @@ metadesc = site.desc %} {% if desc %} {% assign metadesc = desc %} {% endif %}
 
 <meta name="description" content="{{- metadesc -}}" />
 <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}" />
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 
 <!-- OpenGraph tags -->
 <meta property="og:title" content="{{-metatitle-}}" />
