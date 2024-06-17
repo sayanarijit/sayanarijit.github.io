@@ -44,6 +44,7 @@ tags:
 - https://github.com/serp-ai/bark-with-voice-clone
 - https://seamless.metademolab.com/
 - https://models.ai4bharat.org/
+- https://docs.google.com/spreadsheets/d/1tAUaQrEHYgRsm1Lvrnj14HFHDwJWl0Bd9x0QePewNco/edit#gid=1227575351
 
 ### Text to Music
 
@@ -100,11 +101,18 @@ tags:
 - Image processing: https://github.com/cvzone/cvzone
 - Streaming data processing: https://github.com/google/mediapipe
 - All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows: https://github.com/neuml/txtai
+- https://www.lemonfox.ai/apis
+- https://www.supertranslate.ai/
 
-### Data (India)
+### Indian Initiatives
 
-- https://opencity.in/
-- https://data.gov.in/
+- Data: https://opencity.in/
+- Data: https://data.gov.in/
+- Data: https://www.indiabudget.gov.in/
+- Data: https://pib.gov.in/indexd.aspx
+- Data: https://sansad.in/poi/knowledge-centre
+- Inferance APIs https://app.swaggerhub.com/apis/ulca/ULCA/0.8.0
+- AI4Bharat Discord Server - https://discord.com/invite/3xSVWX9bER
 
 ---
 

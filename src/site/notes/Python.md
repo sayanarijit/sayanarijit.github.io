@@ -49,6 +49,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://typer.tiangolo.com/
 - https://github.com/celery/celery
 - https://github.com/bloomberg/memray
+- https://rye.astral.sh/
 
 ## Resources
 
