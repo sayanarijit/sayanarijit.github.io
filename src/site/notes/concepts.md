@@ -259,6 +259,15 @@ The character development of a sad lone wolf who tries to change one last time. 
 
 </details>
 
+</details>
+
+<details>
+  <summary>AI and Independent Humans</summary>
+
+With the advance of ai, human became independent. From social collaborators they became social enemies.
+
+</details>
+
 ### Scene
 
 <details>
@@ -309,8 +318,6 @@ In modern times, we tend to prefer diplomacy over brute force nature of conflict
 <summary>I have a puncture</summary>
 
 The "mechanic" kept punching holes and patching the brand new tyre as I watched. One part of me wanted to break every little bone in his body, another part wanted to just give up and die. Yet I was standing enjoying the wonderful, precious feeling of despair.
-
-</details>
 
 ### Conversation
 

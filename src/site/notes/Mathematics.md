@@ -26,6 +26,8 @@ https://thenumb.at/Autodiff/
 - https://www.youtube.com/c/misterwootube/playlists
 - https://www.maa.org/
 - Math books that made you significantly better at math? https://news.ycombinator.com/item?id=34439828
+- Graph theory: https://youtu.be/oXcCAAEDte0
+- WSU: Special Relativity with Brian Greene: https://youtu.be/XFV2feKDK9E
 
 ### Linear Algebra
 
@@ -37,3 +39,4 @@ https://thenumb.at/Autodiff/
 Also See:
 
 - [[ai]]
+- [Quantum Soccer](https://www.gregegan.net/BORDER/Soccer/Soccer.html)

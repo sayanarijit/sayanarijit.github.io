@@ -147,6 +147,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 - https://youtu.be/DSuX-LIAU-I
 - https://github.com/salsa-rs/salsa
 
+#### Making the Tokio scheduler 10x faster
+
+- https://tokio.rs/blog/2019-10-scheduler
+
 ---
 
 Also See:
@@ -160,3 +164,4 @@ Also See:
 - https://cheats.rs/
 - https://www.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/
 - https://rust-cloud-native.github.io
+- https://github.com/rust-lang/rust/blob/1.78.0/tests/ui/weird-exprs.rs

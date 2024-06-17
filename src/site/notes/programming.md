@@ -22,11 +22,13 @@ Learn more: https://cs.lmu.edu/~ray/notes/paradigms/
 ### Websites
 
 - https://github.com/sdmg15/Best-websites-a-programmer-should-visit
+- https://github.com/charlax/professional-programming
 
 ### Books
 
 - https://github.com/greyblake/awesome-programming-books
 - https://github.com/EbookFoundation/free-programming-books
+- https://www.oreilly.com/library/view/reactive-messaging-patterns/9780133846904/
 
 ---
 

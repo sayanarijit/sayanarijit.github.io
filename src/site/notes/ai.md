@@ -86,6 +86,7 @@ tags:
 - https://www.paperspace.com/
 - https://oblivus.com/
 - https://nlpcloud.com/
+- https://tost.ai (non-profit)
 
 ### GPU less
 
@@ -103,6 +104,7 @@ tags:
 - All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows: https://github.com/neuml/txtai
 - https://www.lemonfox.ai/apis
 - https://www.supertranslate.ai/
+- https://github.com/huggingface/trl
 
 ### Indian Initiatives
 
@@ -120,3 +122,4 @@ Also See:
 
 - [[Mathematics]]
 - https://github.com/camenduru
+- https://situational-awareness.ai/ vs https://youtu.be/xm1B3Y3ypoE

@@ -20,21 +20,15 @@ See [[career]].
 
 - "You should die naked. If you're still bothered by what other people will think of you, then you can't die just yet" ~ Ryuji Ayukawa.
 
-- "There's no need to unnecessary new-ness. Most people crave for 'familiar'" ~ (TODO find source).
-
-- "Don't lose sight of youself" ~ Everyone
-
-- "When you ask a dumb question, you might get a smart, unexpected answer" ~ James Scott Bell
-
 - "Meaningful life" is subjective. But "The meaning of life" is objective. Living a "meaningful life" is an aspect of living a good life, or of well-being, which some achieve and others don't, to differing degrees. If there is a "meaning of life", it would be a single meaning that applies to everyone.
 
 - The purpose of life might be to ultimately figure out the purpose of life collectively.
 
 - Randy Pausch's Last Lecture: https://www.cmu.edu/randyslecture/
 
-- If there was an objective meaning of life, we wouldn't be free, we'd work like robots and compete with each other to fulfill that single meaning more than the others - [[Naval Ravikant]]: https://youtu.be/3qHkcs3kG44 Skip to 1:36:08
-
 - If you are confused about how you want to live, focus on how you want to die.
+
+- If there was an objective meaning of life, we wouldn't be free, we'd work like robots and compete with each other to fulfill that single meaning more than the others - [[Naval Ravikant]]: https://youtu.be/3qHkcs3kG44 Skip to 1:36:08
 
 - If you're doing something you like, wear something different, be unique, be creative, express yourself.
 
@@ -63,6 +57,14 @@ See [[career]].
 - Avoid clutter. Avoid putting everything into mobile. Try to take things out of mobile and put them into some physical space, somewhere they should belong. Those things should be visible only when you're near that physical space. You should be able to leave that space without leaving your mobile.
 
 - Avoid making relationships with brands. Brand to person relationships are mostly one sided, with the brand having unfair advantages. Either person to person, or brand to brand relationship works best.
+
+- When it comes to questions related to survival, don’t ask. Observe. Questions like “how to make money”, “how to land a job”, “how to get promoted”. When you ask, you become their customer.
+
+- Having failure as an option is luxury.
+
+- When dealing with personal favour requests from others, to decide whether “should I (help)”, first ask yourself “would I (ask for help in this situation).
+
+- Philosophers are a bunch of lazya\*\* people who waste their life looking for the easiest way to live a fulfilling life.
 
 ## We all are Hypocrites
 

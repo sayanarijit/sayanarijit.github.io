@@ -46,6 +46,13 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - Architectural Decision Records (ADRs) https://adr.github.io/
 - Numbers every Engineer should know: http://brenocon.com/dean_perf.html
 - All about emails: https://youtu.be/mrGfahzt-4Q
+- I Finally Understand Load Balancing: https://youtu.be/jdRTpslyvP4
+- Learn how to design large-scale systems: https://github.com/donnemartin/system-design-primer
+
+## Tools / Frameworks / Libraries
+
+- A library for building fast, reliable and evolvable network services.
+  https://github.com/cloudflare/pingora
 
 ---
 

@@ -35,6 +35,7 @@ All jobs are [[computer science]] related.
 ### Indian
 
 - https://ora.digitalindiacorporation.in/
+- https://hasura.io/careers/
 
 ### Consulting
 
