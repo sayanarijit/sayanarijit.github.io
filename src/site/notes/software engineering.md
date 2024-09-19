@@ -8,7 +8,11 @@ tags:
 
 # Software Engineering
 
-Software Engineering that one problematic friend of [[computer science]] that's comfortable with saying "but somehow it works".
+> Software Engineering that one problematic friend of [[computer science]] that's comfortable with saying "but somehow it works".
+
+Better yet,
+
+> [Software engineering is what happens to programming when you add time and other programmers.](https://research.swtch.com/vgo-eng)
 
 ## Software Development vs Software Engineering
 
@@ -59,3 +63,4 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 Also See:
 
 - [[security]]
+- [[nginx]]

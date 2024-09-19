@@ -33,6 +33,7 @@ tags:
 - 1 click SD colab https://github.com/nolanaatama/sd-1click-colab
 - https://github.com/diff-usion/Awesome-Diffusion-Models
 - With animation: https://animatediff.github.io/
+- https://github.com/black-forest-labs/flux
 
 ### Text to Text
 
@@ -66,6 +67,7 @@ tags:
 
 - https://github.com/prasunroy/pose-transfer
 - https://github.com/anopara/genetic-drawing
+- https://github.com/black-forest-labs/flux
 
 ### Finetuning
 
@@ -76,8 +78,9 @@ tags:
 ### Visual Classification
 
 - https://github.com/IDEA-Research/Grounded-Segment-Anything
-  - https://github.com/sunu/SAM-in-Browser)
+  - https://github.com/sunu/SAM-in-Browser
 - https://github.com/facebookresearch/ImageBind
+- https://www.profanity.dev/
 
 ### GPU
 
@@ -105,6 +108,7 @@ tags:
 - https://www.lemonfox.ai/apis
 - https://www.supertranslate.ai/
 - https://github.com/huggingface/trl
+- https://github.com/linkedin/Liger-Kernel
 
 ### Indian Initiatives
 
@@ -123,3 +127,4 @@ Also See:
 - [[Mathematics]]
 - https://github.com/camenduru
 - https://situational-awareness.ai/ vs https://youtu.be/xm1B3Y3ypoE
+- https://journaliststoolbox.ai

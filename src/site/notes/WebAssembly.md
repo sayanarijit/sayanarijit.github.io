@@ -19,10 +19,14 @@ https://youtu.be/o6qe4lw9-8c
 ## Resources
 
 - Run [[Rust]] WASM on the cloud: https://webassembly.cloud/
--  Spin is an open source framework for building and running fast, secure, and composable cloud microservices with WebAssembly https://github.com/fermyon/spin
+- Spin is an open source framework for building and running fast, secure, and composable cloud microservices with WebAssembly https://github.com/fermyon/spin
 
 ## Learn more:
 
 - https://webassembly.org
 - https://github.com/mbasso/awesome-wasm
 - https://lunatic.solutions/
+
+## Also See
+
+- https://cliffle.com/p/web-demos/

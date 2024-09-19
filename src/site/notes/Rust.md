@@ -151,6 +151,10 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://tokio.rs/blog/2019-10-scheduler
 
+#### The Typestate Pattern in Rust
+
+- https://cliffle.com/blog/rust-typestate/
+
 ---
 
 Also See:
