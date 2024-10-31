@@ -169,3 +169,4 @@ Also See:
 - https://www.reddit.com/r/rust/comments/lhvipu/official_rrust_whos_hiring_thread_for_jobseekers/
 - https://rust-cloud-native.github.io
 - https://github.com/rust-lang/rust/blob/1.78.0/tests/ui/weird-exprs.rs
+- https://reddit.com/r/rust/s/zebOkJ5UOs

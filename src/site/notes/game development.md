@@ -68,3 +68,5 @@ tags:
 - https://gamemakers.substack.com
 
 - https://youtu.be/zyVTxGpEO30 Practical Creativity
+
+- https://ciechanow.ski/curves-and-surfaces/
