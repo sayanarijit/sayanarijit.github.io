@@ -69,3 +69,4 @@ All jobs are [[computer science]] related.
 - https://github.com/Kaustubh-Natuskar/moreThanFAANGM
 - https://diff.blog/jobs/
 - https://hasjob.co/ (India)
+- https://www.jobdispatch.co/

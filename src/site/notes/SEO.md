@@ -16,4 +16,7 @@ tags:
 - https://ahrefs.com/blog/seo-checklist/
 - https://www.clickminded.com/seo-checklist/
 - https://www.semrush.com/blog/seo-checklist/
-- Favicon generator: https://www.favicon-generator.org/
+- IP/Country check API: https://www.cloudflare.com/cdn-cgi/trace
+- Favicon generator: https://www.favicon-generator.org/, https://www.websiteplanet.com/webtools/favicon-generator/
+- Web Check: https://v1.web-check.xyz/
+- More web tools: https://www.websiteplanet.com/webtools/

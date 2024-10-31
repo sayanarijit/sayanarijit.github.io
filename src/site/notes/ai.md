@@ -39,6 +39,7 @@ tags:
 
 - https://openai.com/
 - https://models.ai4bharat.org/
+- https://github.com/langchain-ai/opengpts
 
 ### Text to Voice
 
@@ -94,6 +95,7 @@ tags:
 ### GPU less
 
 - https://github.com/mlc-ai/mlc-llm
+- https://github.com/exo-explore/exo
 
 ### AI and NixOS
 
@@ -119,6 +121,8 @@ tags:
 - Data: https://sansad.in/poi/knowledge-centre
 - Inferance APIs https://app.swaggerhub.com/apis/ulca/ULCA/0.8.0
 - AI4Bharat Discord Server - https://discord.com/invite/3xSVWX9bER
+- https://ai4bharat.iitm.ac.in/
+- https://bhashini.gov.in/
 
 ---
 

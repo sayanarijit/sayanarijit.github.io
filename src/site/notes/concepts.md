@@ -171,6 +171,13 @@ about my interests, and help me quick search things.
 
 </details>
 
+<details>
+  <summary>Vendor Alert</summary>
+
+Deep learning algorithm to classify traveling vegetable and fish vendors from cctv footage and alert us.
+
+</details>
+
 More:
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use

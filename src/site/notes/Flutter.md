@@ -33,3 +33,4 @@ https://youtu.be/hiqpPKF_fic
 
 - https://github.com/Solido/awesome-flutter
 - https://flutterawesome.com/
+- https://itsallwidgets.com/

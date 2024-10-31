@@ -13,3 +13,4 @@ Nginx is a web server that can also be used as a reverse proxy, load balancer, m
 
 - https://www.getpagespeed.com/nginx-extras
 - https://www.getpagespeed.com/nginx-mod-a-better-faster-nginx-build
+- https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker

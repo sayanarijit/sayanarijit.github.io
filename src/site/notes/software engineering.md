@@ -52,6 +52,11 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - All about emails: https://youtu.be/mrGfahzt-4Q
 - I Finally Understand Load Balancing: https://youtu.be/jdRTpslyvP4
 - Learn how to design large-scale systems: https://github.com/donnemartin/system-design-primer
+- technical communication resources https://github.com/lilin90/awesome-technical-communication
+- Google tech talks: https://www.youtube.com/@googletechtalks
+- Magic Tricks for Postgres psql: https://www.crunchydata.com/blog/magic-tricks-for-postgres-psql-settings-presets-cho-and-saved-queries
+- Decentralized Open-Source Replacement for Cloudflare + Pubnub https://github.com/coinkite/cloudfire
+- system design 101: https://github.com/ByteByteGoHq/system-design-101
 
 ## Tools / Frameworks / Libraries
 

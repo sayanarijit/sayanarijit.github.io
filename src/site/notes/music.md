@@ -31,3 +31,4 @@ Repeat youtube music: https://www.repeattube.net/
 ## Also See:
 
 - https://github.com/noteflakes/awesome-music
+- https://github.com/ad-si/awesome-music-production
