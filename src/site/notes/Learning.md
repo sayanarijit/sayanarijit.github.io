@@ -20,3 +20,6 @@ tags:
 Also See:
 
 - [[digital garden]]
+- [[software engineering]]
+- [[software development]]
+- [[programming]]

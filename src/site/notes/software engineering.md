@@ -4,11 +4,12 @@ tags:
   - tech
   - computer-science
   - career
+  - learning
 ---
 
 # Software Engineering
 
-> Software Engineering that one problematic friend of [[computer science]] that's comfortable with saying "but somehow it works".
+> Software Engineering is that one problematic friend of [[computer science]] that's comfortable with saying "but somehow it works".
 
 Better yet,
 
@@ -18,7 +19,7 @@ Better yet,
 
 While [[software development]] deals with solving problems by building software, software engineering does it by integrating existing software, often by [[programming]].
 
-Although, most often, both software engineering and software development can be uses interchangeably, because in practice, the difference often gets blurry.
+Although, most often, both software engineering and software development can be used interchangeably, because in practice, the difference often gets blurry.
 
 For example, when you build a backend for a website, you neither write the database logic, nor the http communication logic, not even the logic of the web framework that you used. You just integrate all the existing pieces together. So, are you a developer because you "built" a website or are you an engineer because you "integrated" all the existing pieces together? You will get different answers depending on who you ask.
 
@@ -47,7 +48,6 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/
 - https://developers.cloudflare.com/
 - https://www.worldql.com/posts/2021-08-worldql-scalable-minecraft/
-- Architectural Decision Records (ADRs) https://adr.github.io/
 - Numbers every Engineer should know: http://brenocon.com/dean_perf.html
 - All about emails: https://youtu.be/mrGfahzt-4Q
 - I Finally Understand Load Balancing: https://youtu.be/jdRTpslyvP4
@@ -57,12 +57,18 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - Magic Tricks for Postgres psql: https://www.crunchydata.com/blog/magic-tricks-for-postgres-psql-settings-presets-cho-and-saved-queries
 - Decentralized Open-Source Replacement for Cloudflare + Pubnub https://github.com/coinkite/cloudfire
 - system design 101: https://github.com/ByteByteGoHq/system-design-101
+
+# Learn by experimenting
+
 - Fully-local simulator for Cloudflare Workers: https://github.com/cloudflare/miniflare
+- Low resource, no daemon, kubernetes manifest compatible mini-paas: https://github.com/skateco/skate
+- Docker implemented in around 100 lines of bash: https://github.com/p8952/bocker
 
 ## Tools / Frameworks / Libraries
 
 - A library for building fast, reliable and evolvable network services.
   https://github.com/cloudflare/pingora
+- intentrace is strace with intent, it goes all the way for you instead of half the way https://github.com/sectordistrict/intentrace
 
 ---
 
@@ -70,3 +76,4 @@ Also See:
 
 - [[security]]
 - [[nginx]]
+- [[ADR]]

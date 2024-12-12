@@ -178,6 +178,13 @@ Deep learning algorithm to classify traveling vegetable and fish vendors from cc
 
 </details>
 
+<details>
+  <summary>Grocery Alert</summary>
+
+Vision model that will regularly monitor the transparent grocery containers in kitchen and alert when a container is about to go empty.
+
+</details>
+
 More:
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use
@@ -301,14 +308,14 @@ Teacher asked why do you want to become doctor? Student replied "to earn money".
 <details>
   <summary>Where's the joke?</summary>
 
-I can't stand that kid. You remember that day, we were having fun gossiping about stuff, he was too proud join us, sitting alone (because nobody cares about him), immerged into his own thought... When you made us laugh so hard with one of your funniest jokes ever, and he didn't catch it. And then when I tried to talk to him (out of pity), he was so rude... He said something like... "it's only the name a body part... Where's the joke? Aaah ok... If you meant the situation of three people laughing at the name of a body part as a joke, then I think I missed the joke. But still, it's not funny enough to make me laugh."
+I can't stand that kid. You remember that day, we were having fun gossiping about stuff, he was too proud join us, sitting alone (because nobody cares about him), immerged into his own thought... When you made us laugh so hard with one of your funniest jokes ever, and he didn't catch it. And then when I tried to talk to him (out of pity), he was so rude... He said something like... "it's only the name a of body part... Where's the joke? Aaah ok... If you meant the situation of three people laughing at the name of a body part as a joke, then I think I missed the joke. But still, it's not funny enough to make me laugh."
 
 </details>
 
 <details>
   <summary>Criminal and the victim praying together at a temple</summary>
 
-Indians want to believe in god because - when injustice is the norm, the victims want to believe that someone must out be there who can, and will punish the criminals. While the criminals want to believe that someone must be out there who can, and will forgive their sins if they pray enough. This cycle keeps the faith alive.
+Indians want to believe in god because - when injustice is the norm, the victims want to believe that someone must be out there who can, and will punish the criminals. While the criminals want to believe that someone must be out there who can, and will forgive their sins if they pray enough. This cycle keeps the faith alive.
 
 </details>
 
@@ -326,21 +333,7 @@ In modern times, we tend to prefer diplomacy over brute force nature of conflict
 
 The "mechanic" kept punching holes and patching the brand new tyre as I watched. One part of me wanted to break every little bone in his body, another part wanted to just give up and die. Yet I was standing enjoying the wonderful, precious feeling of despair.
 
-### Conversation
-
-Argument: You can be a worker or an artist.
-
-Argument: Credit vs copyright.
-
-Argument: Acceptance vs Motivation/Enthusiasm vs Sound Judgement.
-
-Point of view: Embrace bubbles because the whole humanity and even the whole universe is just a bubble.
-
-Rant: The significance of "what did you cook today?"
-
-Argument: In the past, not too long ago, kings and their soldiers used to fight deadly battles. Farmers kept farming, sellers kept selling. Now farmers and sellers are fighting the deadly battles. Kings and their soldiers are ruling.
-
-Argument: should I judge?
+</details>
 
 ---
 

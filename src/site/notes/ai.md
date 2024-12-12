@@ -16,6 +16,9 @@ tags:
 - Deep learning operations reinvented https://github.com/arogozhnikov/einops
 - Machine Learning Compilation https://mlc.ai/
 - Numbers every LLM Developer should know https://github.com/ray-project/llm-numbers
+- Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI https://github.com/GoogleCloudPlatform/generative-ai
+- The basics of neural networks, and the math behind how they learn: https://www.3blue1brown.com/topics/neural-networks
+- Collection of important articles to be treated as a textbook https://github.com/dmarx/anthology-of-modern-ml
 
 ## Books
 
@@ -24,6 +27,7 @@ tags:
 ## Frameworks
 
 - https://github.com/tinygrad/tinygrad
+- https://github.com/jlowin/fastmcp
 
 ## Models
 
@@ -123,6 +127,10 @@ tags:
 - AI4Bharat Discord Server - https://discord.com/invite/3xSVWX9bER
 - https://ai4bharat.iitm.ac.in/
 - https://bhashini.gov.in/
+
+### GraphRAG
+
+- https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/
 
 ---
 
