@@ -76,3 +76,30 @@ So, secrets should be:
 - Define the environment specific values in the environment variables (/etc/environment). They are easy to provision, but requires reboot to change.
 - Define secrets in git synced vault, with the master password defined as environment variable, or as a restricted file in user's home directory.
 - Harden security of each environment.
+
+## Python implementation
+
+```python
+# settings.py
+
+import os
+from pathlib import Path
+from typing import Callable, TypeVar
+
+T = TypeVar("T")
+
+def env(**kwargs: T | Callable[[], T]) -> T:
+    val = kwargs[ENVIRONMENT]
+    return val() if callable(val) else val
+
+def readfile(path: str | Path, type_: Callable[[str], T] = str) -> Callable[[], T]:
+    return lambda: type_(Path(path).read_text().strip())
+
+
+ENVIRONMENT = os.environ.get("ENVIRONMENT", "dev")
+
+DATABASE_URL = env(
+    dev="dev_url",
+    prod=readfile("/home/user/secrets/database_url"),
+)
+```
