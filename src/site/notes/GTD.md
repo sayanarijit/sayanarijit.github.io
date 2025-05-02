@@ -23,7 +23,7 @@ Read this book if:
 - Your to-do list hopelessly long and it's getting worse.
 - You are overworked, burnt out or exhausted.
 - You are not sure if you are doing the right thing.
-- You are wondering about your [[life]]'s purpose and meaning.
+- You are wondering about your life's purpose and meaning.
 - You want a system to manage work and life together.
 
 ## Notes

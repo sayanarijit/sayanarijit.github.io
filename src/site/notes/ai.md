@@ -19,6 +19,7 @@ tags:
 - Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI https://github.com/GoogleCloudPlatform/generative-ai
 - The basics of neural networks, and the math behind how they learn: https://www.3blue1brown.com/topics/neural-networks
 - Collection of important articles to be treated as a textbook https://github.com/dmarx/anthology-of-modern-ml
+- Deep Dive into LLMs like ChatGPT: https://youtu.be/7xTGNNLPyMI?si=l5eA8xy9W_4A-02B
 
 ## Books
 
@@ -28,6 +29,8 @@ tags:
 
 - https://github.com/tinygrad/tinygrad
 - https://github.com/jlowin/fastmcp
+- https://github.com/lastmile-ai/mcp-agent
+- https://github.com/BoundaryML/baml
 
 ## Models
 
@@ -73,6 +76,7 @@ tags:
 - https://github.com/prasunroy/pose-transfer
 - https://github.com/anopara/genetic-drawing
 - https://github.com/black-forest-labs/flux
+- https://github.com/snap-research/stable-flow
 
 ### Finetuning
 
@@ -115,6 +119,13 @@ tags:
 - https://www.supertranslate.ai/
 - https://github.com/huggingface/trl
 - https://github.com/linkedin/Liger-Kernel
+- Detect file content types with deep learning: https://github.com/google/magika
+- [real time face swap and one-click video deepfake with only a single image](https://github.com/hacksider/Deep-Live-Cam)
+- Everything you need to build state-of-the-art foundation models, end-to-end: https://github.com/oumi-ai/oumi
+
+### Playground
+
+- LLMs with MCP: https://playground.ai.cloudflare.com/
 
 ### Indian Initiatives
 
@@ -128,9 +139,14 @@ tags:
 - https://ai4bharat.iitm.ac.in/
 - https://bhashini.gov.in/
 
-### GraphRAG
+### Knowledge Graphs
 
 - https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/
+- https://github.com/getzep/graphiti
+
+### Others
+
+- http://deepwiki.com/
 
 ---
 
@@ -140,3 +156,4 @@ Also See:
 - https://github.com/camenduru
 - https://situational-awareness.ai/ vs https://youtu.be/xm1B3Y3ypoE
 - https://journaliststoolbox.ai
+- https://news.smol.ai/

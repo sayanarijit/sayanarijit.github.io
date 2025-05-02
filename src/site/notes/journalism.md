@@ -17,3 +17,4 @@ tags:
 ## Tools
 
 - https://journaliststoolbox.ai/category/ai-for-journalists/
+- https://huggingface.co/spaces/JournalistsonHF/ai-toolkit

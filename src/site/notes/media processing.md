@@ -32,3 +32,4 @@ https://youtu.be/BfAtAJGN7Lk
 - https://imagemagick.org (CLI)
 - https://docs.wand-py.org ([[Python]])
 - https://clipdrop.co/ (AI, Online/API)
+- https://silvia-odwyer.github.io/photon/ ([[Rust]])

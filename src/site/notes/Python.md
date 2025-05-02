@@ -46,7 +46,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://github.com/Pylons/pyramid_openapi3
 - https://www.sqlalchemy.org/
 - https://pydantic-docs.helpmanual.io/
-- https://typer.tiangolo.com/
+- https://github.com/BrianPugh/cyclopts (alternate of https://typer.tiangolo.com)
 - https://github.com/celery/celery
 - https://github.com/bloomberg/memray
 - https://rye.astral.sh/

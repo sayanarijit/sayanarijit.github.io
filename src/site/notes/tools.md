@@ -45,6 +45,8 @@ tags:
 - Presentation Slides for Developers: https://sli.dev/
 - Geometrizing images into geometric primitives https://www.samcodes.co.uk/project/geometrize-haxe-web/
 - Remove image backgrounds: https://github.com/danielgatis/rembg
+- High performance, self-hosted, newsletter and mailing list manager with a modern dashboard: https://github.com/knadh/listmonk
+- Useful utilities and services over DNS: https://www.dns.toys/
 
 ---
 

@@ -185,6 +185,11 @@ Vision model that will regularly monitor the transparent grocery containers in k
 
 </details>
 
+<details>
+<summary>Personal website friends suggestions</summary>
+Idea: AI tool that takes personal website as input and finds you people with similar interests.
+</details>
+
 More:
 
 - https://github.com/Divide-By-0/ideas-for-projects-people-would-use
