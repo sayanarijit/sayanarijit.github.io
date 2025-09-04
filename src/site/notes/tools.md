@@ -29,8 +29,14 @@ tags:
 - https://www.canva.com/
 - https://penpot.app/
 - https://www.photopea.com/
+- https://patterncraft.fun : Craft Beautiful Patterns Backgrounds (Open Source)
 - The easiest way to find a color palette: https://palitra.app/
 - Automate Image production: https://bruzu.com/
+
+## Database
+
+- https://www.drawdb.app/ (Free database schema design)
+- https://pgtune.leopard.in.ua/ (PostgreSQL configuration)
 
 ## Other
 

@@ -84,6 +84,10 @@ tags:
 - https://dushyantmin.com/fine-tuning-stable-diffusion-v20-with-dreambooth
 - https://thenumb.at/Neural-Graphics/
 
+### Inference
+
+- https://github.com/luminal-ai/luminal
+
 ### Visual Classification
 
 - https://github.com/IDEA-Research/Grounded-Segment-Anything
