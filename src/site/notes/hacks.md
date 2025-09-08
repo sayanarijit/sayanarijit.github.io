@@ -5,6 +5,8 @@ tags:
   - computer-science
 ---
 
-# Postgres
+# Hacks
+
+### PostgreSQL
 
 - [Lock Monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
