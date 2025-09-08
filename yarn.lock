@@ -1003,7 +1003,7 @@ markdown-it-mermaid-plugin@^0.1.0:
   resolved "https://registry.yarnpkg.com/markdown-it-mermaid-plugin/-/markdown-it-mermaid-plugin-0.1.0.tgz#956656d77bc0eace4f6756f706a931cae0a6d7fc"
   integrity sha512-e5+BqzHA/P9rGLnryaLricGeQRnWkBKlfPdj1K8y5g7pZaIxQ6CtsDcxCqJ78aO7lmt0dLFI60wM0rq+D9V5YQ==
 
-markdown-it-prism@^2.3.0:
+markdown-it-prism@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/markdown-it-prism/-/markdown-it-prism-2.3.1.tgz#b7d17ae34de4655a446c9e829790f814822ac936"
   integrity sha512-oZl9fGKBeSd94GhqpCrA2MO2uAWxKVe0swyX/nBqly+/6d870zae9raMgxJg+OEjhyuOrxTn8p1vMP8RkawzHw==
