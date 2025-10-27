@@ -20,6 +20,7 @@ tags:
 - The basics of neural networks, and the math behind how they learn: https://www.3blue1brown.com/topics/neural-networks
 - Collection of important articles to be treated as a textbook https://github.com/dmarx/anthology-of-modern-ml
 - Deep Dive into LLMs like ChatGPT: https://youtu.be/7xTGNNLPyMI?si=l5eA8xy9W_4A-02B
+- [Understanding Reinforcement Learning for Model Training - Rohit Patel](https://drive.google.com/file/d/1q8664fOAUTqz1JHPzbvtNgMvVlqwU_77/view)
 
 ## Books
 
@@ -31,6 +32,8 @@ tags:
 - https://github.com/jlowin/fastmcp
 - https://github.com/lastmile-ai/mcp-agent
 - https://github.com/BoundaryML/baml
+- https://dspy.ai/tutorials/
+- https://github.com/microsoft/BitNet
 
 ## Models
 
@@ -54,6 +57,8 @@ tags:
 - https://seamless.metademolab.com/
 - https://models.ai4bharat.org/
 - https://docs.google.com/spreadsheets/d/1tAUaQrEHYgRsm1Lvrnj14HFHDwJWl0Bd9x0QePewNco/edit#gid=1227575351
+- https://github.com/OHF-Voice/piper1-gpl
+- https://github.com/neuphonic/neutts-air
 
 ### Text to Music
 
@@ -61,6 +66,7 @@ tags:
 - https://mubert.com/
 - https://github.com/archinetai/audio-ai-timeline
 - https://github.com/Audio-AGI/WavJourney
+- https://github.com/deepbeepmeep/YuEGP
 
 ### Text to Video
 
@@ -94,6 +100,7 @@ tags:
   - https://github.com/sunu/SAM-in-Browser
 - https://github.com/facebookresearch/ImageBind
 - https://www.profanity.dev/
+- https://github.com/robertknight/ocrs
 
 ### GPU
 
@@ -130,6 +137,7 @@ tags:
 ### Playground
 
 - LLMs with MCP: https://playground.ai.cloudflare.com/
+- https://ch.at/
 
 ### Indian Initiatives
 
@@ -147,6 +155,7 @@ tags:
 
 - https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/
 - https://github.com/getzep/graphiti
+- https://github.com/HelixDB/helix-db
 
 ### Others
 

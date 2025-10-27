@@ -57,6 +57,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - Magic Tricks for Postgres psql: https://www.crunchydata.com/blog/magic-tricks-for-postgres-psql-settings-presets-cho-and-saved-queries
 - Decentralized Open-Source Replacement for Cloudflare + Pubnub https://github.com/coinkite/cloudfire
 - system design 101: https://github.com/ByteByteGoHq/system-design-101
+- [The Patterns of Scalable, Reliable, and Performant Large-Scale Systems](https://github.com/binhnguyennus/awesome-scalability)
 
 # Learn by experimenting
 

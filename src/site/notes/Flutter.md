@@ -34,3 +34,8 @@ https://youtu.be/hiqpPKF_fic
 - https://github.com/Solido/awesome-flutter
 - https://flutterawesome.com/
 - https://itsallwidgets.com/
+
+## Also see
+
+- https://lynxjs.org/ and https://github.com/lynx-family/lynx-examples
+- https://slint.dev/

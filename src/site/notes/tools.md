@@ -22,6 +22,7 @@ tags:
 - Instant webhooks, scripts and APIs: https://autocode.com/app/
 - Deploy App Servers: https://fly.io
 - Send emails using edge servers: https://github.com/Sh4yy/cloudflare-email
+- [Send text securely](https://horuspass.com/send)
 
 ## Design
 
@@ -32,6 +33,7 @@ tags:
 - https://patterncraft.fun : Craft Beautiful Patterns Backgrounds (Open Source)
 - The easiest way to find a color palette: https://palitra.app/
 - Automate Image production: https://bruzu.com/
+- PhotoshopAPI: [A modern and performant C++20 read/write parser of Photoshop Files with fully fledged Python bindings hosted on PyPi](https://github.com/EmilDohne/PhotoshopAPI)
 
 ## Database
 
@@ -53,6 +55,8 @@ tags:
 - Remove image backgrounds: https://github.com/danielgatis/rembg
 - High performance, self-hosted, newsletter and mailing list manager with a modern dashboard: https://github.com/knadh/listmonk
 - Useful utilities and services over DNS: https://www.dns.toys/
+- [Edit PDFs Freely & Privately, Right in Your Browser.](https://breezepdf.com/)
+- [The open-source CapCut alternative (Video Editor)](https://github.com/OpenCut-app/OpenCut)
 
 ---
 

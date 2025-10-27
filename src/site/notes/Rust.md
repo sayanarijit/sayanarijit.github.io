@@ -159,6 +159,14 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://skyzh.github.io/mini-lsm/
 
+#### Elements of Rust – Core Types and Traits
+
+- https://rustcurious.com/elements/
+
+#### Behind the Scenes of Pingoo: Slashing Rust allocations with mimalloc and heapless to build the fastest reverse proxy
+
+- https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless
+
 ---
 
 Also See:

@@ -23,3 +23,9 @@ tags:
 
 - https://journaliststoolbox.ai/category/ai-for-journalists/
 - https://huggingface.co/spaces/JournalistsonHF/ai-toolkit
+- https://github.com/atlosdotorg/atlos
+- https://github.com/CyberDataLab/disinfox
+
+## AI
+
+- [News Integrity in AI Assistants TOOLKIT](https://www.ebu.ch/files/live/sites/ebu/files/Publications/MIS/open/EBU-MIS-BBC_News_Integrity_in_AI_Assistants_Toolkit_2025.pdf)

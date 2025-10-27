@@ -24,3 +24,20 @@ tags:
 - [Using a Genetic Algorithm to Optimize Developer Conference Schedules](https://filiph.medium.com/using-a-genetic-algorithm-to-optimize-developer-conference-schedules-27f13d97fa9a)
 - [storm: An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations](https://github.com/stanford-oval/storm)
 - [Composable Runtime Blocks 🦀 transactional actors](https://github.com/runtime-blocks/crb)
+- [Burn is a next generation Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability](https://github.com/tracel-ai/burn)
+- [Sandboxing and Workload Isolation](https://fly.io/blog/sandboxing-and-workload-isolation/)
+- [nsjail](https://nsjail.dev/)
+- [Lock-Free Rust: How to Build a Rollercoaster While It’s on Fire](https://yeet.cx/blog/lock-free-rust)
+- https://quartz.jzhao.xyz/
+- https://github.com/jackyzha0/miniraft
+- https://github.com/tensorzero/tensorzero
+- [The Patterns of Scalable, Reliable, and Performant Large-Scale Systems](https://github.com/binhnguyennus/awesome-scalability)
+- [Solving Wordle with uv's dependency resolver](https://mildbyte.xyz/blog/solving-wordle-with-uv-dependency-resolver/)
+- [Par (⅋) is an experimental concurrent programming language. It's an attempt to bring the expressive power of linear logic into practice.](https://github.com/faiface/par-lang)
+- [CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.](https://github.com/leandromoreira/cdn-up-and-running)
+- [A formally verified security module for AMD confidential VMs](https://github.com/microsoft/verismo)
+- [Understanding LLMs from Scratch Using Middle School Math](https://medium.com/data-science/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876)
+- [Litex: Scale Formal Reasoning in AI Era](https://github.com/litexlang/golitex)
+- [Elements of Rust – Core Types and Traits](https://rustcurious.com/elements/)
+- [Limbo Simulator](https://github.com/tursodatabase/turso/tree/main/simulator)
+- [Flintlock: Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd.](https://github.com/liquidmetal-dev/flintlock)

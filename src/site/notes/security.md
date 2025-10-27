@@ -26,4 +26,9 @@ https://github.com/ssllabs/research/wiki
 
 ### Age Encryption
 
-https://github.com/FiloSottile/age
+- https://github.com/FiloSottile/age
+- [The secure command-line secrets manager](https://kiln.sh/)
+
+# Scanners and Analyzers
+
+- [Zero shot vulnerability discovery using LLMs](https://github.com/protectai/vulnhuntr)

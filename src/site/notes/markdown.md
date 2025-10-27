@@ -28,3 +28,4 @@ Learn more:
 
 - https://github.com/mundimark/awesome-markdown
 - https://github.com/BubuAnabelas/awesome-markdown
+- https://github.com/jackyzha0/quartz
