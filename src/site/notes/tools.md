@@ -20,7 +20,7 @@ tags:
 - Free host for opensource project: https://fosshost.org/
 - Asciinema to GIF: https://dstein64.github.io/gifcast/
 - Instant webhooks, scripts and APIs: https://autocode.com/app/
-- Deploy App Servers: https://fly.io
+- Deploy App Servers: https://fly.io, https://disco.cloud/
 - Send emails using edge servers: https://github.com/Sh4yy/cloudflare-email
 - [Send text securely](https://horuspass.com/send)
 
@@ -34,6 +34,7 @@ tags:
 - The easiest way to find a color palette: https://palitra.app/
 - Automate Image production: https://bruzu.com/
 - PhotoshopAPI: [A modern and performant C++20 read/write parser of Photoshop Files with fully fledged Python bindings hosted on PyPi](https://github.com/EmilDohne/PhotoshopAPI)
+- AI: https://stitch.withgoogle.com/
 
 ## Database
 
@@ -52,7 +53,7 @@ tags:
 - https://thenextweb.com/news/300-awesome-free-things-massive-list-free-resources-know
 - Presentation Slides for Developers: https://sli.dev/
 - Geometrizing images into geometric primitives https://www.samcodes.co.uk/project/geometrize-haxe-web/
-- Remove image backgrounds: https://github.com/danielgatis/rembg
+- Remove image backgrounds: [cli](https://github.com/danielgatis/rembg), [browser](https://www.nobg.space/), [web](https://www.remove.bg/)
 - High performance, self-hosted, newsletter and mailing list manager with a modern dashboard: https://github.com/knadh/listmonk
 - Useful utilities and services over DNS: https://www.dns.toys/
 - [Edit PDFs Freely & Privately, Right in Your Browser.](https://breezepdf.com/)

@@ -28,6 +28,7 @@ https://github.com/ssllabs/research/wiki
 
 - https://github.com/FiloSottile/age
 - [The secure command-line secrets manager](https://kiln.sh/)
+- [Storing secrects in git repositories with age](https://blog.9wd.eu/posts/git-encryption-age/)
 
 # Scanners and Analyzers
 

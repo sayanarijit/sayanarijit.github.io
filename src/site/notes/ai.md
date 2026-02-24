@@ -21,6 +21,7 @@ tags:
 - Collection of important articles to be treated as a textbook https://github.com/dmarx/anthology-of-modern-ml
 - Deep Dive into LLMs like ChatGPT: https://youtu.be/7xTGNNLPyMI?si=l5eA8xy9W_4A-02B
 - [Understanding Reinforcement Learning for Model Training - Rohit Patel](https://drive.google.com/file/d/1q8664fOAUTqz1JHPzbvtNgMvVlqwU_77/view)
+- [Machine Learning Intuition](https://eliottkalfon.github.io/ml_intuition/)
 
 ## Books
 

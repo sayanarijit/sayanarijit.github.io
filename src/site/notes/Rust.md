@@ -167,11 +167,16 @@ https://github.com/sayanarijit?tab=repositories&language=rust
 
 - https://kerkour.com/rust-pingoo-high-performance-allocations-mimalloc-heapless
 
+#### Inside Rust's std and parking_lot mutexes - who wins?
+
+- https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win
+
 ---
 
 Also See:
 
 - https://doc.rust-lang.org/book/
+- https://rustlings.rust-lang.org/
 - https://github.com/rust-unofficial/awesome-rust
 - https://github.com/tower-rs/tower/tree/master/guides
 - https://fasterthanli.me/

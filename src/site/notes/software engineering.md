@@ -58,6 +58,9 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - Decentralized Open-Source Replacement for Cloudflare + Pubnub https://github.com/coinkite/cloudfire
 - system design 101: https://github.com/ByteByteGoHq/system-design-101
 - [The Patterns of Scalable, Reliable, and Performant Large-Scale Systems](https://github.com/binhnguyennus/awesome-scalability)
+- [PgBouncer is useful, important, and fraught with peril](https://jpcamara.com/2023/04/12/pgbouncer-is-useful.html)
+- [PostgreSQL Bloat Is a Feature, Not a Bug](https://rogerwelin.github.io/2026/02/11/postgresql-bloat-is-a-feature-not-a-bug/) | [discussion](https://www.reddit.com/r/programming/comments/1r6cnn6/postgresql_bloat_is_a_feature_not_a_bug)
+- [Distributed ID Formats Are Architectural Commitments, Not Just Data Types](https://piljoong.dev/posts/distributed-id-generation-complicated/)
 
 # Learn by experimenting
 

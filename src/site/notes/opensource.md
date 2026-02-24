@@ -30,6 +30,7 @@ For programmers, opensource opens door to tremendous learning and career growth 
 
 ## Monetization
 
+- https://paydevs.github.io/awesome-oss-monetization/
 - https://endler.dev/2021/oss-money/ by [[Matthias Endler]]
 - https://lucumr.pocoo.org/2019/11/4/open-source-and-saas/ by [[Armin Ronacher]]
 - https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html
