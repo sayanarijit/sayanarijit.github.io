@@ -36,6 +36,10 @@ https://thenumb.at/Autodiff/
 - https://github.com/fastai/numerical-linear-algebra
 - Linear Algebra done right https://linear.axler.net/
 
+### Probability
+
+- [Give Me 1 Hour, I'll Make Probability Click Forever](https://youtu.be/H6pWY2VQ9xI)
+
 Also See:
 
 - [[ai]]

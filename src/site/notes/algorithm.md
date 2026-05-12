@@ -14,3 +14,4 @@ tags:
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011
 - https://web.stanford.edu/class/archive/cs/cs161/cs161.1138/
 - https://www.coursera.org/learn/discrete-optimization
+- https://github.com/TheAlgorithms

@@ -32,3 +32,4 @@ Repeat youtube music: https://www.repeattube.net/
 
 - https://github.com/noteflakes/awesome-music
 - https://github.com/ad-si/awesome-music-production
+- https://www.reddit.com/r/rust/s/QfaNx8TwmF

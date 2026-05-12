@@ -61,12 +61,15 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - [PgBouncer is useful, important, and fraught with peril](https://jpcamara.com/2023/04/12/pgbouncer-is-useful.html)
 - [PostgreSQL Bloat Is a Feature, Not a Bug](https://rogerwelin.github.io/2026/02/11/postgresql-bloat-is-a-feature-not-a-bug/) | [discussion](https://www.reddit.com/r/programming/comments/1r6cnn6/postgresql_bloat_is_a_feature_not_a_bug)
 - [Distributed ID Formats Are Architectural Commitments, Not Just Data Types](https://piljoong.dev/posts/distributed-id-generation-complicated/)
+- [**BOOK**: Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html)
+- [Things you didn't know about indexes](https://jon.chrt.dev/2026/04/15/things-you-didnt-know-about-indexes.html) ([discussion](https://reddit.com/r/programming/s/yhJ3Xhj1Xs))
 
 # Learn by experimenting
 
 - Fully-local simulator for Cloudflare Workers: https://github.com/cloudflare/miniflare
 - Low resource, no daemon, kubernetes manifest compatible mini-paas: https://github.com/skateco/skate
 - Docker implemented in around 100 lines of bash: https://github.com/p8952/bocker
+- [Portier](https://portier.github.io/)
 
 ## Tools / Frameworks / Libraries
 

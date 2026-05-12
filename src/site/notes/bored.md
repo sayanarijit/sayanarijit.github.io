@@ -12,3 +12,7 @@ tags:
 
 - https://news.ycombinator.com/
 - https://labs.google
+
+### WTF
+
+- https://absurd.website/

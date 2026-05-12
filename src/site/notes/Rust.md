@@ -187,3 +187,4 @@ Also See:
 - https://rust-cloud-native.github.io
 - https://github.com/rust-lang/rust/blob/1.78.0/tests/ui/weird-exprs.rs
 - https://reddit.com/r/rust/s/zebOkJ5UOs
+- [Rust India Talks](https://youtube.com/playlist?list=PLbcv9d2YUhnbCxJmjB_4RbjUBgq6exSGs&si=dId3UIDOQ-ZRSepW)

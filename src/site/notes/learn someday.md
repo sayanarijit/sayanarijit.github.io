@@ -9,14 +9,12 @@ tags:
 
 # Learn Someday
 
-- [A kernel designed to run one and only one application in a virtualized environment](https://nanos.org/)
-- [A Rust-based, lightweight unikernel](https://github.com/hermit-os/hermit-rs)
 - [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 - [pgroll: PostgreSQL zero-downtime migrations made easy](https://github.com/xataio/pgroll)
 - [Sniffnet: Comfortably monitor your Internet traffic](https://sniffnet.net/)
 - [Zoltraak](https://youtu.be/D2ZKjPr51fQ?si=x0QCTFt3KZcfucS2)
 - [unsynn (Rust)](https://crates.io/crates/unsynn)
-- [iroh: peer-2-peer that just works](https://github.com/n0-computer/iroh)
+- [iroh: peer-2-peer that just works](https://github.com/n0-computer/iroh) ([sendme](https://github.com/n0-computer/sendme))
 - [Get Started with Kubernetes Ultimate Hands-on Labs and Tutorials](https://collabnix.github.io/kubelabs/)
 - [the art of artificial intelligence one concept at a time](https://aman.ai/)
 - [Alan Watts - The Road to Hell is Paved with Good Intentions](https://youtu.be/cegl1BZ-0tI)
@@ -46,4 +44,11 @@ tags:
 - [Fault-tolerant async actors for Rust that scale seamlessly](https://github.com/tqwewe/kameo)
 - [A Social Filesystem](https://overreacted.io/a-social-filesystem/)
 - [The C10K problem](https://www.kegel.com/c10k.html) | [discussion](https://www.reddit.com/r/programming/comments/1pv77i3/we_solved_c10k_years_ago_yet_we_keep_reinventing/)
-- [Bloom filters: the niche trick behind a 16× faster API](https://incident.io/blog/bloom-filters)
+- [Seattle Conference on Scalability: YouTube Scalability](https://youtu.be/w5WVu624fY8)
+- [FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast](https://youtu.be/nepKKz-MzFM)
+- [DNSFS. Store your files in others DNS resolver caches](https://blog.benjojo.co.uk/post/dns-filesystem-true-cloud-storage-dnsfs)
+- [Reviving BrowserID in 2026](https://wakamoleguy.com/p/reviving-browserid-in-2026) ([discussion](https://news.ycombinator.com/item?id=47906770))
+- [Hands-On Introduction to Unikernels](https://labs.iximiuz.com/tutorials/unikernels-intro-93976514)
+- [Unikraft - A Unikernel Development Kit. Extreme Specialization for Security and Performance.](https://github.com/unikraft)
+- [moq: Media over QUIC library in Rust+Typescript](https://github.com/moq-dev/moq)
+- [Unified Modules For Your Nixfiles](https://jadarma.github.io/blog/posts/2026/03/unified-modules-for-your-nixfiles/) ([discussion](https://www.reddit.com/r/NixOS/comments/1ryt2fp/unified_modules_for_your_nixfiles/))

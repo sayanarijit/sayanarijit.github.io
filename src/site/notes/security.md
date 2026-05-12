@@ -33,3 +33,7 @@ https://github.com/ssllabs/research/wiki
 # Scanners and Analyzers
 
 - [Zero shot vulnerability discovery using LLMs](https://github.com/protectai/vulnhuntr)
+
+# Opensource Security
+
+- https://astral.sh/blog/open-source-security-at-astral

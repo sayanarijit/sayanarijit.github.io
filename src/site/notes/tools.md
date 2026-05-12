@@ -35,6 +35,8 @@ tags:
 - Automate Image production: https://bruzu.com/
 - PhotoshopAPI: [A modern and performant C++20 read/write parser of Photoshop Files with fully fledged Python bindings hosted on PyPi](https://github.com/EmilDohne/PhotoshopAPI)
 - AI: https://stitch.withgoogle.com/
+- [Plain Text Mockdown](https://www.mockdown.design/)
+- [Markdown to HTML for Emails](https://www.emailmd.dev/)
 
 ## Database
 

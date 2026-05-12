@@ -27,3 +27,4 @@ os package manager + zsh config + plugin manager + neovim config + plugin manage
 - https://peppe.rs/posts/novice_nix:_flake_templates/
 - https://devenv.sh/
 - https://cachix.org/
+- https://www.reddit.com/r/NixOS/comments/1stipfu/which_repo_is_your_gold_mine_guys

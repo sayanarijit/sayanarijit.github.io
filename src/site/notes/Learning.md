@@ -15,6 +15,10 @@ tags:
 - https://dev.to/ender_minyard/full-stack-developer-s-roadmap-2k12
 - https://takeuforward.org/
 
+## Playground
+
+- [In-browser postgres playground](https://postgres.new/)
+
 ---
 
 Also See:

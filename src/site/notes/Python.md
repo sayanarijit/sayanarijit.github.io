@@ -59,6 +59,7 @@ https://github.com/sayanarijit?tab=repositories&language=python
 - https://www.cosmicpython.com/
 - Production-ready Docker packaging for Python developers https://pythonspeed.com/docker/
 - Interesting super fast web server: https://docs.socketify.dev/
+- [Notes on structured concurrency, or: Go statement considered harmful](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/)
 
 [^1]: https://peps.python.org/pep-0020/
 
