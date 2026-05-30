@@ -70,6 +70,7 @@ However, the role of a Software Engineer include responsibilities way beyond jus
 - Low resource, no daemon, kubernetes manifest compatible mini-paas: https://github.com/skateco/skate
 - Docker implemented in around 100 lines of bash: https://github.com/p8952/bocker
 - [Portier](https://portier.github.io/)
+- [AI agents running research on single-GPU nanochat training automatically](https://github.com/karpathy/autoresearch)
 
 ## Tools / Frameworks / Libraries
 

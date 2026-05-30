@@ -43,6 +43,10 @@ tags:
 - https://www.drawdb.app/ (Free database schema design)
 - https://pgtune.leopard.in.ua/ (PostgreSQL configuration)
 
+## Media
+
+- [Adiomass - Multi Track Audio Editor in Browser](https://audiomass.co)
+
 ## Other
 
 - Create the perfect environment to work and relax: https://www.shhhnoise.com/
@@ -60,6 +64,7 @@ tags:
 - Useful utilities and services over DNS: https://www.dns.toys/
 - [Edit PDFs Freely & Privately, Right in Your Browser.](https://breezepdf.com/)
 - [The open-source CapCut alternative (Video Editor)](https://github.com/OpenCut-app/OpenCut)
+- Anonymous hangout: https://hang.live
 
 ---
 

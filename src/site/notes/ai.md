@@ -38,6 +38,10 @@ tags:
 
 ## Models
 
+### Multimodal
+
+- [A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing.](https://github.com/bytedance/Lance)
+
 ### Text to Image
 
 - Illusion Diffusion: https://github.com/tancik/Illusion-Diffusion/blob/main/IllusionDiffusion.ipynb
@@ -134,6 +138,10 @@ tags:
 - Detect file content types with deep learning: https://github.com/google/magika
 - [real time face swap and one-click video deepfake with only a single image](https://github.com/hacksider/Deep-Live-Cam)
 - Everything you need to build state-of-the-art foundation models, end-to-end: https://github.com/oumi-ai/oumi
+
+### Sandbox
+
+- https://github.com/tizkovatereza/awesome-ai-sandboxes
 
 ### Playground
 

@@ -26,6 +26,25 @@ tags:
 - https://github.com/atlosdotorg/atlos
 - https://github.com/CyberDataLab/disinfox
 
+## Journamism on GitHub
+
+- https://ijnet.org/en/story/how-journalists-can-get-started-github
+- https://www.chipoglesby.com/2018/05/what-if-newspapers-use-git/
+- https://github.com/alephdata
+- https://github.com/occrp
+- https://github.com/opensanctions
+- https://github.com/fivethirtyeight
+- https://github.com/nytimes
+- https://github.com/guardian
+- https://github.com/bloomberg
+- https://github.com/npr
+- https://github.com/voxmedia
+- https://github.com/propublica
+- https://github.com/times
+- https://github.com/datadesk
+- https://github.com/wsj
+- https://github.com/buzzfeednews
+
 ## AI
 
 - [News Integrity in AI Assistants TOOLKIT](https://www.ebu.ch/files/live/sites/ebu/files/Publications/MIS/open/EBU-MIS-BBC_News_Integrity_in_AI_Assistants_Toolkit_2025.pdf)

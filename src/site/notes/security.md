@@ -10,6 +10,10 @@ tags:
 
 ## Resources
 
+### Books
+
+- [Stop Trusting Your Passwords: A Comprehensive Guide for Mastering Offline Password Cracking](https://a.co/d/0gCOu7xo)
+
 ### security.txt
 
 A proposed standard which allows websites to define security policies.
