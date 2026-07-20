@@ -9,7 +9,6 @@ tags:
 
 # Learn Someday
 
-- [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
 - [pgroll: PostgreSQL zero-downtime migrations made easy](https://github.com/xataio/pgroll)
 - [Sniffnet: Comfortably monitor your Internet traffic](https://sniffnet.net/)
 - [Zoltraak](https://youtu.be/D2ZKjPr51fQ?si=x0QCTFt3KZcfucS2)

@@ -188,3 +188,4 @@ Also See:
 - https://github.com/rust-lang/rust/blob/1.78.0/tests/ui/weird-exprs.rs
 - https://reddit.com/r/rust/s/zebOkJ5UOs
 - [Rust India Talks](https://youtube.com/playlist?list=PLbcv9d2YUhnbCxJmjB_4RbjUBgq6exSGs&si=dId3UIDOQ-ZRSepW)
+- [The Little Book of Rust Macros](https://veykril.github.io/tlborm/)
