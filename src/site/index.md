@@ -12,12 +12,6 @@ Here are my public keys - [GPG][6], [RSA][7], [Ed25519][8].
 
 And here's the current configuration of my [laptop][9] & [keyboard][10].
 
----
-
-![I support Sonam Wangchuk](/assets/sonam.jpeg)
-
-**I support Sonam Wangchuk and his work in education reform.**
-
 [1]: https://github.com/sayanarijit
 [2]: /notes
 [3]: https://keybase.io/sayanarijit
