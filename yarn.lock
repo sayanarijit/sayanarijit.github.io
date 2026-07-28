@@ -167,9 +167,9 @@
     fastq "^1.6.0"
 
 "@rgrove/parse-xml@^4.2.1":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@rgrove/parse-xml/-/parse-xml-4.2.2.tgz#6273e4c4c65b064712472c4b311153b4dc2ad1f8"
-  integrity sha512-KJpwSfVwrZ1Ab9KU4oRwG0VefGpveSt/w/j1m6YkJkB5KhdDbN/7BS0ojcLCzrG3/YGFhtfFHKVBkrms6w8Org==
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/@rgrove/parse-xml/-/parse-xml-4.2.3.tgz#06fe3a84e0c3131b9f645a03010e8302b3601ea8"
+  integrity sha512-Jhlb+0zYez1T1yXUQs3F1qAtFuJljBVNdy9TKmLDauAXkxsOXopKYOyQ5Wm6SvP3fycav0GviX4Y15WWhGetMw==
 
 "@sindresorhus/slugify@^1.1.2":
   version "1.1.2"
@@ -647,9 +647,9 @@ finalhandler@^1.2.0:
     unpipe "~1.0.0"
 
 flatted@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.4.2.tgz#f5c23c107f0f37de8dbdf24f13722b3b98d52726"
-  integrity sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.4.3.tgz#be5c21e943b2d7a328bb23795ae28c98f0103a9e"
+  integrity sha512-/zipXxyO6rGvuNGDiULY9MvEGSkb2gaG4GGH4ygMi0ZZzyMHdUZBmntJmx5x1G2VuPytCwGN4xsJP6cw+sK+vQ==
 
 formdata-polyfill@^4.0.10:
   version "4.0.10"

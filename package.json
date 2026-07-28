@@ -6,7 +6,8 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "dev": "eleventy --serve --quiet",
-    "compile": "eleventy"
+    "compile": "eleventy",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
