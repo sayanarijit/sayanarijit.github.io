@@ -15,7 +15,7 @@ const md = new markdownIt(markdownItOptions)
   })
   .use(require("markdown-it-copy"))
   .use(require("markdown-it-external-anchor"), { domain: "arijitbasu.in" })
-  .use(require("@binyamin/markdown-it-wikilinks"), {
+  .use(require("./wikilinks"), {
     base: "/notes/",
   })
   .use(require("markdown-it-prism"))

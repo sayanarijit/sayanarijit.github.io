@@ -12,7 +12,7 @@ module.exports = {
   type: 'note',
   eleventyComputed: {
     title: (data) => titleCase(data.title || data.page.fileSlug),
-    backlinks: (data) => {
+    backlinks: async (data) => {
       const notes = data.collections.notes;
       const currentFileSlug = data.page.filePathStem.replace('/notes/', '');
 
@@ -20,7 +20,7 @@ module.exports = {
 
       // Search the other notes for backlinks
       for (const otherNote of notes) {
-        const noteContent = otherNote.template.frontMatter.content;
+        const { content: noteContent } = await otherNote.template.read();
 
         // Get all links from otherNote
         const outboundLinks = (noteContent.match(wikilinkRegExp) || []).map(
