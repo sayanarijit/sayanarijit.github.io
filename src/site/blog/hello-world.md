@@ -1,7 +1,7 @@
 ---
 title: Hello World (About this Blog)
 date: 2026-08-31
-description: Another attempt at bloging.
+description: Another attempt at blogging.
 tags:
   - life
   - writing
