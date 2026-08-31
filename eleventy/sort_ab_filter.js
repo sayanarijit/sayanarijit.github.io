@@ -8,7 +8,7 @@ function alphabetaSort(left, right) {
   function caselessCompare(left, right) {
     const lowercaseComparison = compare(
       left.toLowerCase(),
-      right.toLowerCase()
+      right.toLowerCase(),
     );
     return lowercaseComparison === 0
       ? compare(left, right)
@@ -17,8 +17,8 @@ function alphabetaSort(left, right) {
 
   function articleCompare(left, right) {
     const articleComparison = caselessCompare(
-      left.replace(/^(a|an|the)\s/i, ''),
-      right.replace(/^(a|an|the)\s/i, '')
+      left.replace(/^(a|an|the)\s/i, ""),
+      right.replace(/^(a|an|the)\s/i, ""),
     );
     return articleComparison === 0
       ? caselessCompare(left, right)

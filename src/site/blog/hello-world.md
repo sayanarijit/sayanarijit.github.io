@@ -1,4 +1,5 @@
 ---
+index: 1
 title: Hello World (About this Blog)
 date: 2026-08-31
 description: Another attempt at blogging.
