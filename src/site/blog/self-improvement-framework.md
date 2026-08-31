@@ -24,7 +24,7 @@ While frameworks like [[GTD]], [[PPV]] etc. are highly customizable and probably
 
 **_Habit_**, naturally is the core of this framework, just like all the other frameworks. All other properties of my framework depend on this single property. But habit is boring. It's very predictable, just like planning. But unlike planning, it's permanent (ideally). It doesn't change (shouldn't). Today's schedule can get interrupted, so can tomorrow's. But it can't keep getting interrupted forever. If it does, it's not habit, it's just planning. We need habit as the bare minimum if we want to bring positive changes to life. If it still feels boring, I can and should make it more interesting. It only requires a bit of thinking, which itself should be a daily habit. As per [Jeetu Bhaiya](https://www.thesearchingsouls.com/jitendra-kumar-jeetu-tsssuperhero/), it takes 21 days to form a habit 🙃.
 
-**_Personal Values_** is another important property of the framework that defines who I am. It may or may not have shaped my past, but I want it to shape my future. I want to remember my personal values everytime I make a decision, and also everytime I avoid making one. That's why it should be a habit to remember my personal values on a daily basis, through habit obviously.
+**_Personal Values_** is another important property of the framework that defines who I am. It may or may not have shaped my past, but I want it to shape my future. I want to remember my personal values everytime I make a decision, and also everytime I avoid making one. That's why it should be a habit to remember my personal values on a daily basis.
 
 **_Religion_** is the above two combined. Re-iterating one's core values to themselves everyday, in some cases, multiple times a day, is the fundemental task of a person dedicated to their religion. It's difficult to admit for an atheist like myself, but religiously dedicated people have a lot of things figured out for themselves, even though, they were not the ones who did the thinking and figuring out. They probably have other higher priorities than wasting time re-thinking the centuries old tried-and-tested way of life already debated by capable people millions of times and written down on that scripture. But we atheists need to figure things out for ourselves, and more important than that, make a habit of re-iterating them to ourselves, so we don't stray away from our core values.
 
@@ -52,23 +52,23 @@ I'll keep updating more problems and solutions here as I encounter them.
 
 #### The Actual Method
 
-The entire framework it its most simple form is this:
+The entire framework in its most simple form is this:
 
-> **_Define how a successful positive day looks like based on personal values. Then make a habit of living up to that definition as closely possible. Minimise the control of enemies, depend on allys when needed. Don't forget to recite your core values. Don't forget to re-think what to change and what to keep_**.
+> **_Define how a successful positive day looks like based on personal values. Then make a habit of living up to that definition as closely possible. Minimise the control of enemies, depend on allys when needed. Don't forget to recite personal values. Don't forget to re-think what to change and what to keep_**.
 
 Personally, for me A successful positive day would look like this:
 
-Week days:
+Weekdays:
 
 - **Recite my core values, rethink changes** - 6am - 6:30am.
 - **Prepare food + breakfast** - 6:30am - 7:30am.
 - **Exercise + bath** - 7:30am - 9:30am.
 - **Cleaning** - 9:30am - 10am.
 - **Working hours + lunch** - 10am - 5pm.
-- **Learned something new / personal projects / music** - 5pm - 8pm.
+- **Learn something new / personal projects / music** - 5pm - 8pm.
 - **Shopping** - 8pm - 9pm.
-- **Posted an update to my blog** - 9:30pm - 10pm.
-- **Kept doom scrolling to a minimum** - 10:00pm - 10:15pm.
+- **Post an update to my blog** - 9:30pm - 10pm.
+- **Keep doom scrolling to a minimum** - 10:00pm - 10:15pm.
 - **About 7:30 to 7:45 hours of sound sleep** - non negotiable.
 
 Weekends:
@@ -79,13 +79,13 @@ Weekends:
 - **Meet up with friends / family**.
 - **Explored something new / took wife out for a date**.
 - **Learn something**.
-- **Kept doom scrolling to a minimum** - 10:00pm - 10:15pm.
+- **Keep doom scrolling to a minimum** - 10:00pm - 10:15pm.
 - **About 7:30 to 7:45 hours of sound sleep** - non negotiable.
 
 Well, that's a lot. But the point is to follow the definition "as closely as possible".
 
-The more of these I'm able to follow, the more deserving of a reward I become. A reward is can be doing anything that requires me to cheat the habits for a specified amount of time. I'm yet to work out the exact details of this, but the idea is that success deserves rewards. There's no punishment on failure though. Well, maybe 10 more pushups I don't know 😏.
+The more of these I'm able to follow, the more deserving of a reward I become. A reward is can be doing anything that requires me to cheat on the habits for a specified amount of time. I'm yet to work out the exact details of this, but the idea is that success deserves rewards. There's no punishment on failure though. Well, maybe 10 more pushups... I don't know 😏.
 
 ### Tracking & Rewards
 
-Tracking is important but boring. So I need to make in fun. Rewards should be worthwhile. As already menioned, rewards allow me do things that would otherwise require me to cheat on my regular habits. I'll make a list of rewards that I want, and everyday will earn points by following the habits. The more cheat time a reward allows, the more point it requires. Yet to work out more details.
+Tracking is important but boring. So I need to make in fun. Rewards should be worthwhile. As already mentioned, rewards allow me do things that would otherwise require me to cheat on my regular habits. I'll make a list of rewards that I want, and everyday will earn points by following the habits. The more cheat time a reward allows, the more point it requires. Yet to work out more details.
