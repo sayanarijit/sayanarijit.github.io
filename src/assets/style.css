@@ -223,3 +223,31 @@ small {
 .callout--danger {
   --callout-color: var(--danger);
 }
+
+/* Blog */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-item {
+  margin-bottom: 1.25rem;
+}
+
+.post-date {
+  color: var(--grey);
+}
+
+.post-desc {
+  display: block;
+  margin: 0.25rem 0 0 0;
+  color: var(--grey);
+  font-size: 0.95em;
+}
+
+.post-meta {
+  color: var(--grey);
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+

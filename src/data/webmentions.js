@@ -1,13 +1,13 @@
 const fetch = (...args) =>
-  import('node-fetch').then(({ default: fetch }) => fetch(...args));
-const datacache = require('@binyamin/data-cache');
+  import("node-fetch").then(({ default: fetch }) => fetch(...args));
+const datacache = require("@binyamin/data-cache");
 
-const API_ORIGIN = 'https://webmention.io/api/mentions.jf2';
+const API_ORIGIN = "https://webmention.io/api/mentions.jf2";
 
 // TODO results are paginated (`?page=<n>`). We need all pages.
 async function fetchWebmentions() {
-  const domain = 'arijitbasu.in';
-  const token = 'G-pwCWhADvf6gDdzURE52Q';
+  const domain = "arijitbasu.in";
+  const token = "G-pwCWhADvf6gDdzURE52Q";
   const url = `${API_ORIGIN}?domain=${domain}&token=${token}`;
 
   try {
@@ -26,12 +26,12 @@ module.exports = async function () {
   if (process.env.CI) {
     return await fetchWebmentions();
   } else {
-    const wmcache = datacache.get('webmentions');
+    const wmcache = datacache.get("webmentions");
     if (wmcache) {
       return wmcache;
     } else {
       const webmentions = await fetchWebmentions();
-      datacache.set('webmentions', webmentions);
+      datacache.set("webmentions", webmentions);
       return webmentions;
     }
   }

@@ -4,21 +4,22 @@ layout: default
 
 I am Arijit Basu.
 
-I [write software][1], and take [notes][2], often publicly.
+I [write software][1], [blog][2], and take [notes][3], often publicly.
 
-Contact me via [Keybase][3], [Telegram][4], or [Email][5].
+Contact me via [Keybase][4], [Telegram][5], or [Email][6].
 
-Here are my public keys - [GPG][6], [RSA][7], [Ed25519][8].
+Here are my public keys - [GPG][7], [RSA][8], [Ed25519][9].
 
-And here's the current configuration of my [laptop][9] & [keyboard][10].
+And here's the current configuration of my [laptop][10] & [keyboard][11].
 
 [1]: https://github.com/sayanarijit
-[2]: /notes
-[3]: https://keybase.io/sayanarijit
-[4]: https://t.me/sayanarijit
-[5]: mailto:hi@arijitbasu.in
-[6]: /gpg.txt
-[7]: /id_rsa.txt
-[8]: /id_ed25519.txt
-[9]: https://github.com/sayanarijit/.files
-[10]: /keyboard
+[2]: /blog
+[3]: /notes
+[4]: https://keybase.io/sayanarijit
+[5]: https://t.me/sayanarijit
+[6]: mailto:hi@arijitbasu.in
+[7]: /gpg.txt
+[8]: /id_rsa.txt
+[9]: /id_ed25519.txt
+[10]: https://github.com/sayanarijit/.files
+[11]: /keyboard

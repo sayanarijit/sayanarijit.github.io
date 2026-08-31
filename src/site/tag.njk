@@ -11,7 +11,7 @@ permalink: /tags/{{ tag }}/
 
 <ul>
 {% set taglist = collections[ tag ] %}
-{% for post in taglist  %}
-  <li><a href="{{ post.url | url }}">🗒️ {{ post.data.title }}</a></li>
+{% for item in taglist  %}
+  <li><a href="{{ item.url | url }}">{% if item.data.type == 'post' %}✍️{% else %}🗒️{% endif %} {{ item.data.title }}</a></li>
 {% endfor %}
 </ul>

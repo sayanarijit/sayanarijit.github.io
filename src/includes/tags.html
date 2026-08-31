@@ -1,5 +1,5 @@
 <p>
-  {% assign sortedTags = tags | sort %} {% if tags.length > 0%} {% for tag in
+  {% assign sortedTags = tags | filterTagList | sort %} {% if sortedTags.length > 0 %} {% for tag in
   sortedTags %}
   <span>
     <span> </span>

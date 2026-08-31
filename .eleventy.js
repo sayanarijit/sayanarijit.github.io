@@ -15,6 +15,20 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob(["src/site/notes/*.md"]);
   });
 
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection
+      .getFilteredByGlob(["src/site/blog/*.md"])
+      .filter((item) => !item.inputPath.endsWith("index.md"))
+      .sort((a, b) => b.date - a.date);
+  });
+
+  eleventyConfig.addCollection("blog", function(collection) {
+    return collection
+      .getFilteredByGlob(["src/site/blog/*.md"])
+      .filter((item) => !item.inputPath.endsWith("index.md"))
+      .sort((a, b) => b.date - a.date);
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/site/keybase.txt": "keybase.txt" });
   eleventyConfig.addPassthroughCopy({ "src/site/gpg.txt": "gpg.txt" });
