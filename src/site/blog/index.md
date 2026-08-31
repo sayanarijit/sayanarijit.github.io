@@ -15,7 +15,7 @@ I started this blog on August 31, 2026.
 
 You are welcome to read them if you find it interesting, though it's more of a public personal-reference thing.
 
-[Here a detailed post on why this blog exists](./hello-world).
+[Here's a detailed post on why this blog exists](./hello-world).
 
 If it somehow ends up influencing your life in a positive way, that's intentional. If the influence is negative, that's unintentional. Please do feel free to [hit me up](/) either way.
 
