@@ -13,7 +13,7 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | pl
 
 I started this blog on August 31, 2026.
 
-You are welcome to read it if you find it interesting, though it's more of a public personal-reference thing.
+You are welcome to read if you find it interesting, though it's more of a public personal-reference thing.
 
 [Here's a detailed post on why this blog exists](./hello-world).
 
