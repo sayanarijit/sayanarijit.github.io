@@ -16,7 +16,7 @@ There's also an [[RSS feed]] you can subscribe to.
 
 ➕ [[Create New Note]]
 
-# Tags
+## Tags
 
 <ul>
 {% for tag in collections.tagList %}
