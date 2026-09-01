@@ -13,13 +13,15 @@ permalink: "blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | pl
 
 I started this blog on August 31, 2026.
 
-You are welcome to read them if you find it interesting, though it's more of a public personal-reference thing.
+You are welcome to read it if you find it interesting, though it's more of a public personal-reference thing.
 
 [Here's a detailed post on why this blog exists](./hello-world).
 
 If it somehow ends up influencing your life in a positive way, that's intentional. If the influence is negative, that's unintentional. Please do feel free to [hit me up](/) either way.
 
 There's also an [RSS feed](/blog/feed.xml) you can subscribe to.
+
+## Posts
 
 <ul class="post-list">
 {% for post in pagination.items %}
