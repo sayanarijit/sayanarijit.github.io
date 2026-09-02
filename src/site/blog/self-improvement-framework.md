@@ -30,11 +30,11 @@ While frameworks like [[GTD]], [[PPV]] etc. are highly customizable and probably
 
 #### Problem 1
 
-Evil devils could have been the enemy of religion in the past (maybe present too), but today, IMO the primary evil we need to fight, every invividual second, actively, is the dopamine dose being offered to us through the colorful screens, in the form of always available, never ending entertainment.
+Evil devils could have been the enemy of religion in the past (maybe present too), but today, IMO the primary evil we need to fight, every individual second, actively, is the dopamine dose being offered to us through the colorful screens, in the form of always available, never ending entertainment.
 
 We all know the reason of our decreased attenition span. We all know what's most likely to interrupt us the moment we start focusing on something. We all know what can get us so hooked before sleep that we end up pulling an all-nighter. We all know what we end up spending our fresh morning energy on, turning habit into a failed plan. And yet we can't avoid it. We need it and it will be with us forever.
 
-It's easy to blame a piece of technology, a business, an industry, and even the collective human nature, but in the end, it's me only who takes up on that offer of dopamine dose.
+It's easy to blame a piece of technology, a business, an industry, and even the collective human nature, but in the end, it's only me who takes up on that offer of dopamine dose.
 
 #### Solution 1
 
@@ -42,7 +42,7 @@ The only ally we need to tackle this problem is our own consciousness and judgem
 
 #### Problem 2
 
-Mood is another factor we need to get a hold of. Core values and judgements often stop working when emotions are not normal, or when we simply just want to stop being ourselves for a moment. Unfortunately it happens, and most of us can't simply control our mood always even if we practice meditation regularly. Unlike dopamine addiction, our mood often depends on how other people treat us, which is entirely out of our control.
+Mood is another factor we need to get a hold of. Core values and judgements often stop working when emotions are not normal, or when we simply just want to stop being ourselves for a moment. Unfortunately it happens, and most of us can't simply control our mood always even if we practice meditation regularly. Unlike dopamine addiction, our mood often depends on external factors, like how other people treat us, which is entirely out of our control.
 
 #### Solution 2
 
