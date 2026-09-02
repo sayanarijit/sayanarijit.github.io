@@ -66,7 +66,7 @@ Weekdays:
 - **Cleaning** - 9:30am - 10am.
 - **Working hours + lunch** - 10am - 5pm.
 - **Learn something new / personal projects / music** - 5pm - 8pm.
-- **Shopping** - 8pm - 9pm.
+- **Shopping + dinner** - 8pm - 9pm.
 - **Post an update to my blog** - 9:30pm - 10pm.
 - **Keep doom scrolling to a minimum** - 10:00pm - 10:15pm.
 - **About 7:30 to 7:45 hours of sound sleep** - non negotiable.
