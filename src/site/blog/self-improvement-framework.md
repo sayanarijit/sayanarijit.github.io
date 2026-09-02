@@ -54,7 +54,7 @@ I'll keep updating more problems and solutions here as I encounter them.
 
 The entire framework in its most simple form looks like this:
 
-> **_Define how a successful positive day looks like based on personal values. Then make a habit of living up to that definition as closely as possible. Minimise the control of enemies, depend on allys when needed. Don't forget to recite personal values and re-think what to change and what to keep_**.
+> **_Define how a successful positive day looks like based on personal values. Then make a habit of living up to that definition as closely as possible. Minimise the control of enemies, depend on allys when needed. Don't forget to recite personal values and re-think what to change._**.
 
 Personally, for me A successful positive day would look like this:
 
