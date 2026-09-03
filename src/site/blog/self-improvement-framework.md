@@ -8,7 +8,7 @@ tags:
   - writing
 ---
 
-Sometimes we need to pause and rethink our life. Whether we are making the right choises, whether things should go the exact same way they are going, or there are things to change. I have made some drastic changes in life just like you may have made in yours. And so far, I have enjoyed making such changes. And I feel, it's now time to change a few things for good again.
+Sometimes we need to pause and rethink our life. Whether we are making the right choises, whether things should go the exact same way they are going, or there are things to change. I have made some drastic changes in my life just like you may have made in yours. And so far, I have enjoyed making such changes. And I feel, it's now time to change a few things for good again.
 
 ### Time to Think
 
