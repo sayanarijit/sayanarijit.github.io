@@ -84,7 +84,7 @@ Weekends:
 
 Well, that's a lot. But the point is to follow the definition "as closely as possible".
 
-The more of these I'm able to follow, the more deserving of a reward I become. A reward is can be doing anything that requires me to cheat on the habits for a specified amount of time. I'm yet to work out the exact details of this, but the idea is that success deserves rewards. There's no punishment on failure though. Well, maybe 10 more pushups... I don't know 😏.
+The more of these I'm able to follow, the more deserving of a reward I become. A reward can be doing anything that requires me to cheat on the habits for a specified amount of time. I'm yet to work out the exact details of this, but the idea is that success deserves rewards. There's no punishment on failure though. Well, maybe 10 more pushups... I don't know 😏.
 
 ### Tracking & Rewards
 
