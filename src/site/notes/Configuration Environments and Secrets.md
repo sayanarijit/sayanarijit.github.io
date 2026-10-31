@@ -103,3 +103,28 @@ DATABASE_URL = env(
     prod=readfile("/home/user/secrets/database_url"),
 )
 ```
+
+## My new TOML based generic implementation in Rust
+
+Tool: http://settingspec.arijitbasu.in/
+
+```toml
+[spec]                               # Optional: Declare the specification here
+profile.key = "SETTINGSPEC_PROFILE"  # Default: Environment variable name to switch between profiles
+profile.options = [                  # Optional: Enables strict checking of per-profile declarations
+  "dev",
+  "stage",
+  "prod",
+]
+profile.default = "dev"  # Optional: Default profile when the switch is not set
+
+[settings]                   # Declare the settings here with syntax: `<key>._.<profile>.<directive> = <value>`
+key1._.default.val = "val1"  # Default value for all profiles
+key1._.prod.val = "prod1"    # Override the default value when SETTINGSPEC_PROFILE=prod
+
+key2._ = {  # Strictly define different values for different profiles
+  dev.val = "dev2",
+  stage.val = "stage2",
+  prod.val = "prod2",
+}
+```
